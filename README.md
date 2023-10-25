@@ -1,0 +1,2 @@
+# vysledky_volieb_2023
+vysledky_volieb_2023
