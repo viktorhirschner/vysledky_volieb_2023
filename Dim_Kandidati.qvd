@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50678</QvBuildNo>
+   <CreatorDoc>C:\Users\hirschner\OneDrive - EMARK s.r.o\Dokumenty\Qlik\Sense\Apps\ParlamentnÃ© voÄ¾by\VÃ½sledky volieb 1990-2020.qvf</CreatorDoc>
+   <CreateUtcTime>2023-10-25 06:23:56</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Dim_Kandidati</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>%SubjektKandidat</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>12</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2722</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>18592</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ÄŒÃ­slo politickÃ©ho subjektu</FieldName>
+       <BitOffset>44</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>18592</Offset>
+       <Length>191</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>NÃ¡zov politickÃ©ho subjektu</FieldName>
+       <BitOffset>49</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>25</NoOfSymbols>
+       <Offset>18783</Offset>
+       <Length>969</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Poradie na hlasovacom lÃ­stku</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>150</NoOfSymbols>
+       <Offset>19752</Offset>
+       <Length>1242</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Meno</FieldName>
+       <BitOffset>12</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>365</NoOfSymbols>
+       <Offset>20994</Offset>
+       <Length>3188</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Priezvisko</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>12</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2360</NoOfSymbols>
+       <Offset>24182</Offset>
+       <Length>23748</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Pohlavie</FieldName>
+       <BitOffset>90</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>47930</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Titul</FieldName>
+       <BitOffset>72</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>203</NoOfSymbols>
+       <Offset>47936</Offset>
+       <Length>2963</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Vek</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>64</NoOfSymbols>
+       <Offset>50899</Offset>
+       <Length>512</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Zamestnanie</FieldName>
+       <BitOffset>21</BitOffset>
+       <BitWidth>11</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1047</NoOfSymbols>
+       <Offset>51411</Offset>
+       <Length>28973</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Obec trvalÃ©ho pobytu</FieldName>
+       <BitOffset>54</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>782</NoOfSymbols>
+       <Offset>80384</Offset>
+       <Length>9669</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>PoznÃ¡mka</FieldName>
+       <BitOffset>91</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>90053</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>@ZvolenyPoslanec</FieldName>
+       <BitOffset>88</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>90058</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>12</RecordByteSize>
+   <NoOfRecords>2722</NoOfRecords>
+   <Offset>90065</Offset>
+   <Length>32664</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+   <EncryptionInfo></EncryptionInfo>
+   <TableTags></TableTags>
+   <ProfilingData></ProfilingData>
+ </QvdTableHeader>
+ 1|1 1|2 1|3 1|4 1|5 1|6 1|7 1|8 1|9 1|10 1|11 1|12 1|13 1|14 1|15 1|16 1|17 1|18 1|19 1|20 1|21 1|22 1|23 1|24 1|25 1|26 1|27 1|28 1|29 1|30 1|31 1|32 1|33 1|34 1|35 1|36 1|37 1|38 1|39 1|40 1|41 1|42 1|43 1|44 1|45 1|46 1|47 1|48 1|49 1|50 1|51 1|52 1|53 1|54 1|55 1|56 1|57 1|58 1|59 1|60 2|1 2|2 2|3 2|4 2|5 2|6 2|7 2|8 2|9 2|10 2|11 2|12 2|13 2|14 2|15 2|16 2|17 2|18 2|19 2|20 2|21 2|22 2|23 2|24 2|25 2|26 2|27 2|28 2|29 2|30 2|31 2|32 2|33 2|34 2|35 2|36 2|37 2|38 2|39 2|40 2|41 2|42 2|43 2|44 2|45 2|46 2|47 2|48 2|49 2|50 2|51 2|52 2|53 2|54 2|55 2|56 2|57 2|58 2|59 2|60 2|61 2|62 2|63 2|64 2|65 2|66 2|67 2|68 2|69 2|70 3|1 3|2 3|3 3|4 3|5 3|6 3|7 3|8 3|9 3|10 3|11 3|12 3|13 3|14 3|15 3|16 3|17 3|18 3|19 3|20 3|21 3|22 3|23 3|24 3|25 3|26 3|27 3|28 3|29 3|30 3|31 3|32 3|33 3|34 3|35 3|36 3|37 3|38 3|39 3|40 3|41 3|42 3|43 3|44 3|45 3|46 3|47 3|48 3|49 3|50 3|51 3|52 3|53 3|54 3|55 3|56 3|57 3|58 3|59 3|60 3|61 3|62 3|63 3|64 3|65 3|66 3|67 3|68 3|69 3|70 3|71 3|72 3|73 3|74 3|75 3|76 3|77 3|78 3|79 3|80 3|81 3|82 3|83 3|84 3|85 3|86 3|87 3|88 3|89 3|90 3|91 3|92 3|93 3|94 3|95 3|96 3|97 3|98 3|99 3|100 3|101 3|102 3|103 3|104 3|105 3|106 3|107 3|108 3|109 3|110 3|111 3|112 3|113 3|114 3|115 3|116 3|117 3|118 3|119 3|120 3|121 3|122 3|123 3|124 3|125 3|126 3|127 3|128 3|129 3|130 3|131 3|132 3|133 3|134 3|135 3|136 3|137 3|138 3|139 3|140 3|141 3|142 3|143 3|144 3|145 3|146 3|147 3|148 3|149 3|150 4|1 4|2 4|3 4|4 4|5 4|6 4|7 4|8 4|9 4|10 4|11 4|12 4|13 4|14 4|15 4|16 4|17 4|18 4|19 4|20 4|21 4|22 4|23 4|24 4|25 4|26 4|27 4|28 4|29 4|30 4|31 4|32 4|33 4|34 4|35 4|36 4|37 4|38 4|39 4|40 4|41 4|42 4|43 4|44 4|45 4|46 4|47 4|48 4|49 4|50 4|51 4|52 4|53 4|54 4|55 4|56 4|57 4|58 4|59 4|60 4|61 4|62 4|63 4|64 4|65 4|66 4|67 4|68 4|69 4|70 4|71 4|72 4|73 4|74 4|75 4|76 4|77 4|78 4|79 4|80 4|81 4|82 4|83 4|84 4|85 4|86 4|87 4|88 4|89 4|90 4|91 4|92 4|93 4|94 4|95 4|96 4|97 4|98 4|99 4|100 4|101 4|102 4|103 4|104 4|105 4|106 4|107 4|108 4|109 4|110 4|111 4|112 4|113 4|114 4|115 4|116 4|117 4|118 4|119 4|120 4|121 4|122 4|123 4|124 4|125 4|126 4|127 4|128 4|129 4|130 4|131 4|132 4|133 4|134 4|135 4|136 4|137 4|138 4|139 4|140 4|141 4|142 4|143 4|144 4|145 4|146 4|147 4|148 5|1 5|2 5|3 5|4 5|5 5|6 5|7 5|8 5|9 5|10 5|11 5|12 5|13 5|14 5|15 5|16 5|17 5|18 5|19 5|20 5|21 5|22 5|23 5|24 5|25 5|26 5|27 5|28 5|29 5|30 5|31 5|32 5|33 5|34 5|35 5|36 5|37 5|38 5|39 5|40 5|41 5|42 5|43 5|44 5|45 5|46 5|47 5|48 5|49 5|50 5|51 5|52 5|53 5|54 5|55 5|56 5|57 5|58 5|59 5|60 5|61 5|62 5|63 5|64 5|65 5|66 5|67 5|68 5|69 5|70 5|71 5|72 5|73 5|74 5|75 5|76 5|77 5|78 5|79 5|80 5|81 5|82 5|83 5|84 5|85 5|86 5|87 5|88 5|89 5|90 5|91 5|92 5|93 5|94 5|95 5|96 5|97 5|98 5|99 5|100 5|101 5|102 5|103 5|104 5|105 5|106 5|107 5|108 5|109 5|110 5|111 5|112 5|113 5|114 5|115 5|116 5|117 5|118 5|119 5|120 5|121 5|122 5|123 5|124 5|125 5|126 5|127 5|128 5|129 5|130 5|131 5|132 5|133 5|134 5|135 5|136 5|137 5|138 5|139 5|140 5|141 5|142 5|143 5|144 5|145 5|146 5|147 5|148 5|149 5|150 6|1 6|2 6|3 6|4 6|5 6|6 6|7 6|8 6|9 6|10 6|11 6|12 6|13 6|14 6|15 6|16 6|17 6|18 6|19 6|20 6|21 6|22 6|23 6|24 6|25 6|26 6|27 6|28 6|29 6|30 6|31 6|32 6|33 6|34 6|35 6|36 6|37 6|38 6|39 6|40 6|41 6|42 6|43 6|44 6|45 6|46 6|47 6|48 6|49 6|50 6|51 6|52 6|53 6|54 6|55 6|56 6|57 6|58 6|59 6|60 6|61 6|62 6|63 6|64 6|65 6|66 6|67 6|68 6|69 6|70 6|71 6|72 6|73 6|74 6|75 6|76 6|77 6|78 6|79 6|80 6|81 7|1 7|2 7|3 7|4 7|5 7|6 7|7 7|8 7|9 7|10 7|11 7|12 7|13 7|14 7|15 7|16 7|17 7|18 7|19 7|20 7|21 7|22 7|23 7|24 7|25 7|26 7|27 7|28 7|29 7|30 7|31 7|32 7|33 7|34 7|35 7|36 7|37 7|38 7|39 7|40 7|41 7|42 7|43 7|44 7|45 7|46 7|47 7|48 7|49 7|50 7|51 7|52 7|53 7|54 7|55 7|56 7|57 7|58 7|59 7|60 7|61 7|62 7|63 7|64 7|65 7|66 7|67 7|68 7|69 7|70 7|71 7|72 7|73 7|74 7|75 7|76 7|77 7|78 7|79 7|80 7|81 7|82 7|83 7|84 7|85 7|86 7|87 7|88 7|89 7|90 7|91 7|92 7|93 7|94 7|95 7|96 7|97 7|98 7|99 7|100 7|101 7|102 7|103 7|104 7|105 7|106 7|107 7|108 7|109 7|110 7|111 7|112 7|113 7|114 7|115 7|116 7|117 7|118 7|119 7|120 7|121 7|122 7|123 7|124 7|125 8|1 8|2 8|3 8|4 8|5 8|6 8|7 8|8 8|9 8|10 8|11 8|12 8|13 8|14 8|15 8|16 8|17 8|18 8|19 8|20 8|21 8|22 8|23 8|24 8|25 8|26 8|27 8|28 8|29 8|30 8|31 8|32 8|33 8|34 8|35 8|36 8|37 8|38 8|39 8|40 8|41 9|1 9|2 9|3 9|4 9|5 9|6 9|7 9|8 9|9 9|10 9|11 9|12 9|13 9|14 9|15 9|16 9|17 9|18 9|19 9|20 9|21 9|22 9|23 9|24 9|25 9|26 9|27 9|28 9|29 9|30 9|31 9|32 9|33 9|34 9|35 9|36 9|37 9|38 9|39 9|40 9|41 9|42 9|43 9|44 9|45 9|46 9|47 9|48 9|49 9|50 9|51 9|52 9|53 9|54 9|55 9|56 9|57 9|58 9|59 9|60 9|61 9|62 9|63 9|64 9|65 9|66 9|67 9|68 9|69 9|70 9|71 9|72 9|73 9|74 9|75 9|76 9|77 9|78 9|79 9|80 9|81 9|82 9|83 9|84 9|85 9|86 9|87 9|88 9|89 9|90 9|91 9|92 9|93 9|94 9|95 9|96 9|97 9|98 9|99 9|100 9|101 9|102 9|103 9|104 9|105 9|106 9|107 9|108 9|109 9|110 9|111 9|112 9|113 9|114 9|115 9|116 9|117 9|118 9|119 9|120 9|121 9|122 9|123 9|124 9|125 9|126 9|127 9|128 9|129 9|130 9|131 9|132 9|133 9|134 9|135 9|136 9|137 9|138 9|139 9|140 9|141 9|142 9|143 9|144 9|145 9|146 9|147 9|148 9|149 10|1 10|2 10|3 10|4 10|5 10|6 10|7 10|8 10|9 10|10 10|11 10|12 10|13 10|14 10|15 10|16 10|17 10|18 10|19 10|20 10|21 10|22 10|23 10|24 10|25 10|26 10|27 11|1 11|2 11|3 11|4 11|5 11|6 11|7 11|8 11|9 11|10 11|11 11|12 11|13 11|14 11|15 11|16 11|17 11|18 11|19 11|20 11|21 11|22 11|23 11|24 11|25 11|26 11|27 11|28 11|29 11|30 11|31 11|32 11|33 11|34 11|35 11|36 11|37 11|38 11|39 11|40 11|41 11|42 11|43 11|44 11|45 12|1 12|2 12|3 12|4 12|5 12|6 12|7 12|8 12|9 12|10 12|11 12|12 12|13 12|14 12|15 12|16 12|17 12|18 12|19 12|20 12|21 12|22 12|23 12|24 12|25 12|26 12|27 12|28 12|29 12|30 12|31 12|32 12|33 12|34 12|35 12|36 12|37 12|38 12|39 12|40 12|41 12|42 12|43 12|44 12|45 12|46 12|47 12|48 12|49 12|50 12|51 12|52 12|53 12|54 12|55 12|56 12|57 12|58 12|59 12|60 12|61 12|62 12|63 12|64 12|65 12|66 12|67 12|68 12|69 12|70 12|71 12|72 12|73 12|74 12|75 12|76 12|77 12|78 12|79 12|80 12|81 12|82 12|83 12|84 12|85 12|86 12|87 12|88 12|89 12|90 12|91 12|92 12|93 12|94 12|95 12|96 12|97 12|98 12|99 12|100 12|101 12|102 12|103 12|104 12|105 12|106 12|107 12|108 12|109 12|110 12|111 12|112 12|113 12|114 12|115 12|116 12|117 12|118 12|119 12|120 12|121 12|122 12|123 12|124 12|125 12|126 12|127 12|128 12|129 12|130 12|131 12|132 12|133 12|134 12|135 12|136 12|137 12|138 12|139 12|140 12|141 12|142 12|143 12|144 12|145 12|146 12|147 12|148 12|149 12|150 13|1 13|2 13|3 13|4 13|5 13|6 13|7 13|8 13|9 13|10 13|11 13|12 13|13 13|14 13|15 13|16 13|17 13|18 13|19 13|20 13|21 13|22 13|23 13|24 13|25 13|26 13|27 13|28 13|29 13|30 13|31 13|32 13|33 13|34 13|35 13|36 13|37 13|38 13|39 13|40 13|41 13|42 13|43 13|44 13|45 13|46 13|47 13|48 13|49 13|50 13|51 13|52 13|53 13|54 13|55 13|56 13|57 13|58 13|59 13|60 13|61 13|62 13|63 13|64 13|65 13|66 13|67 13|68 13|69 13|70 13|71 13|72 13|73 13|74 13|75 13|76 13|77 13|78 13|79 13|80 13|81 13|82 13|83 13|84 13|85 13|86 13|87 13|88 13|89 13|90 13|91 13|92 13|93 13|94 13|95 13|96 13|97 13|98 13|99 13|100 13|101 13|102 13|103 13|104 13|105 13|106 13|107 13|108 13|109 13|110 13|111 13|112 13|113 13|114 13|115 13|116 13|117 13|118 13|119 13|120 13|121 13|122 13|123 13|124 13|125 13|126 13|127 13|128 13|129 13|130 13|131 13|132 13|133 13|134 13|135 13|136 13|137 13|138 13|139 13|140 13|141 13|142 13|143 13|144 13|145 13|146 13|147 13|148 13|149 13|150 14|1 14|2 14|3 14|4 14|5 14|6 14|7 14|8 14|9 14|10 14|11 14|12 14|13 14|14 14|15 14|16 14|17 14|18 14|19 14|20 14|21 14|22 14|23 14|24 14|25 14|26 14|27 14|28 14|29 14|30 14|31 14|32 14|33 14|34 14|35 14|36 14|37 14|38 14|39 14|40 14|41 14|42 14|43 14|44 14|45 14|46 14|47 14|48 14|49 15|1 15|2 15|3 15|4 15|5 15|6 15|7 15|8 15|9 15|10 15|11 15|12 15|13 15|14 15|15 15|16 15|17 15|18 15|19 15|20 15|21 15|22 15|23 15|24 15|25 15|26 15|27 15|28 15|29 15|30 15|31 15|32 15|33 15|34 15|35 15|36 15|37 15|38 15|39 15|40 15|41 15|42 15|43 15|44 15|45 15|46 15|47 15|48 15|49 15|50 15|51 15|52 15|53 15|54 15|55 15|56 15|57 15|58 15|59 15|60 15|61 15|62 15|63 15|64 15|65 15|66 15|67 15|68 15|69 15|70 15|71 15|72 15|73 15|74 15|75 15|76 15|77 15|78 15|79 15|80 15|81 15|82 15|83 15|84 15|85 15|86 15|87 15|88 15|89 15|90 15|91 15|92 15|93 15|94 15|95 15|96 15|97 15|98 15|99 15|100 15|101 15|102 15|103 15|104 15|105 15|106 15|107 15|108 15|109 15|110 15|111 15|112 15|113 15|114 15|115 15|116 15|117 15|118 15|119 15|120 15|121 15|122 15|123 15|124 15|125 15|126 15|127 15|128 15|129 15|130 15|131 15|132 15|133 15|134 15|135 15|136 15|137 15|138 15|139 15|140 15|141 15|142 15|143 15|144 15|145 15|146 15|147 15|148 15|149 15|150 16|1 16|2 16|3 16|4 16|5 16|6 16|7 16|8 16|9 16|10 16|11 16|12 16|13 16|14 16|15 16|16 16|17 16|18 16|19 16|20 16|21 16|22 16|23 16|24 16|25 16|26 16|27 16|28 16|29 16|30 16|31 16|32 16|33 16|34 16|35 16|36 16|37 16|38 16|39 16|40 16|41 16|42 16|43 16|44 16|45 16|46 16|47 16|48 16|49 16|50 16|51 16|52 16|53 16|54 16|55 16|56 16|57 16|58 16|59 16|60 16|61 16|62 16|63 16|64 16|65 16|66 16|67 16|68 16|69 16|70 16|71 16|72 16|73 16|74 16|75 16|76 16|77 16|78 16|79 16|80 16|81 16|82 16|83 16|84 16|85 16|86 16|87 16|88 16|89 16|90 16|91 16|92 16|93 16|94 16|95 16|96 16|97 16|98 16|99 16|100 16|101 16|102 16|103 16|104 16|105 16|106 16|107 16|108 16|109 16|110 16|111 16|112 16|113 16|114 16|115 16|116 16|117 16|118 16|119 16|120 16|121 16|122 16|123 16|124 16|125 16|126 16|127 16|128 16|129 16|130 16|131 16|132 16|133 16|134 16|135 16|136 16|137 16|138 16|139 16|140 16|141 16|142 16|143 16|144 16|145 16|146 16|147 16|148 16|149 16|150 17|1 17|2 17|3 17|4 17|5 17|6 17|7 17|8 17|9 17|10 17|11 17|12 17|13 17|14 17|15 17|16 17|17 17|18 17|19 17|20 17|21 17|22 17|23 17|24 17|25 17|26 17|27 17|28 17|29 17|30 17|31 17|32 17|33 17|34 17|35 17|36 17|37 17|38 17|39 17|40 17|41 17|42 17|43 17|44 17|45 17|46 17|47 17|48 17|49 17|50 17|51 17|52 17|53 17|54 17|55 17|56 17|57 17|58 17|59 17|60 17|61 17|62 17|63 17|64 17|65 17|66 17|67 17|68 17|69 17|70 17|71 17|72 17|73 17|74 17|75 17|76 17|77 17|78 17|79 17|80 17|81 17|82 17|83 17|84 17|85 17|86 17|87 17|88 17|89 17|90 17|91 17|92 17|93 17|94 17|95 17|96 17|97 17|98 17|99 17|100 17|101 17|102 17|103 17|104 17|105 17|106 17|107 17|108 17|109 17|110 17|111 17|112 17|113 17|114 17|115 17|116 17|117 17|118 17|119 17|120 17|121 17|122 17|123 17|124 17|125 17|126 17|127 17|128 17|129 17|130 17|131 17|132 17|133 17|134 17|135 17|136 17|137 17|138 17|139 17|140 17|141 17|142 17|143 17|144 17|145 17|146 17|147 17|148 17|149 17|150 18|1 18|2 18|3 18|4 18|5 18|6 18|7 18|8 18|9 18|10 18|11 18|12 18|13 18|14 18|15 18|16 18|17 18|18 18|19 18|20 18|21 18|22 18|23 18|24 18|25 18|26 18|27 18|28 18|29 18|30 18|31 18|32 18|33 18|34 18|35 18|36 18|37 18|38 18|39 18|40 18|41 18|42 18|43 18|44 18|45 18|46 18|47 18|48 18|49 18|50 18|51 18|52 18|53 18|54 18|55 18|56 18|57 18|58 18|59 18|60 18|61 18|62 18|63 18|64 18|65 18|66 18|67 18|68 18|69 18|70 18|71 18|72 18|73 18|74 18|75 18|76 18|77 18|78 18|79 18|80 18|81 18|82 18|83 18|84 18|85 18|86 18|87 18|88 18|89 18|90 18|91 18|92 18|93 18|94 18|95 18|96 18|97 18|98 18|99 18|100 18|101 18|102 18|103 18|104 18|105 18|106 18|107 18|108 18|109 18|110 18|111 18|112 18|113 18|114 18|115 18|116 18|117 18|118 18|119 18|120 18|121 18|122 18|123 18|124 18|125 18|126 18|127 18|128 18|129 18|130 18|131 18|132 18|133 18|134 18|135 18|136 18|137 18|138 18|139 18|140 18|141 18|142 18|143 18|144 18|145 18|146 18|147 18|148 18|149 19|1 19|2 19|3 19|4 19|5 19|6 19|7 19|8 19|9 19|10 19|11 19|12 19|13 19|14 19|15 19|16 19|17 19|18 19|19 19|20 19|21 19|22 19|23 19|24 19|25 19|26 19|27 19|28 19|29 19|30 19|31 19|32 19|33 19|34 19|35 19|36 19|37 19|38 19|39 19|40 19|41 19|42 19|43 19|44 19|45 19|46 19|47 19|48 19|49 19|50 19|51 19|52 19|53 19|54 19|55 19|56 19|57 19|58 19|59 19|60 19|61 19|62 19|63 19|64 19|65 19|66 19|67 19|68 19|69 19|70 19|71 19|72 19|73 19|74 19|75 19|76 19|77 19|78 19|79 19|80 19|81 19|82 19|83 19|84 19|85 19|86 19|87 19|88 19|89 19|90 19|91 19|92 19|93 19|94 19|95 19|96 19|97 19|98 19|99 19|100 20|1 20|2 20|3 20|4 20|5 20|6 20|7 20|8 20|9 20|10 20|11 21|1 21|2 21|3 21|4 21|5 21|6 21|7 21|8 21|9 21|10 21|11 21|12 21|13 21|14 21|15 21|16 21|17 21|18 21|19 21|20 21|21 21|22 21|23 21|24 21|25 21|26 21|27 21|28 21|29 21|30 21|31 21|32 21|33 21|34 21|35 21|36 21|37 21|38 21|39 21|40 21|41 21|42 21|43 21|44 21|45 21|46 21|47 21|48 21|49 21|50 21|51 21|52 21|53 21|54 21|55 21|56 21|57 21|58 21|59 21|60 21|61 21|62 21|63 21|64 21|65 21|66 21|67 21|68 21|69 21|70 21|71 21|72 21|73 21|74 21|75 21|76 21|77 21|78 21|79 21|80 21|81 21|82 21|83 21|84 21|85 21|86 21|87 21|88 21|89 21|90 21|91 21|92 21|93 21|94 21|95 21|96 21|97 21|98 21|99 21|100 21|101 21|102 21|103 21|104 21|105 21|106 21|107 21|108 21|109 21|110 21|111 21|112 21|113 21|114 21|115 21|116 21|117 21|118 21|119 21|120 21|121 21|122 21|123 21|124 21|125 21|126 21|127 21|128 21|129 21|130 21|131 21|132 21|133 21|134 21|135 21|136 21|137 21|138 21|139 21|140 21|141 21|142 21|143 21|144 21|145 21|146 21|147 21|148 21|149 21|150 22|1 22|2 22|3 22|4 22|5 22|6 22|7 22|8 22|9 22|10 22|11 22|12 22|13 22|14 22|15 22|16 22|17 22|18 22|19 22|20 22|21 22|22 22|23 22|24 22|25 22|26 22|27 22|28 22|29 22|30 22|31 22|32 22|33 22|34 22|35 22|36 22|37 22|38 22|39 22|40 22|41 22|42 22|43 22|44 22|45 22|46 22|47 22|48 22|49 22|50 22|51 22|52 22|53 22|54 22|55 22|56 22|57 22|58 22|59 22|60 22|61 22|62 22|63 22|64 22|65 22|66 22|67 22|68 22|69 22|70 22|71 22|72 22|73 22|74 22|75 22|76 22|77 22|78 22|79 22|80 22|81 22|82 22|83 22|84 22|85 22|86 22|87 22|88 22|89 22|90 22|91 22|92 22|93 22|94 22|95 22|96 22|97 22|98 22|99 22|100 22|101 22|102 22|103 22|104 22|105 22|106 22|107 22|108 22|109 22|110 22|111 22|112 22|113 22|114 22|115 22|116 22|117 22|118 22|119 22|120 22|121 22|122 22|123 22|124 22|125 22|126 22|127 22|128 22|129 22|130 22|131 22|132 22|133 22|134 22|135 22|136 22|137 22|138 22|139 22|140 22|141 22|142 22|143 22|144 22|145 22|146 22|147 22|148 22|149 22|150 23|1 23|2 23|3 23|4 23|5 23|6 23|7 23|8 23|9 23|10 23|11 23|12 23|13 23|14 23|15 23|16 23|17 23|18 23|19 23|20 23|21 23|22 23|23 23|24 23|25 23|26 23|27 23|28 23|29 23|30 23|31 23|32 23|33 23|34 23|35 23|36 23|37 23|38 23|39 23|40 23|41 23|42 23|43 23|44 23|45 23|46 23|47 23|48 23|49 23|50 23|51 23|52 23|53 23|54 23|55 23|56 23|57 23|58 23|59 23|60 23|61 23|62 23|63 23|64 23|65 23|66 23|67 23|68 23|69 23|70 23|71 23|72 23|73 23|74 23|75 23|76 23|77 23|78 23|79 23|80 23|81 23|82 23|83 23|84 23|85 23|86 23|87 23|88 23|89 23|90 23|91 23|92 23|93 23|94 23|95 23|96 23|97 23|98 23|99 23|100 23|101 23|102 23|103 23|104 23|105 23|106 23|107 23|108 23|109 23|110 23|111 23|112 23|113 23|114 23|115 23|116 23|117 23|118 23|119 23|120 23|121 23|122 23|123 23|124 23|125 23|126 23|127 23|128 23|129 23|130 23|131 23|132 23|133 23|134 23|135 23|136 23|137 23|138 23|139 23|140 23|141 23|142 23|143 23|144 23|145 23|146 23|147 23|148 23|149 23|150 24|1 24|2 24|3 24|4 24|5 24|6 24|7 24|8 24|9 24|10 24|11 24|12 24|13 24|14 24|15 24|16 24|17 25|1 25|2 25|3 25|4 25|5 25|6 25|7 25|8 25|9 25|10 25|11 25|12 25|13 25|14 25|15 25|16 25|17 25|18 25|19 25|20 25|21 25|22 25|23 25|24 25|25 25|26 25|27 25|28 25|29 25|30 25|31 25|32 25|33 25|34 25|35 25|36 25|37 25|38 25|39 25|40 25|41 25|42 25|43 25|44 25|45 25|46 25|47 25|48 25|49 25|50 25|51 25|52 25|53 25|54 25|55 25|56 25|57 25|58 25|59 25|60 25|61 25|62 25|63 25|64 25|65 25|66 25|67 25|68 25|69 25|70 25|71 25|72 25|73 25|74 25|75 25|76 25|77 25|78 25|79 25|80 25|81 25|82 25|83 25|84 25|85 25|86 25|87 25|88 25|89 25|90 25|91 25|92 25|93 25|94 25|95 25|96 25|97 25|98 25|99 25|100 25|101 25|102 25|103 25|104 25|105 25|106 25|107 25|108 25|109 25|110 25|111 25|112 25|113 25|114 25|115 25|116 25|117 25|118 25|119 25|120 25|121 25|122 25|123 25|124 25|125 25|126 25|127 25|128 25|129 25|130 25|131 25|132 25|133 25|134 25|135 25|136 25|137 25|138 25|139 25|140 25|141 25|142 25|143 25|144 25|145 25|146 25|147 25|148 25|149 25|150    1    2    3    4    5    6    7    8 	   9 
+   10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25 PirÃ¡tska strana - Slovensko PRINCÃP ProgresÃ­vne Slovensko SPOLOÄŒNE OBÄŒANIA SLOVENSKA OÄ½ANO A PRIATELIA: OBYÄŒAJNÃ Ä½UDIA (OÄ½ANO), NEZÃVISLÃ KANDIDÃTI (NEKA), NOVA, SLOBODNÃ A ZODPOVEDNÃ, PAÄŒIVALE ROMA, MAGYAR SZÃVEK a KresÅ¥anskÃ¡ Ãºnia a ZA Ä½UDÃ KomunistickÃ¡ strana Slovenska MaÄarskÃ© fÃ³rum, ObÄianski demokrati Slovenska, Za regiÃ³ny, RÃ³mska koalÃ­cia, DemokratickÃ¡ strana VlasteneckÃ½ blok ModrÃ­, Most - HÃ­d SPRAVODLIVOSÅ¤ SlovenskÃ© Hnutie Obrody Sloboda a Solidarita SME RODINA MySlovensko SlovenskÃ¡ nÃ¡rodnÃ¡ strana SMER - sociÃ¡lna demokracia HLAS - sociÃ¡lna demokracia SZÃ–VETSÃ‰G - Magyarok. NemzetisÃ©gek. RegiÃ³k. | ALIANCIA - MaÄari. NÃ¡rodnosti. RegiÃ³ny SRDCE vlastenci a dÃ´chodcovia - SLOVENSKÃ NÃRODNÃ JEDNOTA SDKÃš - DS - SlovenskÃ¡ demokratickÃ¡ a kresÅ¥anskÃ¡ Ãºnia - DemokratickÃ¡ strana Kotlebovci - Ä½udovÃ¡ strana NaÅ¡e Slovensko Demokrati KresÅ¥anskodemokratickÃ© hnutie KARMA REPUBLIKA    1    2    3    4    5    6    7    8 	   9 
+   10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31     32 !   33 "   34 #   35 $   36 %   37 &   38 '   39 (   40 )   41 *   42 +   43 ,   44 -   45 .   46 /   47 0   48 1   49 2   50 3   51 4   52 5   53 6   54 7   55 8   56 9   57 :   58 ;   59 <   60 =   61 >   62 ?   63 @   64 A   65 B   66 C   67 D   68 E   69 F   70 G   71 H   72 I   73 J   74 K   75 L   76 M   77 N   78 O   79 P   80 Q   81 R   82 S   83 T   84 U   85 V   86 W   87 X   88 Y   89 Z   90 [   91 \   92 ]   93 ^   94 _   95 `   96 a   97 b   98 c   99 d   100 e   101 f   102 g   103 h   104 i   105 j   106 k   107 l   108 m   109 n   110 o   111 p   112 q   113 r   114 s   115 t   116 u   117 v   118 w   119 x   120 y   121 z   122 {   123 |   124 }   125 ~   126    127 €   128    129 ‚   130 ƒ   131 „   132 …   133 †   134 ‡   135 ˆ   136 ‰   137 Š   138 ‹   139 Œ   140    141    142    143    144 ‘   145 ’   146 “   147 ”   148 •   149 –   150 Zuzana Michal Dajana JÃ¡n Dagmar Veronika DrahomÃ­r Lenka Juraj Martin Peter Dana Iveta Jaroslav Norbert KarolÃ­na Alexander BenjamÃ­n Milena Branislava Sandra KatarÃ­na Ä½ubica Rastislav Slavka Lucia Filip BeÃ¡ta Rudolf NatÃ¡lia Sylvia Eva Zdeno Stanislav SlavomÃ­ra Pavol Patrik Jarmila Ondrej RenÃ¡ta TomÃ¡Å¡ JÃºlius Daniel Å tefan Milan Marek VladimÃ­r Anna Erik Jozef Ä½uboÅ¡ Anton Atila Alfonz MikulÃ¡Å¡ MariÃ¡n Helena Nikoleta FrantiÅ¡ek Ivan Radovan Jana RÃ³bert Laura Viktor Viera Karel Silvia Ladislav Ä½ubomÃ­r Monika LukÃ¡Å¡ Jaroslava Miroslav Vanesa Alexej Zdena Andrea Andrej Martina Diana Gabriel PaulÃ­na Alena Miroslava Tamara Zora Simona Irena Ingrid Oskar Darina Branislav Tina DÃ¡vid Richard GrÃ©ta SoÅˆa Adam Tibor Sergej Sofia Karina Renata Elena KrisztiÃ¡n Romana Timotej Ingrida Henrieta Boris Paula Jakub Marianna VÃ¡clav Pavel MagdalÃ©na Janette Barbora Michaela Vanda Dominik NaÄa LÃ­via Karol OÄ¾ga Denisa Igor Gabriela Samuel Zlatica Radoslav Adriana Jolana Vladislav Ali Zdenka Roman Mariana Natalia TerÃ©zia Nina BohuÅ¡ Daniela Janka MÃ¡rio MatÃºÅ¡ Mario Viliam AdriÃ¡n Marcel Marcela Nikola Leonard Vincent Nikolas MÃ¡ria OtÃ­lia MiloÅ¡ Petra TadeÃ¡Å¡ Erika Ä½udovÃ­t Hana Alojz Karina Obaidullah Zita IstvÃ¡n Vojtech Marian EliÅ¡ka SlavomÃ­r MargarÃ©ta DuÅ¡an Rafael DionÃ½z Kvetoslav KristiÃ¡n MariÃ¡n Michael Ema AneÅ¾ka GÃ¡bor Eugen Kvetoslava EmÃ­lia ValÃ©ria Emil Cyril Zsolt LÃ¡szlÃ³ Imrich Attila Ivo Melinda Laura Elena TichomÃ­r Oto ZoltÃ¡n Gejza AlÅ¾beta VirÃ¡g David ViktÃ³ria Koloman Å½aneta ArpÃ¡d DaÅ¡a Miriam Fridrich Marta LubomÃ­r Zlata Edita KonrÃ¡d Miloslav IrÃ©n Alexandra Orsolya SÃ¡ra Urban Robert PÃ©ter TÃ­mea Ä½udmila MÃ¡rk Denis IldikÃ³ ElemÃ­r BlaÅ¾ena AgneÅ¡a Silvester Rita KristÃ­na Marko Janka Esther Ä½ubomÃ­ra JiÅ™Ã­ Svetana Danka Bronislava Tatiana Ivana Samuel Ä½udovÃ­t Stanislava Ernest VladimÃ­ra RenÃ© Ãbel Svetlana Polat Ä½uboslav Simona Silvia PatrÃ­cia Matej Dalibor Erich Radka Aurel MaroÅ¡ Saskia Alexandra Petronela AntÃ³nia Klaudia Ivona SabÃ­na Milan Rastislav Liliana SvetozÃ¡r Zdenko Angela Zoroslav SlÃ¡vka Rebeka Drahoslav Ferdinand JÃºlia Ä½uboslava AugustÃ­n JustÃ­n Boleslav Kamil Bibiana Dominika BoÅ¾ena EleonÃ³ra LudÄ›k Artur RadomÃ­r DÃ¡vid Richard Patrick Mirko Karin Roland Loretta ValÃ©r Szabolcs Ã–rs JÃ³zsef MiklÃ³s Csaba Ã‰vi Gergely Gyula Ervin Adrianna Imre TihamÃ©r TamÃ¡s RÃ©ka AnikÃ³ IvÃ¡n PÃ¡l Kolos JÃ¡nos Teo UrÅ¡ula Ã‰va NÃ¡ndor Arnold TÃ¼nde DÃ©nes Bartolomej LÃ³rÃ¡nt MÃ¡rton BÃ©la Ãkos NÃ³ra GyÃ¶rgy Allan Estera LÃ½dia AnnamÃ¡ria MojmÃ­r OldÅ™ich Beata Blanka Miroslav Pavel AlÅ¾bÄ›ta Eduard JozefÃ­na Roderik Dorota JaromÃ­r KlÃ¡ra Robert Erik Dezider RadÃºz Vilibald Hedviga Daria Edmund Michala Å tefÃ¡nia BibiÃ¡na Juliana MilÃ­n Bohdan Albert LuboÅ¡ Alica Lea DalimÃ­r BohumÃ­r Milan Henrich Radek DamiÃ¡n Å ubovÃ¡ PÃ­rek Maxian RosovÃ¡ Berceli KaÄÃ­rekovÃ¡ KvetÃ¡kovÃ¡ Å irÅ¯Äka HamÅ¡Ã­kovÃ¡ KrÃ¡tky EÅ¡toÄÃ¡k UliÄnÃ½ Miri KlaÄanskÃ¡ NosaÄ¾ AstaloÅ¡ IvanovÃ¡ MÃ¡teffy Schlesinger MoravcovÃ¡ PÃ­rkovÃ¡ MorgoÅ¡ovÃ¡ Ringelband PeerovÃ¡ KresÃ¡k DubovskÃ½ Å vantnerovÃ¡ AppelovÃ¡ Kulich DrdÃ¡kovÃ¡ MolnÃ¡r IvasiukovÃ¡ BolechovÃ¡ UriÄovÃ¡ BelanskÃ½ BednÃ¡r KrÃ¡tka Bittmann RÃ¡c OvÃ¡dekovÃ¡ Pavol DrdÃ¡k NovotnÃ½ MiÅ¡kusovÃ¡ ForgÃ¡Ä GÃ¡briÅ¡ovÃ¡ BodÃ³ VrÃ¡beÄ¾ Mego RepÄÃ¡k Wimmer Hrabko RusznyÃ¡kovÃ¡ Kvak Kaplin BrezÃ¡niovÃ¡ LackoviÄ BrezovskÃ½ Noga ZednÃ­k PiÅ¾urnÃ½ GÃ©Åˆa KaliaÅ¡ Vareha Geci MarciÅ¡ovÃ¡ LalikovÃ¡ PetrÃ¡Å¡ OlÃ¡h BalogovÃ¡ FÃ­zik Koscs TimÄÃ­k Kovanda VeselskÃ½ ÄŒerveÅˆÃ¡k FelÅ¡Ã¶ci LevickÃ½ Makula HaÅˆakovÃ¡ FrÃ¡ter NinÄÃ¡kovÃ¡ PolhoÅ¡ Handi Juhas VÃ¡radi Micaj DankovÃ¡ Varecha Havrilec PetraÅ¡ DavidovÃ¡ Korchan TomaÅ¡ko TancoÅ¡ Hozza MarinakovÃ¡ Adam JuhÃ¡sz SedlÃ¡k Å½olna BasovÃ¡ Pompa GaÅ¡ko Å majda HorvÃ¡th MotÃ½l GregovÃ¡ MaÄo PavlinskÃ½ Kapa Balog Hanko VencelovÃ¡ Feko DudÃ¡Å¡ IrdzovÃ¡ DaneÄko Fedor BuÄkovÃ¡ KollÃ¡r SchÃ¼tzovÃ¡ Pajunk KollÃ¡rovÃ¡ KundratovÃ¡ Kaputa LeÄ¾o JancurovÃ¡ Å imeÄka PlavÃ¡kovÃ¡ Truban StohlovÃ¡ ValÃ¡Å¡ek JaurovÃ¡ Å tefunko PetrÃ­k Wiezik BihariovÃ¡ KiÅ¡Å¡ KosovÃ¡ DvoÅ™Ã¡k JurÃ­k SpiÅ¡iak HanuliakovÃ¡ Sabo MesterovÃ¡ ProstrednÃ­k Å tevulovÃ¡ DubÃ©ci LuÅ¡ÄÃ­kovÃ¡ VanÄo GaÅ¾oviÄovÃ¡ Hellebrandt KalmÃ¡rovÃ¡ PekÃ¡r Kleinert Dej VeslÃ¡rovÃ¡ HargaÅ¡ Å robovÃ¡ Nash DubovickÃ½ GregorovÃ¡ Brozman Å½ilkovÃ¡ TichÃ½ ProstrednÃ­kovÃ¡ BoÅ™uta KoÅ¡iÄiarovÃ¡ SarlÃ³s MiÄovÃ¡ Krjak CervanovÃ¡ ForrÃ³ KollÃ¡rikovÃ¡ KocÃºr DojÄanovÃ¡ KÃ¡ra TrommlerovÃ¡ Laurinc Kalkan HudcovskÃ½ IgÄ¾Ã¡rovÃ¡ PoleÅ¡enskÃ½ HeribanovÃ¡ MaliÅ¡ CinovÃ¡ GaÅ¡pÃ¡rek Francescato Ä½os-BoÅ¾ik VargovÃ¡ Troiak BednÃ¡rovÃ¡ Å tefanisko BlunÃ¡rovÃ¡ SlÃ¡dekovÃ¡ SÃ¼Ä KovaÄovskÃ¡ Pullman SmaÅ¾Ã¡kovÃ¡ KarabÃ­noÅ¡ovÃ¡ Hanes GorcovskÃ¡ PÃ¡lenÃ­k Vermeiren Å arnÃ­k KvietkovÃ¡ Baloga SlavkovskÃ¡ KriÅ¡ko BÃ¡Å¥kovÃ¡ BakÅ¡a Vojtek Styk PohÃ¡nkovÃ¡ Å vajda BelÃ¡kovÃ¡ Jochman PirÅ¡elovÃ¡ PapeÅ¾ Jusko Kendra PopoviÄovÃ¡ Å auÅ¡a ToliÄovÃ¡ Gabonay LuÄkay MihalÄinovÃ¡ Macsek KovÃ¡Ä MergovÃ¡ IllÃ©Å¡ LangovÃ¡ GÃ¡la LukÃ¡ÄovÃ¡ LoÅ¡onskÃ½ UgorovÃ¡ BaÄinskÃ½ HinnerovÃ¡ Grega LevrincovÃ¡ Pamula Prikler Radler BohinskÃ¡ Äubek Augustin Å imanskÃ¡ FÃºska SabanoÅ¡ Gubka ÄŒifÃ¡ri MikulÃ¡Å¡ek KriÅ¡tofÃ­kovÃ¡ HoleÄkovÃ¡ HolÃ©czy MihÃ¡likovÃ¡ ViÅ¡ÅˆovskÃ½ PevnÃ¡ Ruso KaÄÃ¡niovÃ¡ Matula VidrovÃ¡ IÅ¡tok NÃ¡daskÃ¡ Paulini KleÅ¡tincovÃ¡ LÃ­Å¡ka HorskÃ¡ Å ingovskÃ½ RusnÃ¡kovÃ¡ Karczub KrenÅ¾elÃ¡kovÃ¡ PollÃ¡k VelickÃ¡ RogovskÃ¡ KusÃ¡ KondrlÃ­kovÃ¡ PlhÃ¡kovÃ¡ SchlosserovÃ¡ KralÄÃ¡kovÃ¡ FenÄa KondrlÃ­k Winkler KondrÃ¡t ÄŒonka Smolka Loderer HÃºÅ¡Å¥a KabÃ¡t KlaÄko KrajiÄek PuÅ¡ka TirolovÃ¡ DrapÃ¡kovÃ¡-HubovÃ¡ Kudela BujÅˆÃ¡k KamberoviÄ Å prlÃ¡kovÃ¡ TlÄina EliaÅ¡ HanuljakovÃ¡ LadiÄ KrÅ¡ka Chmelo HriÅˆovÃ¡ KramarovÃ¡ KrajiÄkovÃ¡ Kufel StÃ½skalovÃ¡ BadÅ¾ovÃ¡ TomaniÄkovÃ¡ MatejÄekovÃ¡ HaluÅ¡ka Å ottnÃ­k Blahovec PavloviÄovÃ¡ HÃºÅ¡Å¥ovÃ¡ Ivora Melicher MalÃ­k Medvec WinklerovÃ¡ Groszman Tatarka TruchlÃ­k IvorovÃ¡ BarnoÅ¡Ã¡k Haver Vrba KuÄera KurimskÃ½ MajerÃ­k Kramara Koki KokiovÃ¡ RonÄÃ¡k HulÃ¡kovÃ¡ Hudec IlavskÃ¡ JÃ¡noÅ¡Ã­k Å katuliak Kubas BoljeÅ¡Ã­k LepiÅ¡ FÃ©nyes Santus Erhardt Vnuk Horvath MoravÄÃ­kovÃ¡ PariÄÃ¡k Ivanec IvancovÃ¡ Å uÅ¡ota Durda PlhÃ¡k PlhÃ¡kovÃ¡ TÃ³th FialovÃ¡ PrÃ­bojskÃ¡ MÃ¡teovÃ¡ Hengerics JanÄiovÃ¡ FiricovÃ¡ Baniak NovackÃ¡ ÄŒiÄmancovÃ¡ Kucko AdamÄiak Fillo JanÄi Broz JavorkovÃ¡ LiptaiovÃ¡ KlaÄkovÃ¡ OlejnÃ­kovÃ¡ Puska VeselovskÃ½ Zubaj PaÄaj JalecovÃ¡ GÃ¡bor Valko Scherhaufer Å imon Hlavna ZauÅ¡kovÃ¡ SrokovÃ¡ Varga Å ipoÅ¡ OroÅ¡ Hanus SivÃ¡k Baranec PrÃ­kopa PeniaÅ¡ka Hojer KrÅ¡iak WÃ¤nke Å olc MartinÄko Herc GerÅ¡iÄovÃ¡ PavlovskÃ¡ Magnus LuknÃ¡r KrajÄÃ­rovÃ¡ LeineroviÄ JurinovÃ¡ Jakab DuÅ¡enka ViskupiÄ Bystriansky MaguÅ¡in DunajovÃ¡ DruÅ¾kovskÃ¡ KrajÄÃ­ Mikulec AndrejuvovÃ¡ VaÅ¡eÄka LeÅ¡ÄÃ¡kovÃ¡ VetrÃ¡k Å efÄÃ­k PotockÃ½ MilanovÃ¡ Å kola Fecko ProÄko Å ofranko Kyselica Å teiniger HoleÅ¡ovÃ¡ Huba Vons BenovÃ¡ Mihalik MajorovÃ¡ GarstkovÃ¡ Marosz Drdul Mir Kuriak KaveckÃ¡ PleÅ¡tinskÃ¡ SzÅ‘llÅ‘s DobeÅ¡ PolakoviÄ BabjarÄÃ­k Anderko HolkoviÄ Cseh Matus JÃ­lek Kohut GÃ¡lisovÃ¡ Liba MarcinÄin BrisudovÃ¡ TankÃ³ LÃ­m OrÅ¡ula Bielik HajdamÃ¡rovÃ¡ BuÅ¾o Seman Mrva Fintor PristÃ¡Ä ZelenÄÃ­k HustÃ½ CÃ¡k Harvan BokÅ¡anskÃ½ GaÅ¾o Dorkin GajdoÅ¡ovÃ¡ FeÄ¾baba MikuÅ¡ MÃ©szÃ¡ros BariakovÃ¡ BradovkovÃ¡ Ranik MikuliÅ¡in MaÅ¥aÅ¡kovÃ¡ SygÃºt GubaÄ MatiaÅ¡Äik ReiÅ¡tetter Å ariÅ¡skÃ½ OlbertovÃ¡ Rusina MaÅ¡Ã­rovÃ¡ KovalÄÃ­k GalbavÃ¡ Serina KrempaskÃ½ OndrÃ­k Chanas LapÅ¡anskÃ½ MiÅ¡Ã¡kovÃ¡ RepaskÃ½ PohÃ¡r HodulÃ­k Kupka GaÅ¾i JanÃ­Äek JanÃ³ PavlÃ­k SolÃ¡r KoneÄnÃ½ Jursa KrenÅ¾el RemenÃ¡r Vlk NagyovÃ¡ KoctÃºr HackenbergovÃ¡ MÃ©szÃ¡roÅ¡ Å vÃ¡by LiptÃ¡k Masaryk ZgÃºt Hala JavornickÃ¡ MackoviÄ Å tiavnickÃ¡ SrovnalÃ­kovÃ¡ KuÄÃ­k MarenÄÃ¡k Wolf Hrablay GoÄala MaggiovÃ¡ KozÃ¡k Filipiak Å kopovÃ¡ VozÃ¡r MikluÅ¡ MiÅ¡ek Dutko SÃºcky NaÅˆo MrÃ¡zovÃ¡ Filko Maretta BugyinskÃ¡ SzabÃ³ Å udÃ­k HorvÃ¡thovÃ¡ VeliÄ Galko RemiÅ¡ovÃ¡ ZÃ¡borskÃ¡ Grendel MatoviÄ HrdliÄka LengvarskÃ½ Pova Bobor Mikulek Chalabala SisÃ¡k Albert KopeckÃ½ Sojka KramÃ¡r Simonics SlÃ¡dek RovÅˆÃ¡k PlanÄÃ­k ZelinovÃ¡ KoÄiÅ¡ SuÅ¡ko KostÃºr Å½uravlov ValluÅ¡ovÃ¡ OlÅ¡a BikÃ¡r CebuÄ¾a BorovskÃ½ UÅ¡iak Hornok BelÃ¡nyi Kopas KajÃ¡nek KrakovskÃ½ RuskovÃ¡ Kocka NiÅ¡ponskÃ½ MittaÅ¡ KramoliÅ¡ Junas Å tefÃ¡nik Mamrilla MikuÅ¡inec BachÅˆÃ¡kovÃ¡ TomÃ¡Å¡ HantÃ¡kovÃ¡ HerÃ¡k MaÄuga Å‡orba LakatoÅ¡ GrusovÃ¡ Vojta HodÃ¡sovÃ¡ DrastichovÃ¡ Hlubina Brenkus BlaÅ¡ko MiÅ¡urovÃ¡ Hamar MachÃ¡ÄkovÃ¡ MeravÃ¡ ÄŒavajda ÄŒiÄvÃ¡k PapÃ¡Ä BetuÅ¡ Vojtko VojnÃ­k Kucharovic MakovÃ¡ Barna BernÃ¡r BrugoÅ¡ Focko KolesÃ¡rovÃ¡ Å Äurka HalÃ¡sz MaÄar MajernÃ­k DraÄka JakubÄÃ¡k Simon Macko GÃ¡l RajtÃ¡r Bindics HybkÃ½ PolereckÃ¡ UhrÃ­k Kotrus RÃ¡kociovÃ¡ BlahovÃ¡ Kapusta BojtoÅ¡ Mikolai BrÃ¡z Sloboda BytÄanek KruÅ¡inskÃ½ PetÃ¶ Streda Thomka Hrehor BÃ¶lcs ErdÃ©lyi TÃ¶rÃ¶k Saniga BalÃ¡zs FulkovÃ¡ Szelle Somogyi Lacko RadiÄovÃ¡ RaÄko ZsÃ­ros KovÃ¡cs Bucek VÃ¡roÅ¡ovÃ¡ Bial ValentoviÄ VaÅ¡inovÃ¡ Rajnoha Balogh MitÃ¡nek KravÄÃ­k Ivan ÄurÄek SzolÃ¡rd Hajdu Fekete VaÅ¡ina MikeÄ¾ Csefo SekerÃ¡Å¡ Å vÃ¡Ä DrotÃ¡r FojtÃ­kovÃ¡ BÃ¡thory FabiÅ¡ik RybaniÄ KaderÃ¡bek Lobotka Bottka JaÅ¡Å¡o Bari JurÃ­Äek Farkas Cimerman KubuÅ¡ KatuÅ¡ÄÃ¡k HermanovÃ¡ RigÃ³ovÃ¡ Lakatos NemÄiÄ RybÃ¡r BuÅ¡Ã­k JanitsovÃ¡ Pecen Å tÃ­t Herman LÃ¡szlÃ³ BuÄko HabÃ¡nek HalÃ¡tovÃ¡ KÃ³nyovÃ¡ Hustya Matfiak HollÃ¡ Ferko Rajkovics KovalikovÃ¡ BuchlÃ¡k Zsemlye SÃ¡rkÃ¶zy VaculkovÃ¡ Kiss RajnohovÃ¡ TurcajovÃ¡ Majer BollovÃ¡ RauÄina Rabay MÃ¡tÃ© FilipkovÃ¡ Å½ilincovÃ¡ GyÅ‘ri BzdÃºch SzÅ±cs Å iÅ¡iak BodnÃ¡r KrÅ¡ko StruhÃ¡rovÃ¡ HalÃ¡s CsibreiovÃ¡ Å imonÄiÄovÃ¡ Baki StanoviÄ Soukup CopÃ¡kovÃ¡ ZemanovÃ¡ KavorovÃ¡ OÅ¾vÃ¡t Matejka HoliÄ Mores KomzalovÃ¡ GuldanovÃ¡ Mindek KleskeÅˆ KovÃ¡ÄovÃ¡ SunegovÃ¡ StrnadÃ­kovÃ¡ BencovÃ¡ StraÅˆÃ¡k JanigovÃ¡ UhlÃ¡rik KohÃºt DaniÅ¡ UvÃ¡ÄkovÃ¡ MinÃ¡rikovÃ¡ PekÃ¡rikovÃ¡ HlÃ¡va GoliaÅ¡ Å urina PopeÄ¾Ã¡Å¡ovÃ¡ Choleva HanzlÃ­k VelickÃ½ MacÃ¡nkovÃ¡ SmutnÃ½ Haladej Volko SlobodovÃ¡ Å½eÅˆuchovÃ¡ JÃ³nyovÃ¡ SabadoÅ¡ Dzurinda SÃ³lymos Schwarzbacher RigÃ³ AmbroÅ¡ovÃ¡ Hort AgÃ³cs HubinskÃ½ OÅ¾valdovÃ¡ AndÃ³ OlejÃ¡r PetrikÃ¡n Å okovÃ¡ HalgaÅ¡ Aleksiev KÃºn Amrich Kysela BeÅˆovÃ¡ VargovÄÃ¡k Burdiga BoocovÃ¡ VÃ¡gÃ¡si Steiner Hanuska PalÃ¡sti AmbroÅ¡ LestyÃ¡nszky ChebeÅˆ Csudai BernÃ¡th Ferenczi Chajdiak NiÅ¾nÃ­k Vangel AmrichovÃ¡ Å teklÃ¡Ä CigÄ¾arovÃ¡ UlipovÃ¡ Å½ofÄÃ¡k KuchaÅ™ Kerata Macai Smriga KrajÄiovÃ¡ KertÃ©sz KoreÅˆ Pavela Kubica Selvek Magyar Lutter Machunka PetÃ­k Ferencz BobÃ­k Pavuk NovÃ¡kovÃ¡ KvaÄkay AdamÄÃ¡k Katona VÃ¡clav JÃ³zan HorvÃ¡th KoreÅˆovÃ¡ GajdoÅ¡ DemskÃ½ BelÃ¡Åˆ KristiÃ¡n Äurica DvorskÃ½ VaÅˆo DobrovodskÃ½ FeketeovÃ¡ Å kurlovÃ¡ Aleksieva TkÃ¡Äik VÃ­zi Fijalka Adamec Duba TurzovÃ¡ VirÃ¡govÃ¡ GaÅ¡paroviÄ TomaÅ¡kinovÃ¡ MiÄÃºchovÃ¡ AndreÃ¡nsky BanÃ­k Zsiga BÃ­reÅ¡ KardosovÃ¡ RajekovÃ¡ PavlÃ­kovÃ¡ Rajek LevÃ¡k Bartalos KyselovÃ¡ GÃ¶dÃ¶lle Makva StreÄanskÃ¡ RÃ³th Å pilÃ¡r Siegel StaÅˆo BukovÄÃ¡k Szarka PatÃ³cs KhernovÃ¡ BalÃ¡Å¾ KovÃ¡Ä TÃ¶rÃ¶k Kaszonyi Rosenberger ZurÃ­k ZemanovÃ¡ Lengyel DolÃ­hal MarcinovÃ¡ ZvarÃ­k Vdovjak KubalÃ­kovÃ¡ HortovÃ¡ PorubÄan RiÅ¡ian Libiak HanuskovÃ¡ MaÅ¡ÄÃ¡kovÃ¡ Zekucia Lipka Murajda JamriÅ¡ka Chlebo GosÅ¥ovÃ¡ Å uttovÃ¡ MoravÄÃ­k IvanÄÃ­k BoldiÅ¡ HÃºska Kozmon Å Ã³Å¡ikovÃ¡ AlbertiovÃ¡ GomboÅ¡ovÃ¡ BlanÃ¡r WagnerovÃ¡ TÅ‘kÅ‘ly Madro KupkovÃ¡ FlÃ³ra KubicovÃ¡ Å Ãºchal Matyi Kolda BumberovÃ¡ LaskÃ½ Vinc Å vec PolaÄik SzÃ©nÃ¡siovÃ¡ PoprockÃ½ AngelovÃ¡ FratriÄovÃ¡ SzÃ©kely Å ovÄÃ­k FratriÄ ChudÃ½ TichomÃ­rovÃ¡ ÄŒiÅ¾mÃ¡r KakoÅ¡ MinjarikovÃ¡ Maras Å ovÄÃ­kovÃ¡ MeluÅ¡ BanyiovÃ¡ Puk MichalÄÃ­k MichalÃ­k PiÅ¡tek Sahul Å kvarka PanÃ¡k HrobÃ¡rik Gierat JuÅ¡ko KubisovÃ¡ ÄŒistoÅˆ Schulz ÄŒaprnka FÃ¡berovÃ¡ GoreckÃ½ Å iÅ¡kovÃ¡ JakubiÄka BÃ©reÅ¡ovÃ¡ PatrÃ¡Å¡ SulÃ­k GrÃ¶hling BittÃ³ CigÃ¡nikovÃ¡ KolÃ­kovÃ¡ MarcinkovÃ¡ KrÃºpa Droba Galek Oravec Cmorej HalgaÅ¡ovÃ¡ ParÃ¡k DostÃ¡l LedeckÃ½ Rudolf Foltin Kazda BilohuÅ¡Äin BarÃ¡nik Å½iak Paulis Kuna KanuÅ¡ÄÃ¡k UherÄÃ­k ÄŒech KiÅ¡Å¡ovÃ¡ Ravasz MlÃ½nek PospÃ­Å¡ilovÃ¡ PirÅ¡Ä DrÃ¡b JurÄo Jevin Halaj LuterÃ¡n OsuskÃ½ BeÅ¥ko Juro SÃ­thovÃ¡ Szalay BoÅ¾oÅˆ DomorÃ¡k UrminskÃ½ Vrchota Elalmis TchirovÃ¡ Drexler Kalman SmrekovÃ¡ Holko DebnÃ¡r GÃ¶mÃ¶ry KaÄÃ¡ni Lenhardt Sopoliga Prokop ÄŒelinÃ¡k SomorovskÃ¡ Buday Bukviar RakÃºs KlaÄanovÃ¡ Duffek Å evÄÃ­k TÃ¡nczos PrÃ¡znovskÃ½ BoÅ¾ek PrieloÅ¾nÃ½ Å½Ã¡Äik ÄŒerevkovÃ¡ RusÅˆÃ¡k FarkaÅ¡ LopatkovÃ¡ Pilnik MasÃ¡r MroÅ¡ÄÃ¡kovÃ¡ Fujak Barto MatulÄÃ­k ZvrÅ¡kovcovÃ¡ JÃ¡nosdeÃ¡k Zajac Bonko PolÃ¡k Sklienka Martinka Fianta Sheppard AndrÃ¡Å¡i MolnÃ¡rovÃ¡ HenÄekovÃ¡ TrelovÃ¡ SonogovÃ¡ Å½Ã¡k HojstriÄ Gregor Tittel RichterovÃ¡ DutkovÃ¡ VrÃ¡bik VaÄ¾ko ZolnaiovÃ¡ GrÃ¡cz BiroÅ¡ Galo BlecharÅ¾ Caban BÃ¡tovskÃ¡ Komada KubinskÃ½ UvÃ¡Äik Greizinger Hovorka HÃ¶hn KriÅ¡tof Å½elonka Kramec KoÄkovskÃ½ Sklenka Vilkus MatuskÃ½ MrviÅ¡ PatrÃ¡Å¡ovÃ¡ VÃ¡roÅ¡ RodÃ¡k ZÃ¡hradnÃ½ Kalis Gallik StraÄina WagingerovÃ¡ SurovÃ½ Chrappa Poruban LukÃ¡Ä MazÃ¡n Pajer Hlina Krajniak KriÅ¡tÃºfkovÃ¡ PÄolinskÃ½ Goga SvrÄek Å ebovÃ¡ PÄolinskÃ¡ BorguÄ¾a PÃ©ter Karahuta HajÅ¡elovÃ¡ KaÅ¡per KrajÄÃ­r ZÃ¡hradnÃ­k HolÃ½ HudecovÃ¡ Hlinka Å imko Hrnko Antal Hagyari BaranÄok DzielavskÃ½ BartoÅ¡ KoÅ¡Ä PialovÃ¡ VereÅ¡ VengrÃ­n ChlebÃ­kovÃ¡ JedinÃ¡k Ilkyw Å uca GbÃºr Petrik Beck Rosival PÄola HlavÃ¡cs Steindl ChamulovÃ¡ Janco IrÃ³ GrznÃ¡r Paulus KeselÃ½ PaÅ¡ko Å viheÄ¾ovÃ¡ VajaÅ¡ Vanek AndrejkovÃ¡ Michalov ÄŒernÃ½ VardÅ¾ik VeterÃ¡ni Gottwald VojÄÃ­k Tychler Chvasta KolaroviÄovÃ¡ Zemko LepÃ¡Äek BureÅ¡ovÃ¡ PolÃ¡ÄkovÃ¡ ModranskÃ½ HnatkoviÄovÃ¡ ValentovÃ¡ KoleÄÃ¡niovÃ¡ PariÄ¾Ã¡k BirtusovÃ¡ Hokina Kucman ÄŒechvalovÃ¡ RogovskÃ½ PaulÃ­k Å imÄÃ­k MizerÃ¡k Mikler FontÃ¡nyovÃ¡ Frajka Kmec EÅ‘zse Chovan Urban Paluk SlaniÄka Hatala BlaÅ¡koviÄ KoneÄnÃ¡ Geleta Balko ValigovÃ¡ SabovÃ¡ Kunst Mierka ZrÃ­niovÃ¡ MaÅ¾Ã¡r KontoÅ¡ FehÃ©rovÃ¡ CharvÃ¡tovÃ¡ Potenga MurÃ¡nsky KrÃ­Å¾ik GajdoÅ¡Ã­k DrabiÅ¡ÄÃ¡kovÃ¡ Luprich BelohorcovÃ¡ VokalikovÃ¡ SmieÅ¡kovÃ¡ Piterka MazancovÃ¡ BaltazaroviÄ TkÃ¡Ä RepiskÃ½ MeÄiar UhrinovÃ¡ Akerman JanotovÃ¡ VereÅ¡ovÃ¡ PolÃ¡Äik Hronec Andrejov Tomin OsvaldovÃ¡ MazÅ¯rek Pompura MiÅ¡Ã­k ModranskÃ¡ Fabian GodÃ¡lovÃ¡ Å½atkovÃ¡ Å tefankovÃ¡ HofericovÃ¡ HudekovÃ¡ Å inka Svediak Klus Panenka PaloviÄovÃ¡ MiÄev MatuÅ¡ik LÃºÄny MedoviÄ LazovÃ½ JanduÅ¡Ã­k MlynÃ¡r PristachovÃ¡ KrajÄÃ­k BÃ¡bik MedoviÄovÃ¡ PalkoviÄ NavrÃ¡tilovÃ¡ JurkoviÄovÃ¡ KarÅ¡ay MeliÅ¡kovÃ¡ RuÅ¾iÄka Seget Lopata DemeterovÃ¡ FundÃ¡rkovÃ¡ SkokÅˆa KrajÄi ChmeÄ¾ovÃ¡ MokrÃ¡Åˆ Kandra Danics ÄurÃ­k Bruzik PendrÃ¡k HorÃ¡k CabukovÃ¡ Porada MatÃºÅ¡ HubinskÃ¡ LinkeÅ¡ HaulÃ­k Å epeÄ¾a GabriÅ¡ JurovatÃ½ Danko Garaj KramplovÃ¡ KriÅ¡anda Taraba ÄŒambal MaruÅ¡ka DeÄo Molda Å kopcovÃ¡ Å imkoviÄovÃ¡ FarkaÅ¡ovskÃ½ DivÃ©ky Michelko MateÄnÃ¡ Belica BeÄarik Kuffa Å aÅ¡ko SoboÅˆa KuciaÅˆovÃ¡ BeÅˆÃ¡kovÃ¡ TulisovÃ¡ KliÅ¾an FrantiÅ¡kovÃ¡ VaÄ¾o PecnÃ­k Bync JaÄuÄ KiÅ¡Å¡ka LiskovÃ¡ SmolinskÃ½ PlieÅ¡ovskÃ½ BielenÃ¡ GoriÅ¡ÄÃ¡k KramÃ¡rovÃ¡ BernÃ¡tovÃ¡ ÄŒornej Grach BorÃ­k ÄŒulman MÃ¡lik RiabovÃ¡ Revaj MihÃ¡lik VetrÃ­k Cap Zvak VrkoÄovÃ¡ MosnÃ¡ ZÃ¡honÄÃ­k Milas PitoÅˆÃ¡k Haramia Kleban Å½abka Vojtela OstrovskÃ½ JankoviÄovÃ¡ Bryndziar Brincko TvrdoÅˆ PivovarnÃ­k ZelenÃ½ Gribanin HrbÄek VyhniÄka TrÅˆanovÃ¡ Schwarz ÄŒaÄ GreguÅ¡ Magula Neuvirth Belicaj Dirga BarÃ¡k Majko Musala JurÃ¡ÄkovÃ¡ KriÅ¾ko VereÅ¡ovÃ¡ JakubianskÃ½ Bobek RadaÄovskÃ½ LuÄanskÃ½ BÃ¡lint ZoriÄÃ¡k StrÃ­Å¾ Edery Lysina MezenskÃ¡ VaneÄko Etheykatz VasiÄ¾ Kardelis SlovÃ¡k MatiaÅ¡ko StrÃ¡ÅˆavskÃ½ Å tofanÃ­kovÃ¡ MiÅ¡koviÄ PodolÃ¡k PorochnavÃ½ Lazor Baniar JankoviÄ MajstrÃ­k HuÄko VeÄ¾kovÃ¡ KrÃ¡Ä¾ovÃ¡ KotlÃ¡r TerenovÃ¡ GrebÃ¡ÄovÃ¡ PetriÄovÃ¡ MatunÃ¡kovÃ¡ TarhaniÄovÃ¡ Doliak PokornÃ½ Pramuk VlÄkovÃ¡ Ä½uptÃ¡k SlanÃ½ Magura HurÄala TuroÅˆovÃ¡ Majling Kysel MalikovÃ¡ Sokol Huliak Fico Blaha TakÃ¡Ä KamenickÃ½ KaliÅˆÃ¡k BaÅ¡ka GaÅ¡par SaloÅˆ ZahorÄÃ¡k KÃ©ry HambÃ¡lek Richter JeÅ¾Ã­k Kvorka Gedra Susko MaÅ¾gÃºt Jarjabek Choma PodmanickÃ½ HabÃ¡nik FaiÄ MuÅˆko StredÃ¡k VÃ¡Å¾ny Karas Petro VaÄ¾ovÃ¡ Galis MatejiÄkovÃ¡ ÄŒavojovÃ¡ KubÃ¡nek Nemky ValockÃ½ StuÅ¡ka Smatana SitkÃ¡r Hazucha LeÅ¡o LukÅ¡a VÃ¡lek PlevÃ­kovÃ¡ KapuÅ¡ GlÃ¼ck KaÄmÃ¡r MacÃ¡Å¡ek RusiÅˆÃ¡k GonÅ¡enica FlamÃ­k Jurga OrsÃ¡g Matia Cuper KovaÄÃ³cy PÃ¡nisovÃ¡ NachtmannovÃ¡ MrÃ¡zik KajkoÅ¡ ÄŒepÃ¡k Jutka Racko HlÃ¡Äik KmeÅ¥ Friala PanÃ¡Äek MartinÃ¡k OrolÃ­novÃ¡ Kadera VoÄ¾anskÃ½ Nociar ÄurianovÃ¡ Dragula KruÅ¡pÃ¡n Bafia Kochajda DrÃ¡l MikloÅ¡ HejbalovÃ¡ HlavatÃ¡ Å ebovÃ¡ MozolÃ­k KubÃ­k KaÅ¡ickÃ½ Oremus HajÅ¡ovÃ¡ HermelyovÃ¡ CamberovÃ¡ Malatinec Fiala MraÄna Galaba KulichovÃ¡ Jackuliak RajÄan SemeÅ¡ ReingraberovÃ¡ LenickÃ½ HolbovÃ¡ GavuliÄ Å mÃ­da Bahleda MatejÄÃ­k VeselskÃ¡ PodmajerskÃ½ Kocur Siekela LiÅ¡ka Galan Hanic Å Ã­poÅ¡ JuhÃ¡r CigÃ¡nik Komara ÄŒiÄmanec RudinskÃ¡ Papuga Marek DoboÅ¡ RajÄÃ¡niovÃ¡ Gelo Krochta SlÃ¡vikovÃ¡ Å ulek HamÅ¡Ã­k TesÃ¡r Moric RomanÄÃ­k KandrÃ¡Ä Bekmatov Pellegrini SakovÃ¡ RaÅ¡i DolinkovÃ¡ Å utaj EÅ¡tok BecÃ­k Drucker Å½iga FerenÄÃ¡k Puci LaÅ¡Å¡Ã¡kovÃ¡ BlchÃ¡Ä NÃ¡hlik Janas Kalivoda EliÃ¡Å¡ KurilovskÃ¡ MoÅ¡ko Å alitroÅ¡ VlÄek MigaÄ¾ Cech HrubÃ½ ÄŒellÃ¡r SlyÅ¡ko PuÅ¡kÃ¡rovÃ¡ Bartek MaÄicovÃ¡ Svoboda DemeÄko SzabÃ³ovÃ¡ Krauspe Zsembera Å imÃ¡Å¡ek Macho KirÅˆÃ¡k SotÃ¡kovÃ¡ BurÄo DorÄÃ¡k MikulÃ­k BenkoviÄ MicheÄ¾ GejdoÅ¡ Andel Riecky MaruÅ¡inec VojtaÅ¡oviÄ Karol Zanovit Smorada BagaÄka ObroÄnÃ­k GaÅ¡parÃ­k UjvÃ¡riovÃ¡ KrejÄÃ­ DudekovÃ¡ Å estÃ¡k Olexa Alberty VÃ¡Å¾na Hromada Guliga PeÅ¥ko MÃ³zer UrbanoviÄ Sejna PechovskÃ½ FabiÃ¡n KijovskÃ½ DvonÄ AntoÅ¡ovÃ¡ Barilla Bodis Plachetka GubrickÃ¡ StriebornÃ½ Greksa KaraÅ¡ Kocsis MinÄiÄ Linhart AndrÃ¡Å¡ik Halaksa StaÅ¡iniak Mudry TrojÄÃ¡k BeÅˆatinskÃ½ Å tefan LelkeÅ¡ovÃ¡ Lichner ValkoviÄ Kromka MatuÅ¡ka Kicko MitterpÃ¡k HollÃ½ Ormandy Å½iakovÃ¡ Berec MakatÃºra BrutovskÃ½ Mitter KoszorÃºovÃ¡ KuÄavÃ­kovÃ¡ Kusenda HaÅ¡ko Frajkor KasiÄovÃ¡ NosÃ¡Ä¾ovÃ¡ Å tecovÃ¡ JaniÅ¡ovÃ¡ MiartuÅ¡ FÃ¡bik Å eÅ¡eviÄka MalatincovÃ¡ Pinke Fischer JakabovÃ¡ ZajacovÃ¡ HubovÃ¡ Kirilova PichoÅˆskÃ½ Å½iarny ÄŒapliar Nitka Pandy MÃ³zes Cziprusz PÃ¡l Orosz MenyhÃ¡rt Å½elinskÃ½ Viola Furik Nagy PÃ¡linkÃ¡s Szajko Csenger Åry KaÅ¡o Bauer BerÃ©nyi BÃ¡rdos ChomÄa Gergely Papp AgÃ³cs KÅ‘rÃ¶si AndruskÃ³ TÃ¶lgyesi Baranyay Gyarmati IvÃ¡n Domin Bokor RÃ©gi PatasiovÃ¡ MarcinkÃ³ Boldi HÃ¡jos Fenes TovaryÅ¡ Zachar Paulisz BÃ³b Geri DeÃ¡k Dobos PÃ©k BrogyÃ¡nyi AmbruÅ¡ovÃ¡ Krommer Kacz Palko Pulen MÃºdry Atlas IvaneckÃ¡ KÃ¶pÃ¶ncei BÃ¶gi PathÃ³ KluchovÃ¡ NeszmÃ©ri Rico GÃ¶rfÃ¶l Beke PÃ¡sztor PÃ³sa Csala KondÃ¡Å¡ IllÃ©s Bartos SzvorÃ¡k NÃ©methi Hencz Pecze PalÃ¡gyi KÃ©pes Tuloki BacsÃ³ Karaffa SeresovÃ¡ JÃ³kai MÃ©ry AndahÃ¡zy BrunczlÃ­k LukÃ¡cs Becse Ãgh KrÃ¡lik Maczala MÃ¡tyÃ¡sovÃ¡ Nyul Å anta TakÃ¡cs VÃ¡rady Elek JÃ¡mbor Klenovics Stubendek Baros KrÅ¡ÅˆÃ¡k RadoÅ¡icky Mocskos Hajtman PreÅ¡inskÃ¡ EdmÃ¡r RadiÄ Å ingliar MikÃ³czi Ã“vÃ¡ry Ã‰lesztÅ‘s Horony Zink Vass IvaneckÃ½ HrubÃ­k MÃ¡csadi Gyimesi Zeman TokÃ¡r Fajer RuÅ¾inskÃ½ HaÅ¡an GavaÄ Å½igmundovÃ¡ Å egeda GergeÄ¾ Nemec MikloÅ¡ko Kohaut HlaÄok Å idlo MedzihradskÃ½ FranÄÃ¡k Zetocha PÃ­riovÃ¡ FurÃ­kovÃ¡ SkalnickÃ½ KÃ¡novÃ¡ MelegovÃ¡ Lomen Kertys KoÄan Bukoven Å estÃ¡kovÃ¡ FranÄÃ¡kovÃ¡ PÃ¡nis HubinÃ¡kovÃ¡ Longauer BobekovÃ¡ Rosol FujasovÃ¡ PetruÅ¡ka BoÄko KovaÄ¾ KornatovÃ¡ Bucholcer SchererovÃ¡ MaruÅ¡kin LukniÅ¡ KremnickÃ½ Å lavka KadlecovÃ¡ Srniak SrniakovÃ¡ Karch FiÄ¾ovÃ¡ Gallus BalcovÃ¡ NepÅ¡inskÃ½ BalÃ¡Å¾ovÃ¡ SkalnickÃ¡ VavrÃ­k HanÃºsek KuÄeriak BartoÅ¡ovÃ¡ HiadlovskÃ½ VajcÃ­k SÃ½korovÃ¡ Å vantner VitÃ¡loÅ¡ MikovÃ­nyovÃ¡ BoÅ¾ik BrunclÃ­k SpiÅ¡iakovÃ¡ TÃ³thovÃ¡ MotoÅ¡kovÃ¡ MÃ¼ller HrabovskÃ¡ Å uhajdovÃ¡ KÃ¶les PiliarovÃ¡ MattovÃ¡ Mihaliska Å¤upekovÃ¡ Gabrhel VengerovÃ¡ Venger Odor ÄŒÃ­Å¾ik PaliatkovÃ¡ RybÃ¡rik Klamo LaziciusovÃ¡ LeÅ¡ko PotfajovÃ¡ MatÃºÅ¡ka Prossek PolakoviÄovÃ¡ Kotleba SchlosÃ¡r BeluskÃ½ MizÃ­k KotlebovÃ¡ PodhorskÃ½ Drozd BokovÃ¡ HeredoÅ¡ SulanovÃ¡ Krupa RamÅ¡ak MedveckÃ½ GrÅˆo HudÃ¡k Macek KlobuÅ¡ickÃ½ Suja Å panÃ­r DrengubiakovÃ¡ ChmelÃ¡r GrausovÃ¡ DomovÃ¡ Lipa JedliÄka Stejskal SÃ¡rkÃ¶zi MedveÄ HavlÃ­k KupÄÃ­k PÃºÄek Vajda Mikunda DrobnÃ½ Harvilko BrÃ¡zovÃ¡ ChÅˆapko JelÃ­nek HaneÄÃ¡k Lazar KristovÃ¡ ÄŒekanovÃ¡ HruÅ¡kovÃ¡ Å½Ã¡kovÃ¡ Å vaÅˆa PotanÄok HrmovÃ¡ FeranÄÃ­k BizÃ­k Å uchaÅˆ Machata DlubaÄ OÅ¡Äenda Fabo LilkovÃ¡ Kresila BerÃ¡k KurucovÃ¡ ToÄÃ­kovÃ¡ GyeneÅ¡ DobiÅ¡ovÃ¡ VozÃ¡rovÃ¡ MirekovÃ¡ TvorÃ­k KrajÄoviÄ JavnickÃ½ LukaÄko Krojer HalÃ¡sovÃ¡ Cupan HanigovskÃ¡ Socha TatÃ­kovÃ¡ Klimo Å imek FrolovÃ¡ KÃ¡bele Vyletel StanovskÃ¡ TomkovÃ¡ RudinskÃ½ StankovianskÃ½ Klimant DlhÃ½ Brada IÅ¾dinskÃ½ KuzmovÃ¡ Ãrvai KremserovÃ¡ Bahno CerovskÃ½ BaboÄ¾ TÃ³thovÃ¡ VidieÄan DebnÃ¡rik JÃ³b IlavskÃ½ LipnickÃ¡ LapinovÃ¡ LaÅ¡ut ZervanovÃ¡ DrÅ¾kovÃ¡ BizoÅˆ Kapsa Chalama DuchoÅˆ DanÄovÃ¡ VelikÃ½ Brychta LibantovÃ¡ Å iko SchlosÃ¡rovÃ¡ IÅ¡tokovÃ¡ Bandy PrachniarovÃ¡ KubiÅ¡tovÃ¡ KovÃ¡Äik MiÅ¡eje Cabuk Rakyta KruÅ¾licovÃ¡ Mailender KaÅ¡ubjak Cavar LetanovskÃ¡ Heger CocherovÃ¡ NaÄ Å½itÅˆanskÃ¡ Å eliga Nechala PodhorÃ¡ny MasarikovÃ¡ Å ubÃ¡k SÃ½kora Budaj Hirman SitÃ¡r NvotovÃ¡ ÄŒekovskÃ½ SvÃ­tkovÃ¡ Kvetko StanÄÃ­k Mierna HalÃ¡k KiÄa Å Ã­bl ÄŒechmÃ¡nek Ä½orko PitÃ¡k Å Äuka HauliÅ¡ JÃ¡noÅ¡ Machan Polonec RaclavskÃ½ GreÅ¡ko SurkoÅ¡ Goldberger StrhÃ¡k NovÃ¡k DynisovÃ¡ VarsÃ¡nyi SpevÃ¡k NovoveskÃ½ Pavelka Farbula VanÄovÃ¡ DrahoÅ¡ PavlikovÃ¡ KÃ¶ppl TibenskÃ¡ Kittler KaluÅ¾Ã¡k DobÅ¡oviÄ Å imonÄiÄ HaburovÃ¡ ÄŒarnÃ½ SedliakovÃ¡ Dula Sabol PetrvalskÃ½ MeravÃ½ OÄ¾ha Å vehla DankoviÄovÃ¡ Å½iÅ¾ak Kis KopÃ¡Äik RadakoviÄ MarkotÃ¡novÃ¡ MÃ³ric Ondrej Pastucha PsotkovÃ¡ Dunda JavorÄek Sirota GolodÅ¾ejovÃ¡ Å avrnoch SimuÅ¡iak Weissabel Gehry HudaÄek ValachoviÄ Verchola PotoÄnikovÃ¡ Cehula Å turmankin Å trosovÃ¡ MajÃ¡k CedulovÃ¡ Å tepÃ¡nek HabdÃ¡kovÃ¡ Kadlub TuÅ¾elÃ¡k SkalickÃ½ CapÃ¡k KukuÄka SzitÃ¡si Bolfa Kuchta StaÅ¡ko ChudÃ¡ SomorovskÃ½ MonÄek HurnÃ½ KostolnÃ¡ Johanes HalaÅ¡ FedorovÃ¡ KomlÃ³Å¡i BruÅˆÃ¡k Pekar Å tefÄÃ­k Herda HasidlovÃ¡ Å adibol Paukov MiÄovskÃ½ HaduÅ¡ovskÃ¡ ÄurkoviÄ LeÅ¡tÃ¡k ZajaÄik PÃ¤toprstÃ¡ VrÃ¡bel KaliskÃ½ ÃÄ MihÃ¡l Kaplan KudziovÃ¡ BortÃ¡kovÃ¡ BoroÅ¡ ÄuriÅ¡ NicholsonovÃ¡ MajerskÃ½ Hajko ÄŒauÄÃ­k JanckulÃ­k MeraÅ¡ickÃ½ Stachura KolejÃ¡kovÃ¡ Å milÅˆÃ¡k HoreckÃ½ GurbÃ¡Ä¾ovÃ¡ Å mid BanÃ­kovÃ¡ TurÄanovÃ¡ Å kripek PorubcovÃ¡ Laurinec Å mehilovÃ¡ StrnÃ¡l Bobula PaÄ¾a MikÃºÅ¡ Skokan MikolÃ¡Å¡ik Å tuk MihaÄ¾ DamankoÅ¡ Sliacka MiÄo Weber FÃ¼le MalÃ¡Åˆ Ruttkay Mucha KrÃ¡Ä¾oviÄ ÄŒopÃ­k Mach Sobota BoÅ¡nÃ¡kovÃ¡ VoloÅ¡in BerinÅ¡ter KubÃ¡Åˆ Kasterko HumenskÃ½ Novodomec SzegfÃ¼ovÃ¡ MrÃ¡z Cocher GenÄÃºr AdamovÃ¡ HudÃ¡Äek LajÄin Bratko MikulÃ¡Å¡ DobrÃ¡nsky DohÃ¡l Klapica BallovÃ¡ KriÅ¾Ã¡nek OrlovskÃ½ PivarnÃ­kovÃ¡ Å tilichovÃ¡ HlavatÃ½ ÄŒuchor Å eveÄek Mikita FriÄ Zibura Holinka Å½igovÃ¡ KaÅˆuÅ¡ÄÃ¡k Trnka HroboÅˆ Cina Å tefanec GabÄo MinarÄÃ­k KostyÃ¡lovÃ¡ StierankovÃ¡ Botek StriÅ¾enec Klimek Oslanec LaÄnÃ½ VÃ¡clavÃ­kovÃ¡ KristofÄÃ¡k Å imoÅˆÃ¡k Gablech SovÃ¡k LakoÅ¡tÃ­k Å tuller HyÅ¾naj JakubovÃ¡ DudovÃ¡ Kultan Å urkala Å imÃ­k PaÄ¾ovÄÃ­k AdamÄÃ­k Korec ÄŒernÃ¡ Valent PavlÃ¡sek Å½diÅˆak Porubec TomÃ¡Å¡ovÃ¡ BotekovÃ¡ RadoÅ¡inskÃ½ KlochÃ¡ÅˆovÃ¡ Korytko Steinhauser ViazankovÃ¡ KrivuÅ¡ Å½iÅ¡ko Galgoczy GraÅˆÃ¡k Å pano Finta OrfÃ¡nus Å utÃ½ Kuciak Mikolaj JankÅ¯ BoÅ¡ÅˆÃ¡k SzaboovÃ¡ Grussmann TehlÃ¡r KovarskÃ¡ RusnÃ¡k KissovÃ¡ HlbockÃ½ Veigl SvitokovÃ¡ RaslavskÃ½ OrviskÃ¡ KlucovÃ¡ BartoÅˆ Kovarsky KecskÃ©s ViktorÃ­n RiapoÅ¡ovÃ¡ GÃ©ci ÄuriÅ¡ Å imovÃ¡ NevolnÃ½ OstroÅ¾lÃ­k SlivkovÃ¡ Pukan ChylÃ­k RiboÅˆovÃ¡ KopÃ¡Ä SÃºlovskÃ½ MikitoviÄovÃ¡ Valach GÃ¡novskÃ¡ Rafaj SuÅ¡arskÃ½ Å paÄek LaukovÃ¡ JaÅ¡urkovÃ¡ SolÄanskÃ½ Dzugas MikurÄÃ­k KaÅ¡Å¡iak Magdech LysÃ¡k Demjan Hubert KlepkoÅˆ TemÅˆÃ¡kovÃ¡ MÃºÄkovÃ¡ KuchÃ¡rik Å mÃ¡trala KellnerovÃ¡ ÄŒarÅˆanskÃ½ Kurta KoÄiÅ¡ovÃ¡ Zima Å abÃ­k KulaÅ¡ik KuÅ¡pÃ¡lovÃ¡ Å½ygliÅˆskÃ¡ VolekovÃ¡ KrnÃ¡Ä FurdÃ­kovÃ¡ MarenÄÃ­k PreÅ¡inskÃ½ ChriaÅ¡teÄ¾ PalÃ­kovÃ¡ KosorÃ­n ÄŒimo MareÄek Michal MaslÃ¡k MacÃºch GÃ¡briÅ¡ ÄŒibenka Russel Keller Cogan Ianos GerencsÃ©ry TÃ½nus MatyÅ¡ÄÃ¡k Bielik Kajzer Å½ambokrÃ©thy ÄŒorosovÃ¡ Schmidt MitoÅ¡inka DulajovÃ¡ HamackovÃ¡ Janovec Klika Å‡akatovÃ¡ Fodor PriÅ¡Å¥Ã¡k PolÃ­Äek Vician SklenÃ¡r KozÃ¡nkovÃ¡ MokrÃ½ DolnÃ­kovÃ¡ BubelÃ­ni TrenÄanskÃ½ Å½arnoviÄan Hajduk Ferianc Bajo FabrickÃ¡ StrapÃ¡k Senko Hilka MajkovÃ¡ Klimko HrozenskÃ½ BrusnickÃ½ Chovanec Å irgely PastorkovÃ¡ BrunovskÃ½ OmÃ¡mikovÃ¡ Mojdis PidaniÄ PorubskÃ½ PupÃ¡k BudinskÃ½ Å½ec PÅ¡enek Marko ChovaÅˆÃ¡k PasulkÃ¡Å¡ PÅ¡enÃ¡k RadnÃ³ti RudÄ¾ovskÃ½ LovÃ¡s Kogan HornÃ¡ÄkovÃ¡ KiÅ¡faluÅ¡i TrebuÄ¾a Vavrek HuÄo Mazurek F M Ing. Mgr., PhD. PhDr. JUDr. Mgr.  MUDr. Mgr., MSc., LL.M. MgA MDDr. Bc. Ing., DiS. DiS.art. DiS. art Ing. Bc. DPhil JUDr., PhD. MSc M.A. Mgr. art. doc. Ing., PhD. Ing., MSc. Ing. Bc., PhD. Mgr. et Mgr. doc. Mgr., PhD. MSc. Ing., PhD. PaedDr. MBA Ing. Mgr. Bc., MBA prof. JUDr., PhD. Mgr. Ing. Ing. arch. ThDr. Mgr., PhD. PhD. PhDr., PhD., MPH Mgr., M.A. Mgr. Ing., PhD. BA Ing. arch., PhD. BSc. Ing., MBA Mgr., MBA Mgr. et Mgr. art. Mgr. Mgr. JUDr. Ing., PhD. PaedDr. Ing. MUDr., MBA, MPH Mgr., MPH RNDr. Mgr., CSc. RNDr. DBA Mgr., DBA Ing. Ing. PhDr. Mgr., LL.M. JUDr. Mgr. RNDr., MPH Bc., Dis Mgr., MPH, DiS PhDr., PhD., MBA, DiS. Ing., PhD., MBA Mgr. Dott. prof. MUDr. Mgr., PhD., MHA prof. MUDr., PhD., MPH prof. Ing., DrSc. PhDr. Ing. PhDr., PhD. RSDr. Ing., CSc. Dip mgmt MUDr., PhD. PaedDr., PhD. Prof. PhDr., PhD. JUDr., LL.M. Dipl. tech. Ing. JUDr. MMathCompSci Dott., PhD. MUDr., PhD., MPH Ing. Mgr., PhD. Mgr., PhD., MBA RNDr., PhD., MBA Mgr., BSBA Mgr., MBA, LL.M Prof.h.c. Ing., PhD., DBA. JUDr., LLM. Ing., Ssc. RNDr. Ing. Mgr., MBA, MA RNDr., MSc. PhDr., CSc. MUDr. RNDr., PhD., MPH MUDr., CSc. MVDr., PhD. Mgr., LL.M. Ing. Bc., M.A., MBA Ing., CA Mgr., Ph.D., LL.M. PhDr. Ing., PhD. Mgr. et Mgr., PhD., LL.M. BSc., LL.M. RNDr., PhD. JUDr. Mgr., LL.M. JUDr. Mgr., PhD., LL.M. Doc. PaedDr., PhD. MVDr. JUDr. PhDr. JUDr., PhD., MBA PhD., MBA Ing., MBA, LL.M., MSc. PaedDr. Mgr. Mgr. Bc. prof. PaedDr., CSc. Mgr. PhDr. doc. PhDr., PhD., MBA PhD RNDr., PhD DiS. art., Dr.h.c. AAS BA Hons, MSc, PGCHE JUDr. Ing. Dipl.-Ing. Ing. et Ing. Mgr. MVDr., PhD., MBA PaedDr., PhD., MBA MUDr., MPH, MBA Mgr., M.B.A. Dipl. ra doc. JUDr., CSc. gen. v. v. PaedDr. doc. Mgr. art PhDr. JUDr., PhD. JUDr., PhD., LL.M JUDr., MPH PaedDr., MPH PhDr. Mgr. AMB. PhDr. Mgr., PhD., MBA, LL.M. MUDr., PhD., MPH. doc. PhDr. PaedDr., PhD. Dr.h.c. prof. JUDr., PhD. Ing., MIM Mgr. Mgr., PhD. doc. Ing., DiS. art., PhD. PaeDr., PhD. JUDr. PhDr., PhD. Ing. Mgr., MHA Ing., LL.M., MBA JUDr., LL.M PhDr., MBA PhDr. PaedDr., PhD. PhDr., MSc. PhMr. PhDr., LL.M, MBA doc. MVDr., PhD. PhDr. PaedDr., PhD., MBA Ing., DBA, LL.M PhD., DBA, MBA Med. doc. PhDr., PhD. Bc., LL.M. Mgr.art., dr. jur. MUDr. Mgr. Ing. RNDr., CSc. MUDr., PhD., MBA JUDr. PhDr., LL.M Ing., MSc., MBA prof., DrSc. MUDr., MPH Mgr., MPA JUDr., PhD., LL.M. Bsc. Mag. (FH), PhD. Mag. Ing. arch. Mgr. art. Mgr. arch. MUDr. Dr. med., MBA MUDr., MBA Dr. h. c. prof. doc. JUDr., PhD. prof. ThDr. PaedDr. Ing., PhD. Bc. JUDr. PhDr. Bc. Dott. MUDr., MPH, MHA Ing., Mgr. Doc. Ing., PhD., MA doc. Mgr. Ing. arch. Mag. Phil. Mgr. Art. ThDr. Mgr., PhD., ArtD. MUDr., MPH. PhDr. Mgr., MSc., MBA LL.M JUDr. Ing., LL.M Ing., DrSc. Dipl. f. PhDr., MPH PhDr. Mgr., PhD., MPH, MHA Mgr., MSc. Ing. JUDr., PhD. PhDr., MPA PharmDr., MPH 6   54 -   45 )   41 +   43 ,   44 .   46 :   58 "   34 A   65 <   60 (   40 ;   59 4   52    31 $   36    26 5   53 9   57     32 8   56 %   37 '   39 1   49 3   51    25    24    28 7   55 C   67 !   33 #   35 >   62 =   61 2   50    29 B   66    30 D   68 @   64 &   38    22 L   76 G   71 0   48 *   42    27    23 P   80 /   47 F   70    21 J   74 K   75 E   69 Q   81 N   78 M   77 I   73 V   86 ?   63 O   79 H   72 T   84 Z   90 ekonÃ³mka historik podnikateÄ¾ geodetka projektovÃ¡ manaÅ¾Ã©rka Å¡tÃ¡tny zamestnanec riaditeÄ¾ka umeleckÃ©ho festivalu projektovÃ½ manaÅ¾Ã©r poslanec mestskÃ©ho zastupiteÄ¾stva hudobnÃ­k primÃ¡rka rehabilitaÄnÃ©ho oddelenia profesionÃ¡lna trÃ©nerka informatik profesionÃ¡lna kouÄka stredoÅ¡kolskÃ½ uÄiteÄ¾ zubnÃ¡ lekÃ¡rka Å¡tudentka medicÃ­nska konzultantka uÄiteÄ¾ka elektrotechnik Å¾ivnostnÃ­k administratÃ­vna pracovnÃ­Äka konÅ¡truktÃ©r oftalmologiÄka diagnostik IT odbornÃ¡ radkyÅˆa ÃºÄtovnÃ­Äka dÃ´chodkyÅˆa IT Å¡pecialista pedagogiÄka realitnÃ½ konzultant referentka Å¾ivnostnÃ­k, Å¡tudent stolÃ¡r referent podnikateÄ¾ka opatrovateÄ¾ Å¾ivnostnÃ­Äka technik dÃ´chodca pracovnÃ­k bezpeÄnostnej sluÅ¾by technickÃ¡ pracovnÃ­Äka zdravotnÃ­cky pracovnÃ­k Å¡tÃ¡tna zamestnankyÅˆa Å¡ofÃ©r novinÃ¡r zÃ¡sobovaÄ spisovateÄ¾ starosta konateÄ¾ vÃ½sluhovÃ½ dÃ´chodca manaÅ¾Ã©rka konateÄ¾ firmy nezamestnanÃ½ sÃºkromnÃ½ podnikateÄ¾ robotnÃ­k terÃ©nny sociÃ¡lny pracovnÃ­k Å¡tatutÃ¡r OZ taneÄnÃ¡ pedagogiÄka ZUÅ  nezamestnanÃ¡ operÃ¡tor vÃ½roby operÃ¡torka vÃ½roby Å¾ivnostnÃ­k - murÃ¡r vodiÄ MKD invalidnÃ¡ dÃ´chodkyÅˆa upratovaÄka invalidnÃ½ dÃ´chodca robotnÃ­Äka skladnÃ­k vodiÄ z povolania vodÃ¡r sanitÃ¡rka mechanik opatrovateÄ¾ka sociÃ¡lna pracovnÃ­Äka CVÄŒ - vychovÃ¡vateÄ¾ka software engineer asistentka predaja podpredseda europarlamentu advokÃ¡tka podnikateÄ¾, Å¡portovec environmentalistka poslanec parlamentu producentka, expertka na kultÃºru podpredsednÃ­Äka samosprÃ¡vneho kraja europoslanec prÃ¡vniÄka ekonÃ³m manaÅ¾Ã©rka Å¡kÃ´l a Å¡kolskÃ½ch zariadenÃ­ expert na zdravotnÃ­ctvo bezpeÄnostnÃ½ expert manaÅ¾Ã©rka dopravy podpredseda samosprÃ¡vneho kraja teolÃ³g, tlmoÄnÃ­k manaÅ¾Ã©r kultÃºrneho centra regionÃ¡lna koordinÃ¡torka humanitÃ¡rnej organizÃ¡cie prÃ¡vnik expertka na Å¡kolstvo a vzdelÃ¡vanie viceprezident medzinÃ¡rodnej spoloÄnosti vicestarostka pre Å¡kolstvo, kultÃºru a sociÃ¡lne veci mestskÃ½ poslanec prÃ¡vniÄka, manaÅ¾Ã©rka expert na digitalizÃ¡ciu obchodnÃ¡ manaÅ¾Ã©rka starosta obce riaditeÄ¾ka odboru procesnÃ½ IT Å¡pecialista Å¡tudentka, miestna poslankyÅˆa prÃ¡vnik, ekonÃ³m samostatnÃ¡ radkyÅˆa, odbornÃ¡ garantka v sociÃ¡lnych sluÅ¾bÃ¡ch humanitÃ¡rny pracovnÃ­k politickÃ¡ poradkyÅˆa europoslanca riaditeÄ¾ kultÃºrno-vzdelÃ¡vacieho centra vysokoÅ¡kolskÃ¡ uÄiteÄ¾ka mestskÃ½ poslanec, cykloaktivista zÃ¡stupkyÅˆa Å¡koly predseda mlÃ¡deÅ¾nÃ­ckej organizÃ¡cie, Å¡tudent, Å¾ivnostnÃ­k profesionÃ¡lny nÃ¡hradnÃ½ rodiÄ PR konzultantka manaÅ¾Ã©r, pedagÃ³g konateÄ¾ka firmy riaditeÄ¾ sekcie sociÃ¡lnych vecÃ­ vedeckÃ¡ pracovnÃ­Äka sestra, vysokoÅ¡kolskÃ½ pedagogickÃ½ zamestnanec manaÅ¾Ã©rka, miestna poslankyÅˆa key account manager finanÄnÃ¡ maklÃ©rka koordinÃ¡tor prÃ¡ce s mlÃ¡deÅ¾ou metodik uÄiteÄ¾ka profesijnÃ©ho rozvoja obchodno-technickÃ½ riaditeÄ¾ konzultantka konateÄ¾ka spoloÄnosti zÃ¡stupca starostu mestskej Äasti, procesnÃ½ manaÅ¾Ã©r hlavnÃ¡ radkyÅˆa sprÃ¡vca infraÅ¡truktÃºry Å¡tudentka environmentÃ¡lnych Å¡tÃºdiÃ­ a sociÃ¡lnej politiky lekÃ¡r odbornÃ­Äka pre duÃ¡lne vzdelÃ¡vanie informatik, ekonÃ³m, mestskÃ½ poslanec stredoÅ¡kolskÃ¡ uÄiteÄ¾ka, lektorka majiteÄ¾ stavebnej firmy Å¡tÃ¡tna zamestnankyÅˆa v oblasti sociÃ¡lnych vecÃ­, prÃ¡ce a rodiny vysokoÅ¡kolskÃ½ pedagÃ³g enviro-aktivistka, finanÄnÃ¡ analytiÄka IT projektovÃ½ manaÅ¾Ã©r Å¡tudentka, stÃ¡Å¾istka v prezidentskom palÃ¡ci architekt marketingovÃ½ riaditeÄ¾ bezpeÄnostnÃ¡ techniÄka manaÅ¾Ã©r nÃ¡kupu stavebnÃ½ inÅ¾inier permakultÃºrna dizajnÃ©rka, lektorka obÄianska aktivistka manaÅ¾Ã©r IT analytik prekladateÄ¾ka business development manaÅ¾Ã©r vÃ½skumnÃ­k marketingovÃ¡ koordinÃ¡torka pre internacionalizÃ¡ciu vzdelÃ¡vania miestny poslanec, finanÄnÃ½ analytik vedÃºca mestskej galÃ©rie Å¡tÃ¡tna radkyÅˆa projektovÃ½ koordinÃ¡tor turnajov apretekov, event manaÅ¾Ã©r, miestny poslanec analytik informaÄnÃ½ch technolÃ³giÃ­ hlavnÃ¡ ÃºÄtovnÃ­Äka osobnÃ½ bankÃ¡r analytiÄka Å¡tudent, prÃ¡vny asistent projektovÃ½ Å¡pecialista prÃ¡vniÄka v zdravotnÃ­ctve riaditeÄ¾ poÄÃ­taÄovej Å¡koly rodiÄovskÃ¡ dovolenka obchodnÃ½ manaÅ¾Ã©r finanÄnÃ¡ manaÅ¾Ã©rka finanÄnÃ½ manaÅ¾Ã©r, miestny poslanec stredoÅ¡kolskÃ¡ uÄiteÄ¾ka poslanec mestskej Äasti, Å¾ivnostnÃ­k Å¡pecialistka pre Ä¾udskÃ© zdroje Å¾ivnostnÃ­k v oblasti cestovnÃ©ho ruchu projektovÃ¡ manaÅ¾Ã©rka, terapeutka komunitnÃ½ koordinÃ¡tor konateÄ¾ka projektovÃ½ manaÅ¾Ã©r, obÄiansky aktivista underwriting asistent podpora predaja a sluÅ¾ieb manaÅ¾Ã©r pre komunikÃ¡ciu a eventy rodiÄovskÃ¡ dovolenka, finanÄnÃ© a realitnÃ© poradenstvo ÃºradnÃ­Äka vo verejnej sprÃ¡ve Å¡tudent, lektor odbornÃ­k na smart technolÃ³gie marketingovÃ½ poradca riaditeÄ¾ka odboru informatiky aplikaÄnÃ½ Å¡pecialista ekonomickÃ¡ expertka analytiÄka v poÄ¾nohospodÃ¡rstve a potravinÃ¡rskom priemysle psychologickÃ¡ poradkyÅˆa a dÃ´chodkyÅˆa tlmoÄnÃ­Äka posunkovej reÄi vedÃºci dopravy stavebnÃ½ technik sociÃ¡lny pracovnÃ­k predajca nutriÄnÃ¡ poradkyÅˆa barman pedagÃ³g vodiÄ kamiÃ³nu riaditeÄ¾ka Å¡koly asistentka uÄiteÄ¾a vychovÃ¡vateÄ¾ka asistentka riaditeÄ¾a asistentka teamleader pracovnÃ­k pohrebnej sluÅ¾by zvÃ¡raÄ laborant automechanik Å¡tudent developer telekomunikaÄnÃ½ Å¡pecialista brigÃ¡dnik administratÃ­vny pracovnÃ­k stavebnÃ½ robotnÃ­k kuchÃ¡rka servÃ­rka operÃ¡torka dÃ´chodca - ekonÃ³m ekonomickÃ½ poradca dÃ´chodca - profesor dÃ´chodca - podnikateÄ¾ mÃ³dna nÃ¡vrhÃ¡rka dÃ´chodca - poradca zdravotnÃ¡ sestra predsednÃ­Äka samosprÃ¡vneho kraja krÃ­zovÃ½ manaÅ¾Ã©r ekonomickÃ½ riaditeÄ¾ predseda samosprÃ¡vneho kraja obÄiansky aktivista, vedÃºci mediÃ¡lneho tÃ­mu nÃ¡mestnÃ­Äka pre oÅ¡etrovateÄ¾skÃº starostlivosÅ¥ detskÃ½ kardiolÃ³g, poslanec parlamentu poslanec parlamentu, bojovnÃ­k proti hazardu poslankyÅˆa parlamentu, politologiÄka, prÃ¡vniÄka prÃ¡vnik, protikorupÄnÃ½ aktivista poslanec parlamentu, uÄiteÄ¾ generÃ¡lny manaÅ¾Ã©r poslankyÅˆa poslanec pracovnÃ­k v energetike starostka zÃ¡stupca starostu psychologiÄka, asistentka poslanca poslankyÅˆa parlamentu diplomovanÃ¡ sestra, poslankyÅˆa poslankyÅˆa parlamentu, architektka prednosta okresnÃ©ho Ãºradu zÃ¡stupca primÃ¡tora uÄiteÄ¾ riaditeÄ¾ neziskovej organizÃ¡cie audÃ­tor - manaÅ¾Ã©r poslanec parlamentu, teolÃ³g Å¡portovec senior projektovÃ½ koordinÃ¡tor prednostka okresnÃ©ho Ãºradu geodet a kartograf softvÃ©rovÃ½ inÅ¾inier manaÅ¾Ã©r zariadenia sociÃ¡lnych sluÅ¾ieb a Å¡koly pre Å¾iakov s autizmom ekonomicko - technickÃ½ manaÅ¾Ã©r riaditeÄ¾ hotela Å¾ivnostnÃ­k kameraman odbornÃ¡ asistentka riaditeÄ¾ divadla koordinÃ¡tor mlÃ¡deÅ¾e techniÄka v neurologickej ambulancii okresnÃ½ Ãºrad, hlavnÃ½ radca expertka na medzinÃ¡rodnÃ© vzÅ¥ahy, odbornÃ¡ podpora SlovÃ¡kov Å¾ijÃºcich v zahraniÄÃ­ asistent poslanca konateÄ¾ spoloÄnosti, Å¾ivnostnÃ­k uÄiteÄ¾, lektor cudzÃ­ch jazykov riaditeÄ¾ spoloÄnosti konateÄ¾ spoloÄnosti vedÃºci oddelenia sprÃ¡vy registratÃºry uÄiteÄ¾, Å¾ivnostnÃ­k podnikateÄ¾, IT expert zdravotnÃ­k sestra konateÄ¾ firmy - autoservis moderÃ¡tor riaditeÄ¾ka zariadenia pre seniorov odbornÃ­Äka na dane a ÃºÄtovnÃ­ctvo sales specialist riaditeÄ¾ zariadenia sociÃ¡lnych sluÅ¾ieb stredoÅ¡kolskÃ½ uÄiteÄ¾, Å¾ivnostnÃ­k sociÃ¡lna pedagogiÄka procesnÃ½ manaÅ¾Ã©r strojnÃ½ inÅ¾inier lekÃ¡rka, vysokoÅ¡kolskÃ¡ pedagogiÄka konzultant informaÄnÃ½ch technolÃ³giÃ­, sprÃ¡vca nadÃ¡cie vedÃºci servisu lekÃ¡rka vysokoÅ¡kolskÃ½ profesor a zÃ¡stanca environmentÃ¡lnych a kresÅ¥anskÃ½ch hodnÃ´t generÃ¡lny riaditeÄ¾, predseda predstavenstva akciovej spoloÄnosti poslankyÅˆa parlamentu veriaca v silu ideÃ¡lov bojovnÃ­k proti mafii konateÄ¾ IT spoloÄnosti samostatne zÃ¡robkovo ÄinnÃ¡ osoba pracovnÃ­k sÃºkromnej bezpeÄnostnej sluÅ¾by organizÃ¡tor chiropraktik pracovnÃ­Äka exportu a logistiky Å¡kolnÃ­k grafik Å¾elezniÄiar signalista technologickÃ½ poradca bezpeÄnostnÃ½ pracovnÃ­k kormidelnÃ­k starobnÃ½ dÃ´chodca uÄiteÄ¾ka v materskej Å¡kole operÃ¡tor dokladaÄ tovaru profesionÃ¡lny rodiÄ manaÅ¾Ã©r logistiky uÄiteÄ¾ vysokej Å¡koly poÄ¾nohospodÃ¡r montÃ¡Å¾ny zÃ¡moÄnÃ­k majsterka strediska dopravy a oprÃ¡v energetik pokladnÃ­k vodiÄ autobusu agronÃ³m bezpeÄnostnÃ½ expert, generÃ¡l vo vÃ½sluÅ¾be projektovÃ½ a procesnÃ½ manaÅ¾Ã©r, IT Å¡pecialista prednostka mestskÃ©ho Ãºradu, podnikateÄ¾ka sociÃ¡lna poradkyÅˆa prÃ¡vnik - analytik stavbyvedÃºci konateÄ¾ a majiteÄ¾ spoloÄnosti vedÃºci prevÃ¡dzky office manager enviromentalista dÃ´chodca, rÃ¡dioelektronik projektantka, SZÄŒO SZÄŒO manaÅ¾Ã©r vÃ½roby riaditeÄ¾ka strednej Å¡koly zdravotnÃ­cky zÃ¡chranÃ¡r lekÃ¡r, medicÃ­nsky riaditeÄ¾ systÃ©movÃ¡ inÅ¾inierka podnikateÄ¾ - ÃºÄtovnÃ­k senior analytik manaÅ¾mentu rizÃ­k, vÄelÃ¡r finanÄnÃ½ podriadenÃ½ agent, SZÄŒO vedÃºca oddelenia compliance projektovÃ½ manaÅ¾Ã©r v agrosektore obchodnÃ½ zÃ¡stupca logistik IT manaÅ¾Ã©r vodiÄ medzinÃ¡rodnej kamiÃ³novej dopravy leteckÃ½ technik zÃ¡voznÃ­k produktovÃ½ a obchodnÃ½ manaÅ¾Ã©r ekonÃ³mka, Å¾enskÃ¡ sestra databÃ¡zovÃ½ Å¡pecialista customer support technician univerzitnÃ½ profesor ekonÃ³mka, dÃ´chodkyÅˆa riaditeÄ¾ka banky projektant elektroniky advokÃ¡t sociologiÄka, podnikateÄ¾ka konateÄ¾ s.r.o. programÃ¡tor strojnÃ½ zÃ¡moÄnÃ­k obvodnÃ½ lekÃ¡r ÃºradnÃ­k product portfolio manager technik BOZP, internÃ½ audÃ­tor, lektor pedagogickÃ½ zamestnanec ÄaÅ¡nÃ­Äka vÃ½robnÃ½ pracovnÃ­k zdravotnÃ­cky laborant, Å¡pecialista ochranca vÃ´d univerzÃ¡lny pracovnÃ­k poÄ¾nohospodÃ¡rsky inÅ¾inier umelec obchodnÃ­Äka podnikateÄ¾, politik mediÃ¡torka opernÃ½ a koncertnÃ½ sÃ³lista dÃ´chodca, politik sprÃ¡vkyÅˆa registratÃºry uÄiteÄ¾ka cudzÃ­ch jazykov opatrovateÄ¾ka, spisovateÄ¾ka majster vÃ½roby osobnÃ½ asistent zÃ¡chranÃ¡rka rÃ½chlej zdravotnÃ­ckej sluÅ¾by inÅ¡truktor autoÅ¡koly prezident politickej nadÃ¡cie predseda strany konzultant podpredseda strany primÃ¡tor podpredsednÃ­Äka kraja riaditeÄ¾ka obÄianskeho zdruÅ¾enia riaditeÄ¾ firmy manaÅ¾Ã©r v cestovnom ruchu a konzultant pre udrÅ¾ateÄ¾nÃ© podnikanie odbornÃ½ pracovnÃ­k riaditeÄ¾ divÃ­zie reklamy prednosta test analytiÄka riaditeÄ¾ tlaÄiarne bezpeÄnostnÃ½ expert, policajt vo vÃ½sluÅ¾be advokÃ¡tska koncipientka podnikateÄ¾ v poÄ¾nohospodÃ¡rstve projektovÃ½ inÅ¾inier VÅ  pedagÃ³g softvÃ©rovÃ½ architekt, prÃ¡vnik, aktivista riaditeÄ¾ka hotela podpredseda kraja ekonÃ³m - vedÃºci controllingu marketingovÃ¡ manaÅ¾Ã©rka, podnikateÄ¾ka samostatnÃ¡ zÃ¡robkovo ÄinnÃ¡ osoba samostatnÃ½ odbornÃ½ referent manaÅ¾Ã©r, stavebnÃ½ inÅ¾inier vedÃºci prepravnej spoloÄnosti advokÃ¡tsky koncipient zamestnankyÅˆa v Å¡tÃ¡tnej sprÃ¡ve podnikateÄ¾ vo finanÄnÃ½ch sluÅ¾bÃ¡ch marketingovÃ½ manaÅ¾Ã©r sÃºkromnÃ­k zubnÃ½ lekÃ¡r vedÃºca stavebnÃ©ho Ãºradu pedagogiÄka, mentorka technik BOZP zmenovÃ½ lÃ­der produktu - automotive IT technik zamestnanec vo verejnej sprÃ¡ve vedÃºca ekonomickÃ©ho Ãºseku pedagogickÃ¡ asistentka Å¡portovÃ½ trÃ©ner hlavnÃ¡ kontrolÃ³rka obce zÃ¡stupkyÅˆa starostu obchodnÃ½ riaditeÄ¾ vysokoÅ¡kolskÃ¡ pedagogiÄka analytik zÃ¡kaznÃ­ckeho centra event manaÅ¾Ã©rka manager manaÅ¾Ã©r predaja vÃ½skumnÃ­Äka produktovÃ½ manaÅ¾Ã©r office manaÅ¾Ã©rka Å¡tudent psycholÃ³gie kontrolÃ³r, prÃ¡vnik inÅ¾inier elektroenergetiky finanÄnÃ¡ kontrolÃ³rka asistentka pedagÃ³ga referent odbytu zamestnankyÅˆa vo verejnej sprÃ¡ve divadelnÃ½ manaÅ¾Ã©r vodiÄ sanitky riaditeÄ¾ podnikateÄ¾ v oblasti realÃ­t riadiaci pracovnÃ­k geofyzik metodiÄka obchodnÃ¡ zÃ¡stupkyÅˆa generÃ¡lny riaditeÄ¾ - manaÅ¾Ã©r politolÃ³g teamleader logistiky odbornÃ½ referent riaditeÄ¾ bezpeÄnostnej sluÅ¾by, konateÄ¾ poslankyÅˆa obecnÃ©ho zastupiteÄ¾stva pracovnÃ­Äka strÃ¡Å¾nej sluÅ¾by slobodnÃ© povolanie pracovnÃ­k strÃ¡Å¾nej sluÅ¾by asistent predaja pracovnÃ­k vlastnej ochrany dobrovoÄ¾ne nezamestnanÃ½ operÃ¡tor logistiky systÃ©movÃ½ inÅ¾inier majster ÃºdrÅ¾by koÄ¾ajovÃ½ch tratÃ­ banskÃ½ pracovnÃ­k obsluha parkovÃ­sk predavaÄka pedagogiÄka a aktivistka za regulÃ¡ciu elektrosmogu fyzik a aktivista za regulÃ¡ciu elektrosmogu na dÃ´chodku finanÄnÃ½ analytik, poslanec parlamentu expert komunikÃ¡cie prÃ¡vnik, sociolÃ³g, poslanec parlamentu predseda sprÃ¡vy Å¡tÃ¡tnych hmotnÃ½ch rezerv generÃ¡lny manaÅ¾Ã©r politickej strany vydavateÄ¾, expert pre enviromentÃ¡lnu politiku manaÅ¾Ã©r, ekonÃ³m poslanec parlamentu, advokÃ¡t potravinÃ¡rsky inÅ¾inier vysokoÅ¡kolskÃ½ uÄiteÄ¾, vedec asistent poslanca parlamentu Å¡portovÃ½ manaÅ¾Ã©r konzultant v priemysle sociolÃ³g ekonÃ³m, manaÅ¾Ã©r, podnikateÄ¾ riaditeÄ¾ sociÃ¡lnej poisÅ¥ovne predseda mestskÃ©ho hokejovÃ©ho klubu manaÅ¾Ã©r spoloÄnosti projektant predseda predstavenstva Å¡peciÃ¡lna pedagogiÄka lekÃ¡r samosprÃ¡vneho kraja Å¡pecialista na dodÃ¡vateÄ¾skÃº kvalitu v automotive starosta mestskej Äasti poradca predsedu samosprÃ¡vneho kraja pre Å¡kolstvo IT konzultant odbornÃ¡ zamestnankyÅˆa v sociÃ¡lnej oblasti veterinÃ¡rny lekÃ¡r finanÄnÃ½ kontrolÃ³r vedÃºci referÃ¡tu magistrÃ¡tu mesta hlavnÃ½ Å¡tÃ¡tny radca vÃ½vojÃ¡r pre elektronickÃ© vzdelÃ¡vanie manaÅ¾Ã©rka v energetickej spoloÄnosti vÃ½konnÃ½ riaditeÄ¾ manaÅ¾Ã©rka, podnikateÄ¾ka manaÅ¾Ã©r, prekladateÄ¾ Å¡tÃ¡tny radca remeselnÃ­k a filmÃ¡r metodik zabezpeÄovacej techniky leteckej dopravy riaditeÄ¾ prÃ­spevkovej organizÃ¡cie farmaceut manaÅ¾Ã©r prÃ­pravy investÃ­ciÃ­ poslanec samosprÃ¡vneho kraja ekonomickÃ½ diplomat, podnikateÄ¾ generÃ¡lny riaditeÄ¾ zootechnik riaditeÄ¾ a konateÄ¾ marketingovÃ¡ riaditeÄ¾ka poslanec VÃšC, poslanec mesta prÃ¡vniÄka, asistentka poslanca parlamentu krÃ­zovÃ¡ manaÅ¾Ã©rka vysokoÅ¡kolskÃ½ uÄiteÄ¾ prÃ¡vniÄka v oblasti liekovej politiky komunikaÄnÃ¡ Å¡pecialistka Å¡pecialista sprÃ¡vy zmlÃºv pre vÃ½kup elektriny dohÄ¾ad nad dodrÅ¾iavanÃ­m pravidiel lesnÃ­k jadrovÃ½ chemik podnikateÄ¾ v kultÃºrno-kreatÃ­vnom priemysle finanÄnÃ½ riaditeÄ¾ riaditeÄ¾ a konateÄ¾ vÃ½robnej spoloÄnosti manaÅ¾Ã©r strojÃ¡rskej spoloÄnosti obchodnÃ­k sprÃ¡vca operaÄnÃ½ch systÃ©mov asistentka poslankyne analytik dÃ¡t IT architekt, programÃ¡tor chief integration officer poslanec slovenskÃ©ho parlamentu poslankyÅˆa slovenskÃ©ho parlamentu poslankyÅˆa slovenskÃ©ho parlamentu, poslankyÅˆa samosprÃ¡vneho kraja poslanec slovenskÃ©ho parlamentu, poslanec samosprÃ¡vneho kraja politologiÄka primÃ¡tor mesta viceprimÃ¡tor mesta riaditeÄ¾ Ãºradu prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny sÃºkromnÃ¡ podnikateÄ¾ka koordinÃ¡tor projektov bankovÃ½ policajt generÃ¡lna Å¡tÃ¡tna radkyÅˆa IT architekt, asistent poslanca nÃ¡rodnej rady mestskÃ½ policajt konateÄ¾ sociÃ¡lneho podniku stredoÅ¡kolskÃ½ pedagÃ³g a inÅ¡truktor ekonÃ³m, manaÅ¾Ã©r riaditeÄ¾ poboÄky sociÃ¡lnej poisÅ¥ovne Å¡pecializovanÃ¡ detskÃ¡ sestra manaÅ¾Ã©r v Å¾elezniÄnej doprave, ÃºstrednÃ½ dispeÄer Å¡pecialistka pre vÃ½ber a nÃ¡bor zamestnancov vedÃºci lekÃ¡rnik riaditeÄ¾ poboÄky sociÃ¡lnej poistovne samostatnÃ½ radca riaditeÄ¾ka odboru Ãºradu prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny odbornÃ½ radca - inÅ¡pektor prÃ¡vnik, koordinÃ¡tor v kresÅ¥anskom spoloÄenstve riaditeÄ¾ka Ãºradu prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny odbornÃ½ koordinÃ¡tor riaditeÄ¾ka poboÄky sociÃ¡lnej poisÅ¥ovne riaditeÄ¾ stavebnej spoloÄnosti expert pre Å¾ivotnÃ© prostredie radca na nÃ¡rodnom inÅ¡pektorÃ¡te prÃ¡ce prevÃ¡dzkar sprÃ¡vca poÄÃ­taÄovej siete finanÄnÃ½ poradca riaditeÄ¾ IT oddelenia prednosta mestskÃ©ho Ãºradu realitnÃ¡ maklÃ©rka riaditeÄ¾ zÃ¡kladnej Å¡koly vÃ½pravca trolejbusov operÃ¡torka vo vÃ½skume riaditeÄ¾ka materskej Å¡koly zamestnankyÅˆa Ãºradu prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny materskÃ¡ dovolenka riaditeÄ¾ka traÅ¥ovÃ½ robotnÃ­k samostatnÃ¡ radkyÅˆa expertka prÃ­pravy platidiel pilot praktickÃ¡ sestra radca na Ãºrade prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny medicÃ­nska reprezentantka samostatnÃ¡ radkyÅˆa na Ãºrade prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny referent ekonomickÃ©ho oddelenia odbornÃ¡ poradkyÅˆa starobnÃ¡ dÃ´chodkyÅˆa radkyÅˆa na Ãºrade prÃ¡ce, sociÃ¡lnych vecÃ­ a rodiny sociologiÄka, spisovateÄ¾ka vedec, uÄiteÄ¾ na vysokej Å¡kole manaÅ¾Ã©r v energetike klavirista, skladateÄ¾ manaÅ¾Ã©rka obchodnÃ©ho domu vedÃºci oddelenia manaÅ¾Ã©r sluÅ¾ieb mesta finanÄnÃ¡ sprostredkovateÄ¾ka regionÃ¡lny obchodnÃ½ manaÅ¾Ã©r dÃ¡tovÃ¡ analytiÄka vedÃºci Å¡koliaceho centra riaditeÄ¾ka realitnej kancelÃ¡rie inÅ¡pektor verejnÃ©ho poriadku customer service agent stavebnÃ½ dozor podnikateÄ¾, rÃ³msky aktivista technolÃ³g poradca v stavebnÃ­ctve montÃ¡Å¾nik verejnÃ¡ sluÅ¾ba chemik, operÃ¡tor softvÃ©rovÃ½ developer Å¡tudent prÃ¡va veterinÃ¡rny technik IT manaÅ¾Ã©r, odborÃ¡r starosta, lesnÃ½ inÅ¾inier konateÄ¾, Å¡portovÃ½ manaÅ¾Ã©r poslanec nÃ¡rodnej rady krajskÃ½ predseda bezpeÄnostnÃ½ manaÅ¾Ã©r advokÃ¡t, legislatÃ­vny poradca samostatne hospodÃ¡riaci roÄ¾nÃ­k riaditeÄ¾ka kancelÃ¡rie novinÃ¡rka publicista politolÃ³g, youtuber, vydavateÄ¾ poradkyÅˆa v poÄ¾nohospodÃ¡rstve dÃ´chodca, generÃ¡lporuÄÃ­k vo vÃ½sluÅ¾be manaÅ¾Ã©r pre stratÃ©giu starosta, poslanec VÃšC hlavnÃ¡ kontrolÃ³rka obcÃ­ odbornÃ¡ radkyÅˆa - personalistka vedÃºca sestra FNSP lekÃ¡rka - kardiologiÄka finanÄnÃ½ analytik, poslanec mestskÃ©ho zastupiteÄ¾stva poslanec VÃšC, poslanec mestskÃ©ho zastupiteÄ¾stva vÃ½sluhovÃ½ dÃ´chodca, Å¾ivnostnÃ­k asistent poslanca nÃ¡rodnej rady, riaditeÄ¾ kancelÃ¡rie Å¡tudentka prÃ¡va, Å¡portovkyÅˆa riaditeÄ¾ cirkevnÃ©ho gymnÃ¡zia administratÃ­vny pracovnÃ­k, poslanec obecnÃ©ho zastupiteÄ¾stva teolÃ³g, historik, podnikateÄ¾ reprezentaÄnÃ½ trÃ©ner v zÃ¡pasenÃ­ podnikateÄ¾, poslanec mestskÃ©ho zastupiteÄ¾stva Å¡tÃ¡tna zamestnankyÅˆa, predsednÃ­Äka odborovÃ©ho zvÃ¤zu justÃ­cie konateÄ¾ka, podpredsednÃ­Äka zdruÅ¾enia dopravcov personÃ¡lna manaÅ¾Ã©rka predÄasnÃ½ dÃ´chodca programÃ¡tor zariadenÃ­ Å¾ivnostnÃ­k, poslanec obecnÃ©ho zastupiteÄ¾stva, trÃ©ner lekÃ¡r - chirurg stavebnÃ½ manaÅ¾Ã©r ortopedickÃ½ technik servisnÃ½ technik bezpeÄnostnÃ½ technik pracovnÃ­k vo vÃ½robe, hÃ¡jnik reprezentaÄnÃ½ trÃ©ner vzpierania Å¾ivnostnÃ­k, poslanec obecnÃ©ho zastupiteÄ¾stva riaditeÄ¾ centra voÄ¾nÃ©ho Äasu sÃºkromnÃ½ podnikateÄ¾ - SZÄŒO starostka, psychologiÄka sÃºdny znalec, poslanec obecnÃ©ho zastupiteÄ¾stva zÃ¡stupkyÅˆa riaditeÄ¾a materskej Å¡koly asistent europoslanca mediÃ¡torka, poslankyÅˆa mestskÃ©ho zastupiteÄ¾stva Å¡Ã©fkuchÃ¡r energetickÃ¡ ombudsmanka, prÃ¡vniÄka lesnÃ­k, poslanec obecnÃ©ho zastupiteÄ¾stva vÃ½robnÃ½ riaditeÄ¾ rÃ¡diologickÃ½ technik Å¾ivnostnÃ­k, humanitÃ¡rny pracovnÃ­k konateÄ¾, poÄ¾nohospodÃ¡r pracovnÃ­k bezpeÄnostnej ochrany letiska chemik Å¡tÃ¡tna zamestnankyÅˆa, koordinÃ¡torka aktivaÄnÃ©ho centra manaÅ¾Ã©rka kvality v potravinÃ¡rstve vÃ½sluhovÃ¡ dÃ´chodkyÅˆa externÃ½ lektor na vysokej Å¡kole, ekonomickÃ½ poradca Å¡tÃ¡tna zamestnankyÅˆa - samostatnÃ¡ radkyÅˆa vedÃºci rybochovnÃ©ho strediska podnikateÄ¾ v stavebnÃ­ctve a reklame prÃ¡vniÄka, pedagogiÄka generÃ¡l vo vÃ½sluÅ¾be podnikateÄ¾, galerista kreatÃ­vny manaÅ¾Ã©r poslanec nÃ¡rodnej rady a predseda samosprÃ¡vneho kraja bezpeÄnostnÃ½ konzultant hovorca poslanec nÃ¡rodnej rady, starosta politickÃ½ analytik poslankyÅˆa nÃ¡rodnej rady asistent poslanca, expert pri projektoch v sociÃ¡lnej oblasti majster cestmajsterstva olympionik na dÃ´chodku referent dopravy kontrolÃ³r starsota obce konateÄ¾ mestskÃ©ho kultÃºrneho strediska riaditeÄ¾ strednej Å¡koly prÃ¡vnik - Å¡tÃ¡tny radca asistent poslanca nÃ¡rodnej rady viceprimÃ¡tor riaditeÄ¾ Å¡koly farmaceutickÃ¡ laborantka vedÃºci pracovnÃ­k hlavnÃ½ kontrolÃ³r mesta vedÃºci odboru koordinÃ¡tor vÃ½roby zÃ¡stupkyÅˆa primÃ¡tora mesta riadiaci pracovnÃ­k prevÃ¡dzkovÃ©ho Ãºseku operÃ¡torka linky 112 manaÅ¾Ã©r exteriÃ©rov a bytovÃ©ho fondu starostka obce inÅ¾inier dopravnÃ½ch stavieb podnikateÄ¾ka, expertka na verejnÃ© obstarÃ¡vanie, eurofondy a podporu malÃ½ch a strednÃ½ch podnikateÄ¾ov obchodno - technickÃ½ manaÅ¾Ã©r Å¡tÃ¡tny zamestnanec - prÃ­sluÅ¡nÃ­k finanÄnej sprÃ¡vy vedÃºci strediska riaditeÄ¾ka organizÃ¡cie znalec manaÅ¾Ã©r metodickÃ©ho riadenia koordinÃ¡tor logistiky publicista, predseda politickÃ©ho hnutia predseda vyÅ¡Å¡ieho ÃºzemnÃ©ho celku odbornÃ­k na samosprÃ¡vu podpredseda vyÅ¡Å¡ieho ÃºzemnÃ©ho celku vedÃºci kancelÃ¡rie primÃ¡tora olympionik sÃºdny znalec v odbore ochrana Å¾ivotnÃ©ho prostredia odbornÃ­k na mÃ©diÃ¡ vysokoÅ¡kolskÃ½ ÃºÄiteÄ¾ prorektorka pre vedu a doktorandskÃ© Å¡tÃºdium nÃ¡mestnÃ­k nemocnice asistentka poslanca parlamentu riaditeÄ¾ kancelÃ¡rie rektora podnikovÃ¡ prÃ¡vniÄka riaditeÄ¾ mÃºzea predseda Å¡portovÃ©ho zvÃ¤zu manaÅ¾Ã©r medzinÃ¡rodnej spoloÄnosti vedÃºca odboru okresnÃ©ho Ãºradu nÃ¡ÄelnÃ­k obecnej polÃ­cie referent pre ochranu lesa agromanaÅ¾Ã©r metodiÄka projektu dopravnÃ½ inÅ¾inier kultÃºrna manaÅ¾Ã©rka riaditeÄ¾ kultÃºrnej inÅ¡titÃºcie tlmoÄnÃ­k administratÃ­vna referentka vodiÄ dopravnej zdravotnej sluÅ¾by lekÃ¡r neurochirurg ekonÃ³m, konateÄ¾ spoloÄnosti riaditeÄ¾ centra Å¾elezniÄiar uÄiteÄ¾ka materskej Å¡koly stredoÅ¡kolskÃ¡ pedagogiÄka vedÃºci lesnej sprÃ¡vy stavebnÃ½ inÅ¾inier, riaditeÄ¾ spoloÄnosti vzÅ¥ahovÃ½ manaÅ¾Ã©r hasiÄ - zÃ¡chranÃ¡r predseda politickej strany, ekonÃ³m riaditeÄ¾ kolÃ©gia, historik organizÃ¡tor, projektovÃ½ manaÅ¾Ã©r pedagÃ³g, poslanec samosprÃ¡vneho kraja environmentÃ¡lny konzultant ekonÃ³mka, manaÅ¾Ã©rka Å¡tatutÃ¡r manaÅ¾Ã©rka cestovnÃ©ho ruchu kultÃºrny manaÅ¾Ã©r riaditeÄ¾ gymnÃ¡zia lekÃ¡rnik poslanec samosprÃ¡vneho kraja, zÃ¡stupca starostu predsednÃ­Äka agrÃ¡rnej komory marketingovÃ¡ manaÅ¾Ã©rka konateÄ¾, manaÅ¾Ã©r analytik pre Å¾ivotnÃ© prostredie Å¾ivnostnÃ­k, sprievodca cestovnÃ©ho ruchu historiÄka vedÃºci logistiky logistickÃ½ manaÅ¾Ã©r manaÅ¾Ã©r sociÃ¡lnych sluÅ¾ieb vedÃºci smeny uÄiteÄ¾ka primÃ¡rneho vzdelÃ¡vania samostatnÃ¡ odbornÃ¡ referentka chirurg generÃ¡lny sekretÃ¡r ekonomicko-prevÃ¡dzkovÃ½ nÃ¡mestnÃ­k pedagÃ³g, ekonÃ³m uÄiteÄ¾, trÃ©ner inÅ¾inier zÃ¡hradnÃ­ctva oblastnÃ½ riaditeÄ¾ poisÅ¥ovne novinÃ¡r, tlaÄovÃ½ tajomnÃ­k strany docent sociÃ¡lnej prÃ¡ce, romolÃ³g lesnÃ½ inÅ¾inier organizÃ¡tor podujatÃ­ prevÃ¡dzkovÃ½ manaÅ¾Ã©r Å¡peciÃ¡lny pedagÃ³g riaditeÄ¾ polikliniky majster prevÃ¡dzky vodovodov ekonomickÃ¡ a prÃ¡vna poradkyÅˆa technolÃ³g, podnikateÄ¾ poÄ¾nohospodÃ¡rsky manaÅ¾Ã©r vÃ½vojovÃ½ inÅ¾inier pedagÃ³g, zriaÄovateÄ¾ sÃºkromnÃ©ho gymnÃ¡zia inÅ¾inierka ekonÃ³mie PR manaÅ¾Ã©r elektromechanik kultÃºrny referent vodiÄ MHD poradca vedÃºci zmeny obchodnÃ½ zÃ¡stupca IT fotografka hardvÃ©rovÃ½ inÅ¾inier environmentÃ¡lny inÅ¾inier IT tester strojÃ¡r techniÄka triedenia a zberu masÃ©r ÄiastoÄnÃ½ invalid kuriÃ©r techniÄka evidencie logistiÄka vedÃºca predajne koordinÃ¡tor vzdelÃ¡vania IT riaditeÄ¾ka ZÅ  dÃ´hodca lodnÃ­k administratÃ­vna zamestnankyÅˆa mliekarenskÃ¡ robotnÃ­Äka Å¾eriavniÄka sÃºkromnÃ½ podnikateÄ¾, manaÅ¾Ã©r klientskÃ¡ pracovnÃ­Äka asistentka komunikÃ¡cie a marketingu manaÅ¾Ã©r - podnikateÄ¾ HR administrÃ¡tor konateÄ¾ obchodnej spoloÄnosti prÃ¡vnik obchodnej spoloÄnosti asistentka poslanca sÃºkromne hospodÃ¡riaci roÄ¾nÃ­k predseda obÄianskeho zdruÅ¾enia kontrolÃ³r trate inÅ¡pektor SZÄŒO, podnikateÄ¾ v stavebnÃ­ctve CNC programÃ¡tor - zoraÄovaÄ vedÃºci vÃ½roby zmenovÃ½ ÃºdrÅ¾bÃ¡r Å¾ivnostnÃ­k, kontrolÃ³r, predseda obÄianskeho zdruÅ¾enia zdravotnÃ­cka asistentka technickÃ½ manaÅ¾Ã©r invalidnÃ½ dÃ´chodca, Å¾ivnostnÃ­k logistik, Å¾ivnostnÃ­k administratÃ­vny pracovnÃ­k, referent veliteÄ¾ zmeny bezpeÄnostnej sluÅ¾by profesionÃ¡lny vodiÄ dispeÄerka poÅ¡tÃ¡rka pracovnÃ­k Äerpacej stanice Å¡tudentka vysokej Å¡koly technik - mechanik predseda odborovej organizÃ¡cie, technickÃ½ pracovnÃ­k zamestnanec strÃ¡Å¾nej sluÅ¾by predsednÃ­Äka obÄianskeho zdruÅ¾enia pracovnÃ­Äka obecnÃ©ho Ãºradu stavbÃ¡r inÅ¡talatÃ©r servisnÃ½ mechanik strojnÃ­k v kameÅˆolome protokolistka kuchÃ¡r primÃ¡rka oddelenia anestÃ©ziolÃ³gie a intenzÃ­vnej medicÃ­ny poslanec parlamentu, prÃ¡vnik prÃ¡vnik, protikorupÄnÃ½ expert riaditeÄ¾ka kancelÃ¡rie ministra expert pre rozvoj inovÃ¡ciÃ­ expert pre rozvoj Å¡portu vysokoÅ¡kolskÃ½ profesor umelkyÅˆa predsednÃ­Äka gymnastickÃ©ho klubu, poslankyÅˆa mestskÃ©ho zastupiteÄ¾stva marketingovÃ½ Å¡pecialista, konzultant advokÃ¡t, environmentÃ¡lny aktivista Å¡tÃ¡tny tajomnÃ­k zamestnanec v Å¡tÃ¡tnej sprÃ¡ve podnikateÄ¾ v odevnom priemysle dobrovoÄ¾nÃ­k prÃ¡vnik, expert na legislatÃ­vu a sociÃ¡lnu politiku manaÅ¾Ã©r zahraniÄnÃ©ho obchodu koordinÃ¡torka dennÃ©ho centra pre seniorov analytik zÃ¡padnÃ©ho balkÃ¡nu revÃ­zny technik senior IT lead autorizovanÃ½ statik podnikateÄ¾ - BOZP technik vysokoÅ¡kolskÃ½ pedagÃ³g, expert na vzdelÃ¡vanie biofyzik, elektrotechnickÃ½ inÅ¾inier dochÃ´dkyÅˆa expert v oblasti stavebnÃ­ctva finanÄnÃ¡ ÃºÄtovnÃ­Äka prÃ¡vnik, Å¡tÃ¡tny radca administratÃ­vny pracovnÃ­k, SZÄŒO IT analytiÄka expert na rozvoj informatizÃ¡cie hasiÄ - zÃ¡chranÃ¡r, veliteÄ¾ druÅ¾stva zakladateÄ¾ rodinnej potravinÃ¡rskej firmy ekonÃ³mka - ÃºÄtovnÃ­Äka recepÄnÃ¡ vodiÄ taxisluÅ¾by Å¡tudent, marketingovÃ½ manaÅ¾Ã©r vedÃºci ekonomickÃ©ho Ãºseku ÃºÄtovnÃ­k odbornÃ­k na informatizÃ¡ciu technickÃ½ pracovnÃ­k sprÃ¡vca, ÃºdrÅ¾bÃ¡r technical deal manager pohÄ¾adÃ¡vkovÃ¡ analytiÄka elektrotechnik SZÄŒO finanÄnÃ¡ analytiÄka poradkyÅˆa, SZÄŒO prÃ¡vniÄka, vysokoÅ¡kolskÃ¡ uÄiteÄ¾ka lesnÃ­k, protikorupÄnÃ½ aktivista reÅ¾isÃ©rka novinÃ¡r, obÄiansky aktivista krajinnÃ½ architekt dizajnÃ©rka a protikorupÄnÃ¡ aktivistka uÄiteÄ¾, environmentalista autor odbornÃ½ch publikÃ¡ciÃ­ a lektor Å¾ivnostnÃ­Äka, zÃ¡stupkyÅˆa opatrovateÄ¾ov europoslankyÅˆa analytik talentovÃ½ kouÄ a mentor riaditeÄ¾ cirkevnej Å¡koly generÃ¡lny manaÅ¾Ã©r hnutia manaÅ¾Ã©r sÃºkromnej siete Å¡kÃ´l nÃ¡mestnÃ­Äka primÃ¡tora vysokoÅ¡kolskÃ½ uÄiteÄ¾, dekan fakulty poslankyÅˆa samosprÃ¡vneho kraja evanjelizÃ¡tor, prekladateÄ¾ - tlmoÄnÃ­k z AJ riaditeÄ¾ka gymnÃ¡zia riaditeÄ¾ka sociÃ¡lnych sluÅ¾ieb konateÄ¾ spoloÄnosti v oblasti lesnÃ­ctva profesionÃ¡lny hokejista humanitÃ¡rna pracovnÃ­Äka riaditeÄ¾ strednej technickej Å¡koly senior Å¡pecialista informaÄnÃ½ch technolÃ³giÃ­ architekt-urbanista riaditeÄ¾ka vysokoÅ¡kolskÃ©ho internÃ¡tu prednosta Ãºradu sociÃ¡lna pracovnÃ­Äka, lektorka vedÃºci pracovnÃ­k vo verejnej sprÃ¡ve hlavnÃ½ radca na katastrÃ¡lnom odbore uÄiteÄ¾ka zÃ¡kladnej Å¡koly konzultant, Å¾ivnostnÃ­k riaditeÄ¾ zariadenia pre seniorov predseda predstavenstva firmy riaditeÄ¾ domova na polceste riaditeÄ¾ka strednej zdravotnÃ­ckej Å¡koly realitnÃ½ maklÃ©r manaÅ¾Ã©r v zahraniÄnej spoloÄnosti charitnÃ½ pracovnÃ­k koordinÃ¡tor potravinovej a materiÃ¡lnej pomoci projektovÃ¡ a finanÄnÃ¡ manaÅ¾Ã©rka biblista, uÄiteÄ¾ evanjelickÃ½ farÃ¡r fotogrameter Å¡pecialista prevÃ¡dzky atÃ³movej elektrÃ¡rne architekt, vysokoÅ¡kolskÃ½ pedagÃ³g stredoÅ¡kolskÃ½ pedagÃ³g odbornÃ½ pracovnÃ­k komunitnÃ©ho centra architektka detskÃ½ lekÃ¡r obchodnÃ½ referent riaditeÄ¾ prÃ­spevkovej organizÃ¡cie mesta geodet vysokoÅ¡kolskÃ½ pedagÃ³g, dopravnÃ½ expert pracovnÃ­Äka v sociÃ¡lnych sluÅ¾bÃ¡ch vÃ½tvarnÃ­Äka, pedagogiÄka referent mestskÃ©ho Ãºradu programÃ¡tor - analytik stratÃ©g elektroenergetiky a expert na bytovÃº politiku Å¾ivnostnÃ­k - environmentalista dÃ¡tovÃ½ analytik pesniÄkÃ¡r, scÃ©nograf, publicista, dramatik finanÄnÃ½ manaÅ¾Ã©r zÃ¡chranÃ¡r obchodnÃ¡ diplomatka pedagogickÃ¡ pracovnÃ­Äka lekÃ¡rka - cievna chirurgiÄka Å¡pecialistka vyraÄovania jadrovÃ½ch zariadenÃ­ doktorandka asistent europoslanca, konateÄ¾ asistentka europoslanca zahraniÄnopolitickÃ½ poradca poslanec parlamentu, lekÃ¡r personÃ¡lna Å¡pecialistka Å¡portovÃ½ odbornÃ­k, manaÅ¾Ã©r vrcholovÃ½ manaÅ¾Ã©r odbornÃ½ garant predseda zdruÅ¾enia asistentka uÄiteÄ¾a na zÃ¡kladnej Å¡kole riaditeÄ¾ dopravnej spoloÄnosti ekolÃ³g, lesnÃ½ inÅ¾inier konateÄ¾, fyzioterapeut riaditeÄ¾ regionÃ¡lnej rozvojovej agentÃºry realitnÃ¡ poradkyÅˆa Å¾ivnostnÃ­k, statik obchodnÃ½ riaditeÄ¾ spoloÄnosti, poslanec mestskÃ©ho zastupiteÄ¾stva prevÃ¡dzkarka vedÃºci skladu burzovÃ½ maklÃ©r asistentka, podpora odbornÃ©ho Ãºtvaru Å¡Ã©fredaktor Äasopisu hlavnÃ½ inÅ¡pektor manaÅ¾Ã©rka neustÃ¡leho zlepÅ¡ovania procesov operÃ¡tor hlavnÃ©ho pultu referent kultÃºry vedÃºci ÃºdrÅ¾by sÃºdny znalec lektor energetiky bankovÃ¡ Å¡pecialistka knihovnÃ­k mechanik opravÃ¡r strojov a zariadenÃ­ manaÅ¾Ã©r prevÃ¡dzky farmaceutka manaÅ¾Ã©r realizÃ¡cie investiÄnÃ½ch projektov fyzioterapeut Å¡pecialista vychovÃ¡vateÄ¾ prednosta verejnoprospeÅ¡nej organizÃ¡cie, filolÃ³g, sÃºdny prekladateÄ¾ expert obsluhy robotov Bratislava Hamuliakovo Stupava KÃºtniky TopoÄ¾Äany RimavskÃ¡ Sobota Å½iar nad Hronom PreÅ¡ov VyÅ¡nÃ¡ Å ebastovÃ¡ DunajskÃ¡ LuÅ¾nÃ¡ Sabinov Turany KoÅ¡ice Hrachovo Å voÅ¡ov Å enkvice KÃ¡lnica PovaÅ¾skÃ¡ Bystrica VlÄany Poprad PrÃ­bovce HumennÃ© Jablonec Pezinok Krompachy BanskÃ¡ Å tiavnica MudroÅˆovo Å½ehÅˆa Vranov nad TopÄ¾ou MalÃ¡ TÅ•Åˆa Roztoky RoÅ¡tÃ¡r MiÅˆovce FiÄ¾akovo Streda nad Bodrogom Zvolen SlovenskÃ¡ Ä½upÄa Stropkov LekÃ¡rovce MalÄice SvidnÃ­k Snina VeÄ¾kÃ¡ Lomnica Trnava Radoma Bulhary Kalinov SmolnÃ­cka Huta Medzilaborce ZubnÃ© Vislava SpiÅ¡skÃ© Podhradie Gelnica ZÃ¡mutov NÃ¡lepkovo ChmeÄ¾ov Prakovce Brezovka VinnÃ© ZÃ¡vada Tuhrina ÄŒervenica BorÅ¡a Volica Lipany Havranec MalÃ¡ PoÄ¾ana Sielnica VeÄ¾kÃ© DvornÃ­ky AbrahÃ¡m BystriÄka HÃ´rka Å½ilina NovÃ¡ Dedinka Zuberec Hviezdoslavov BanskÃ¡ Bystrica MalÃ© Uherce HolÃ­Ä RevÃºca SuÄany KolÃ¡rovo Marianka Biely Kostol TrenÄÃ­n LiptovskÃ½ MikulÃ¡Å¡ Ivanka pri Dunaji LuÄenec SpiÅ¡skÃ¡ NovÃ¡ Ves DunajskÃ¡ Streda Michalovce Senec Å amorÃ­n VeÄ¾kÃ½ Å ariÅ¡ Detva Levice HriÅˆovÃ¡ SliaÄ Nitra Å trba HornÃ¡ PotÃ´Åˆ Bardejov VeÄ¾kÃ½ Grob Martin Myjava Budmerice Rochovce Rovinka Å ajdÃ­kove Humence SokoÄ¾ Fintice KeÅ¾marok SereÄ Golianovo NovÃ© ZÃ¡mky KomjatnÃ¡ StarÃ¡ Ä½ubovÅˆa TepliÄka nad VÃ¡hom NezbudskÃ¡ LÃºÄka Å tiavniÄka Madunice RuÅ¾omberok VeÄ¾kÃ© Uherce Kunerad SuchÃ¡ Hora FalkuÅ¡ovce DrahÅˆov VeliÄnÃ¡ PartizÃ¡nske Sliepkovce BytÄa Rosina Podhorie RajeckÃ© Teplice NesluÅ¡a Lokca LietavskÃ¡ SvinnÃ¡ - Babkov LiptovskÃ½ HrÃ¡dok VaÅ¾ec OravskÃ½ PodzÃ¡mok PieÅ¡Å¥any Å tiavnik BlatnÃ© Remety LiptovskÃ¡ Osada Bziny MarcelovÃ¡ BrezovÃ¡ pod Bradlom Nesvady BeÅˆadikovÃ¡ Bukovina SneÅ¾nica LiskovÃ¡ VÃ½chodnÃ¡ SpiÅ¡skÃ½ Å tiavnik BudÄa RÃºbaÅˆ Å aÄ¾a Prievidza ÄŒeÄ¾adice Hlohovec Selce VeÄ¾kÃ½ Äur Modra PlieÅ¡ovce SlovenskÃ½ Grob NiÅ¾nÃ¡ NovÃ¡ BaÅˆa DolnÃ¡ StrehovÃ¡ KolÃ¡rovice SvedernÃ­k LevoÄa SvÃ¤tÃ½ Jur HaliÄ KysuckÃ© NovÃ© Mesto HlbokÃ© nad VÃ¡hom TvrdoÅ¡Ã­n ChmeÄ¾nica BernolÃ¡kovo BolerÃ¡z DolnÃ½ Bar DolnÃ½ Å tÃ¡l TrebiÅ¡ov PoltÃ¡r VÃ¡hovce Jastrabie nad TopÄ¾ou ZlatÃ© Moravce MrÃ¡zovce SpiÅ¡skÃ½ Hrhov TornaÄ¾a TrenÄianske Jastrabie PÃºchov TurÄianske Teplice Kendice KrÃ¡sno nad Kysucou Medzibrod TrenÄianska TeplÃ¡ Senica SpiÅ¡skÃ© HanuÅ¡ovce VitanovÃ¡ Vydrany HornÃ© OreÅ¡any ÄŒadca TlmaÄe Makov Malacky BelÃ¡ KrÃ¡Ä¾ BadÃ­n TrenÄianske Teplice VeÄ¾kÃ© ÃšÄ¾any ZÃ¡lesie DolnÃ½ KubÃ­n StreÄno MalÃ© LevÃ¡re RimavskÃ© Janovce VrbovÃ© Chrenovec - Brusno Brezno PoproÄ SmiÅ¾any Limbach VyÅ¡nÃ½ KubÃ­n Bojnice Batizovce DvornÃ­ky Diviacka NovÃ¡ Ves DubovÃ© DojÄ Sobrance Brusno BrzotÃ­n Podkonice Poruba ZemplÃ­nska NovÃ¡ Ves PeÄovskÃ¡ NovÃ¡ Ves Å tÃ­tnik Moldava nad Bodvou DolnÃ© KoÄkovce RakovÃ¡ Drienov KalnÃ¡ nad Hronom SokoÄ¾any TuÅ¾ina DobÅ¡inÃ¡ Zbudza LednickÃ© Rovne VeÄ¾kÃ© KapuÅ¡any RoÅ¾Åˆava StarÃ¡ TurÃ¡ KrÃ¡Ä¾ovce Dargov ÄŒakanovce DolnÃ© Srnie SeÄovce PaÄa HrÄeÄ¾ Novosad MalÃ¡ DomaÅ¡a DlhÃ© KlÄovo Svit Padarovce OrechovÃ¡ PotÃ´Åˆ GabÄÃ­kovo Zavar KrÃ¡liky VeÄ¾kÃ½ KrtÃ­Å¡ KomÃ¡rno MÃ¡laÅ¡ Boliarov Ladmovce VeÄ¾kÃ½ Meder TeÅ¡edÃ­kovo HaÅ¾Ã­n nad Cirochou Trstice DolnÃ½ VadiÄov HajnÃ¡Äka Å½ihÃ¡rec ÄurÄoÅ¡ Slavec NovÃ¡ Dubnica Tajov Bukovec Povina Andovce HrubÃ½ Å Ãºr IÅ¾a ChrÃ¡mec Hurbanova Ves GemerskÃ½ Jablonec GeÄa Jazernica ZemnÃ© TomÃ¡Å¡ovce Dubnica nad VÃ¡hom BajÄ Ilava Bretejovce SpiÅ¡skÃ¡ BelÃ¡ ZemplÃ­nska Teplica ZlatÃ© Klasy Å pania Dolina LuÄatÃ­n Jovice KaloÅ¡a Bidovce TrebuÅ¡ovce ÄŒÃ¡ry MalÅ¾enice Pravenec Podbiel BuÄany PavÄina Lehota BÃ¡novce nad Bebravou Jablonka JelÅ¡ovce Jarok MalÃ½ Å ariÅ¡ Banka Torysa DolnÃ½ LopaÅ¡ov Stretavka KÃºty Gbely KovÃ¡ÄovÃ¡ PorÃºbka Budkovce BlatnÃ© ReviÅ¡tia TomÃ¡Å¡ikovo Gortva Å tÃºrovo KeÅ¥ IpeÄ¾skÃ© Predmostie Hronovce Lackovce VeÄ¾kÃ¡ Ves nad IpÄ¾om MalÃ½ LapÃ¡Å¡ RimavskÃ¡ SeÄ PanickÃ© Dravce Kysak Lendak Krupina HoliÅ¡a ProÄ Jur nad Hronom Å‡Ã¡rad RakÃºsy Å tvrtok na Ostrove BaÅ¡ka ÄŒechynce OlovÃ¡ry MatÃºÅ¡kovo ZÃ¡horce HornÃ¡ SeÄ LÃºÄ na Ostrove Radava VeÄ¾kÃ© KrÅ¡teÅˆany Vieska Jelka VeÄ¾kÃ© RaÅ¡kovce HandlovÃ¡ ChorvÃ¡tsky Grob VeÄ¾kÃ© Zlievce ÃšbreÅ¾ TomÃ¡Å¡ov Ä½ubotice NovÃ© Mesto nad VÃ¡hom ToÄnica LovinobaÅˆa Podolie Hurbanovo MoravskÃ½ SvÃ¤tÃ½ JÃ¡n Ostrov Rumince Leopoldov NedoÅ¾ery - Brezany SlovenskÃ¡ Ves TureÅˆ Nitrianske HrnÄiarovce Suchohrad PlavÃ© Vozokany Kremnica VrÃºtky Nitrica LuÄivnÃ¡ Dvorany nad Nitrou ÄŒermany Å Ãºrovce CerovÃ¡ PustÃ© ÄŒemernÃ© BoÅ¡any PreseÄ¾any HanuÅ¡ovce nad TopÄ¾ou JahodnÃ¡ Pata NahÃ¡Ä LovÄica - TrubÃ­n PleÅ¡ivec VeÄ¾kÃ¡ Dolina Visolaje Lozorno Prosiek Å ahy VeÄ¾kÃ© ZÃ¡luÅ¾ie TulÄÃ­k Drahovce Kalinkovo NiÅ¾nÃ½ Hrabovec ZÃ¡borskÃ© Rajec Skalica Tisovec Margecany BÃ¡nov VÃ­gÄ¾aÅ¡ KrÃ¡sny Brod JedÄ¾ovÃ© KostoÄ¾any SlovenskÃ© Pravno TrÃ¡vnik MokrÃ¡ LÃºka BzovÃ­k Pernek Å½abokreky nad Nitrou HornÃ¡ KrupÃ¡ Ivanovce Å tÃ´la HornÃ¡ Streda PohorelÃ¡ HnÃºÅ¡Å¥a Brestovec Urmince Å urany NemeÄky PodolÃ­nec Habovka StrelnÃ­ky ÄŒervenÃ­k SeÅˆa KapuÅ¡ianske KÄ¾aÄany Kuzmice Ivanka pri Nitre Rudno nad Hronom KoÅ¡Å¥any nad Turcom Cabaj - ÄŒÃ¡por SlÃ¡dkoviÄovo OstrÃ½ GrÃºÅˆ Å½arnovica Letanovce SpiÅ¡skÃ© Vlachy KameniÄnÃ¡ KÄ¾ak Jablonica Miloslavov Obyce Majerovce Smolenice Diviaky nad Nitricou SolÄany Moravany nad VÃ¡hom HornÃ¡ Poruba SkaÄany KysuckÃ½ Lieskovec LÃ¡b RadoÄ¾a Lazisko ZvolenskÃ¡ Slatina Klin Beckov CÃ­fer KoÅ¡ickÃ© OÄ¾Å¡any BorskÃ½ MikulÃ¡Å¡ GranÄ - Petrovce KotrÄinÃ¡ LÃºÄka BeluÅ¡a Petrovice DolnÃ¡ Poruba LÃºÄky RybnÃ­k Valaliky DoÄ¾any ChotÄa ÄŒakajovce Å paÄince RudÅˆany ZÃ¡kamennÃ© Necpaly Lechnica Vinosady Kamenica nad Cirochou Jakubany MartinÄek Hnilec HornÃ© Saliby SklenÃ© HÃ¡jske ÄŒabalovce ÄŒaka HraÅ¡nÃ© ZemplÃ­nske HradiÅ¡te Beladice Dvory nad Å½itavou DÃºbravy NiÅ¾nÃ¡ Kamenica Å oporÅˆa LiptovskÃ¡ Sielnica Vrbov OravskÃ¡ LesnÃ¡ Poluvsie OÄovÃ¡ DohÅˆany NovÃ¡ LesnÃ¡ Blatnica StarÃ¡ Bystrica PraÅ¡ice PloskÃ© Patince Galanta BaÅ¡kovce HÃ´rka nad VÃ¡hom Drietoma Chtelnica Tisinec DuplÃ­n PrietrÅ¾ka KoÅ¡eckÃ© Podhradie LiptovskÃ½ JÃ¡n NÃ¡mestovo Nacina Ves KozÃ¡rovce TurÄianky TrstenÃ¡ HrnÄiarovce nad Parnou Kluknava KoteÅ¡ovÃ¡ ÄŒastÃ¡ Buzitka Å aÅ¡tÃ­n - StrÃ¡Å¾e HornÃ¡ SÃºÄa JÃ¡novce HlinÃ­k nad Hronom HornÃ¡ KrÃ¡Ä¾ovÃ¡ MikuÅ¡ovce LÃ¡tky Sedliacka DubovÃ¡ VeÄ¾kÃ© Blahovo RumanovÃ¡ HradiÅ¡te Turzovka ÄŒaÅˆa ZubÃ¡k Å ariÅ¡skÃ© ÄŒierne TurÄianske KÄ¾aÄany PrenÄov BeÅ¾ovce PruÅ¾ina KorytÃ¡rky ViniÄnÃ© SkalitÃ© HrabovÄÃ­k KoÅ¡Ãºty Å titÃ¡re BÃ¡tovce Janova Lehota Ladce Medzev BystrÃ¡ PeÄeÅˆady Medzany Å vedlÃ¡r KlokoÄov Dudince Kamienka PeÄeÅˆany ZemplÃ­nsky BranÄ KoÅ¡olnÃ¡ Lubina Majcichov VeÄ¾kÃ½ ÄŒepÄÃ­n TesÃ¡rske MlyÅˆany Lutila SpiÅ¡skÃ½ HruÅ¡ov ÄŒastkov KosorÃ­n Å½arnov OravskÃ¡ Poruba DedaÄov VeÄ¾kÃ¡ MaÄa KrÃ¡Ä¾ovskÃ½ Chlmec JesenskÃ© VrakÃºÅˆ MalÃ½ HoreÅ¡ KrÃ¡Ä¾ov Brod Barca Å½eliezovce DolnÃ© Saliby DebraÄ SvÃ¤tÃ½ Peter Dolinka Belina BaloÅˆ PerÃ­n - Chym DolnÃ© Obdokovce Somotor NovÃ¡ Vieska Gbelce ÄŒierna nad Tisou Å Ã­d PlÃ¡Å¡Å¥ovce Zalaba Biel BohÃºÅˆovo BÃ¡tka Radnovce SvodÃ­n VeÄ¾kÃ½ Kamenec StrÃ¡Å¾ne Vinica Strekov Buzica TopoÄ¾nÃ­ky OkoÄ MoÄa BaÄka TrhovÃ¡ HradskÃ¡ SvÃ¤tÃ¡ MÃ¡ria Silica OpatovskÃ¡ NovÃ¡ Ves Diakovce MuÅ¾la BardoÅˆovo VeÄ¾kÃ© Trakany Pohranice MartinovÃ¡ ÄŒenkovce ÄŒalovec FarnÃ¡ KrÃ¡snohorskÃ¡ DlhÃ¡ LÃºka ÄŒiÄarovce VeÄ¾kÃ½ Biel ValaskÃ¡ BelÃ¡ Tehla Hontianske Nemce Lesenice PodbrezovÃ¡ Vinodol Polomka ZlatnÃ­ky MalÃ½ KrtÃ­Å¡ ZÃ¡vadka nad Hronom MalÃ¡ ÄŒalomija VeÄ¾kÃ½ Lom SlaskÃ¡ UdavskÃ© BuÅ¡ince Dulovce Priechod Harmanec BÃ¡b Jakubov VyÅ¡nÃ© nad Hronom ValaskÃ¡ Zamarovce TopoÄ¾Äianky ZÃ¡hradnÃ© JablonovÃ© BacÃºrov DolnÃ¡ TrnÃ¡vka LÃºka Jatov PalÃ¡rikovo BodorovÃ¡ HiadeÄ¾ Å tiavnickÃ© Bane Zubrohlava ÄŒimhovÃ¡ KoÅ¡eca Forbasy LadomerskÃ¡ Vieska IÅˆa ÃšÄ¾any nad Å½itavou BanskÃ¡ BelÃ¡ Koniarovce Chvojnica Slovinky StrÃ¡Åˆavy MurÃ¡nska DlhÃ¡ LÃºka Podhradie DolnÃ¡ SÃºÄa KlokoÄ Å½bince KorÅˆa TrÃ¡vnica KotmanovÃ¡ PreÄÃ­n TekovskÃ© Nemce HornÃ¡ Lehota Brunovce Ludanice Habura Timoradza UtekÃ¡Ä RykynÄice TovarnÃ© HrubÃ¡ BorÅ¡a HruÅ¡tÃ­n Å½aÅ¡kov RabÄa HrabuÅ¡ice Kvetoslavov SuchÃ¡ nad Parnou Sebechleby ÄŒachtice ZaluÅ¾ice DolnÃ¡ Streda CigeÄ¾ Pavlice ÄŒervenÃ½ KlÃ¡Å¡tor RadoÅ¡ovce OndavskÃ© MatiaÅ¡ovce NemÅ¡ovÃ¡ NovÃ¡ Bystrica RÃ¡ztoÄno RejdovÃ¡ KruÅ¡etnica Brestovany OravskÃ¡ Polhora Gregorovce TerchovÃ¡ Soblahov Kovarce MalatinÃ¡ Brezovica VeÄ¾kÃ½ LapÃ¡Å¡ Giraltovce LoÅ¾Ã­n ZÃ¡vod UliÄ Å ariÅ¡skÃ¡ Poruba DolnÃ¡ Lehota BorÄice TepliÄka LÃºÄka HrachoviÅ¡te JelÅ¡ava VeÄ¾kÃ¡ LesnÃ¡ Zborov Zohor VÃ­Å¥az MalÃ© Ozorovce Radatice KrÅ¡kany ÄŒereÅˆany VeÄ¾kÃ© Ozorovce Å ariÅ¡skÃ© Sokolovce SlavoÅ¡ka Poriadie LiptovskÃ© RevÃºce DolnÃ© TrhoviÅ¡te DeviÄany SvÃ¤tÃ½ Anton LukoviÅ¡tia Lehota pod VtÃ¡Änikom ÄŒervenÃ½ HrÃ¡dok CinobaÅˆa Semerovo Rybany BorskÃ½ SvÃ¤tÃ½ Jur PlevnÃ­k - DrienovÃ© BeÅ¡eÅˆov TureckÃ¡ LiÄartovce OsuskÃ© MoÄenok MostovÃ¡ MoravskÃ© LieskovÃ© LiptovskÃ½ Trnovec MlynÃ¡rovce ModrÃ½ KameÅˆ Petrova Ves ÄŒierny Balog Ostratice Hatalov Donovaly  X    1                @     €   0@  À @`     P€      `   @pÀ     €à  €  	 	 À	
+  
+   
+°@ @	À`  
+ Ğ€  à   @ ğ  @   A    Á €     	 0á @ 	 @ À
+ P!   
+`A     `   p   €A @ ¡ € 
+  Á €°á € À ÀĞ! À  àA    ğa      ! ‚!   !"b" @"# ¢# €#$€€$ €$%€À% € %
+&Pà& €&  '  ' À'
+(0"( €()@B)   )*Pb*  * +`‚+ @+,p¢, €,  -€B -   -.‚. @. 	/ â / À/0Â0  01°â1   12À2 @23À 3   3  4ĞB4 €45à"5   56ğb6 @6 7 ƒ7   78£8   89 Ã9 À9:0‚:   :;0ã; @;<@<Â =P#=>`C>B ?pƒ?‚ @Pa@ A€£AÂ	 BƒB C@ƒCB!D£D‚ E£B	 "F€EÂ
+G ÃF H@âGIP=J°ãH	 #KpƒIB	 L  JÂ MÀÁK‚	NÀƒLB	O MÂ	PĞCN
+ Qà#O‚$RğcPB
+ S „Q‚
+ T¤RÂ
+ U SV TB%W@U‚X0¤VÂ
+ Y@„WZPÄXB[ƒY‚\`¤ZB  ]Pä[Â!&^pä\"$_0@ ]B#`°â^‚$a€_Â%	 b@‚`&c¤a'dĞ‚b(eC JÂ)'fPD cB*g€$dB+ h B e‚
+,i ¤f‚- j0@g.k €hÂ/lÀA i0$m dj1 nÀkÂ2o €lÂ3
+pp£m4q Ân5r°Äo6(sÀäp7 t‚qB8u0 	r‚9vĞ$	sÂ: wàät; &xğD	u<'y@‚v=z e	w>{…	xB
+?| %	y@ }ğ!	PB
+A ~0¥	zB àä{
+C)€ã|BD*@%	}‚E' ‚À	~   ƒá	  „ 
+€   …P%
+  †€B
+‚  ‡`e
+ƒ  !ˆ°C „  ‰p…
+…  
+Š 
+† Ä‹€Å
+‡ Ä
+	Œ°â
+ˆ  
+‰ Ä+ %Š  °Á
+‹ ÄĞ@Œ ‘Ğc D,’€  “ À
+ ”`¢ Ä	• À
+‘ „
+–À’ —°å“ Ä˜À”  
+™Ğ%•  š€â
+– ›d— Ä
+&œ@˜ Ä
+
+°`™  +à…š  -ŸP ›   0Àœ D ¡Pà „ ¢Ğ7 Ä £Ğ!  !!¤ğEŸ Ä"'¥ f   #( ¦ €¡ $§ğ¤¢ D%, ¨ÀÅ£  &© à¤ Ä'" ª€¥ D('«&¦  ) ¬ F§  *
+­Pa¨ „+
+ ®€‚© Ä,
+.¯° ª - °0F « D. ±ğÄ¬  /! ²ä­ „0" ³ğ®  1  ´@&¯  2µPF° Ä3# ¶Àb±  4$·ğ² Ä5
+,¸°£³ 6¹`Æ´ D7 ºÀâµ  8»Ğ¶  9 ¼p· „:  ½p&¸ D;! ¾€@¹ D<¿aº Ä
+=ÀC » 
+>
+Á €¼ Ä? Â0¢½  @ Ã`Á¾ A ÄĞâ¿ BÅğ À  C( Æ€&T DDÇFÁ  E È æ Â „F.ÉĞcÃ ÄG% Ê0`Ä ÄH ËÅ I Ì Æ J
+Í°ÆÇ DK' ÎàÈ  L&Ï@É  MĞ`"Ê ÄNÑP@Ë „O' Ò`Ì ÄP(,ÓÀæ	Í ÄQ ÔĞF Î RÕĞÏ S
+. ÖĞ DT!×à† Ñ ÄU)Ø€Ò V
+Ùà¡Ó „W+ ÚÀÔ X'ÛğBÕ  Y ÜğæÖ ÄZ İ × „ [
+ ŞÇØ Ä\ßp Ù ]*à GÚ D^ áĞ Û „_ âpdÜ Ä`ãĞƒİ a äĞ¢Ş  bå  ß c æ Àà Äd-ç0çá e- è â  fé@'ã Äg! ê@Dä h ë@Eå  i ì `æ  j íPgç Ä
+k î0†è l $ï`§é Dm  ğàÃê  n
+ñğaë „o  ò ¤ì pópçí  q ,ô€î Är(õgï Äs
+ ö #ğ Ät$÷ Gñ  u øĞbò „v ù`„ó w+
+ú°§ô „x û Àõ  yü€àö  zıÀ÷ Ä{ ş &˜  |ÿĞGø Ä} 
+  ágù ~ñ‡ã Ä ¨˜ €
+Èú D  ¡àû „‚+ñ ü  ƒ,' !ı „ñ$ş Ä…
+ ¡@ÿ  †	Qa ! ‡ " 
+1¢ !Äˆ!Q! ‰ ¨!ÄŠ.…!Ä‹  ÑÂ! Œ 1¨! áå!D
+'ñ! , q!	!ÄQ… 
+!D‘ ¡ !D’ÑC! “- qg!Ä” Aˆ! •/ à	1† 0ñ¢1ÆQ¡1Æ‘à 1F ‘D 1†áÃ1¡à1'á1F ¡@ 1F!Q1†	"¡B 1Æ
+!#!C 1
+$Q$1F%áD 1&±B 1F
+'£1†(Ag1 )‘ 1Æ*Á#!1Æ!+aˆ"1†,qH#1 -H $1†+.¡`%1F/Q@&1 0€'1†1áB (1Æ2¡ )1†,3‘È*1Æ   4a¡+1 5¡h,1 6ÑÃ-1 7å.1F  8±/1  9A%¾0† !  :ÁH01Æ" ;1@ 11#'<ÑH 21Æ $=@ 31 %
+>á¨41 &?ñ¨51F'0@i1(0A‰61)Bˆ71*CÑ‚81Æ+D!‰91†,EA`:1-1 F1I ;1.Gá¢‚0/Hq<1!0I±Â=1F!1
+J±â612&Kñb>13 LA©?14MQ‰81Æ5N¡€@1†6O1I A1†!7PB182Qá‡C1†9RàD1:#S!èE1;0T‘âF1Æ<#U±(	G1Æ=  Va)	G1Æ> WÑH1Æ!?2Xñ"	I1† @	 Y¡@ J1"AZqI	K1F"B-[ L1C\QD 1†"D]‘„M1F!E^1C N1Æ"F_!GO1#G `éP1F#Hañæ"0† I(b¡ãQ1†#JcáƒR1KdIS1FLe1é;1Mf¡@ T1Ng¡@ U1Æ#OháD 31$PiQ!	V1F$Qj@ W1FR,kI X1FS -l‘@ 31 Tm±`Y1FUnC X1FVo‘iZ1†$W p@ [1FX0q¡©1FYrAB 1F"ZsÑ¡¼0†[.t1à\1†\3u±i]1†]4vq„^1†^-wÁI_1†_5xÑ¤`1†`0ya¤a1†az¡Cb1Æ$b{aac1Fc#| d1%d0}B e1F%e-~Aef1Ff'±ag1†%g€Ñ‚h1Æ%hÑ i1Fi‚Ñ‰j1Fjƒ¡€k1Fk„Q„l1Fl…aÇm1Fm†áin1Fn‡ñé1Fo#ˆ±io1Fp ‰ado1FqŠêp1Fr‹ñF q1FsŒÑ@ r1FtáB s1&u&H 1F&vB t1†&w‘u1Æ&x ‘J v1'y3’áG w1F'z“Q$x1 { 6”ÁA y1†'|•‘„z1Æ'}	–g{1(~ —qC|1F( ˜q!}1 € ™‘@ ~1 š±â1 ‚#›c€1 ƒ7œá£1 „
+áƒ1 … #!ç‚1 †#Ÿ¡@ ƒ1†(‡% Qd„1 ˆ ¡Áâ
+…1Æ(‰ &¢áâ†1 Š8£ã‡1 ‹ ¤B ˆ1Œ*¥¡à‰1  5¦a©Š1)
+ §!ª‹1Æ ¨1ÃŒ1  9©1ê1 ‘:ªaá1† ’;«qƒ1† “9¬
+AH)  ­‘"‘A ®qA@ˆ)¯á’A °c“AÈ
+0±‰”AÈ)"²1 •AÈ#³q –A*' ´ÑÂ—A µH
+˜A 	 ¶à}A
+·ñ™A - ¸ñE
+šAH*¹Ä›AH ºÁ"œA +»ÑBAˆ¼ÁB
+Aˆ0½¡@
+Aˆ*¾±G
+BAÈ*¿ÑaŸA  Àáb AÁ‘@
+¡AÈ 	ÂC ¢A+Ã±‰£AÄq¤¤AˆÅQÄ¥AH+ÆAê¦Aˆ+$ Ç¡ §A.È¡@
+¨AÈÉ±)©AÈ
+0 ÊQI
+ªA#/ËÑC«AÈ, Ì1à ¬A! ÍG
+­AÈ
+!ÎQ*®AH"0ÏÁB
+¯AÈ+#Ğad°AÈ$1! ÑaŠ±A,%! Ò1@
+²AH,&2Ó¡ ³AH!'3#Ôá¢´AÈ(ÕaÂµAH) ,ÖqD¶AÈ*"×·Aˆ,+Ø¡@ ¸AÈ,,
+Ùqê¹A--Ú
+ ^A.4,ÛqAºAH-/ÜA" »A0İa!¼AH'1< Ş¡@ ½A2,ßÁC
+¾A3àñD¿Aˆ-4 á1i ÀAÈ-5âÀÁAˆ6ãÁ‚ ÂAH7 
+äñ¡ ÃAÈ8' åqÄA.9æ‘ ÅA:
+ç1À ÆA ; è1à ÇAH.< éa!ÈA=5ê1 !ÉAˆ>6 ëA ÊAÈ? ì¡@!ËAÈ
+@ +í¡ ÌAˆ.A7îGÍAÈ.B ïäÎAÈC1ğ‘j!ÏA/D
+ñQ!ĞAE! òáÑAÈF8óAIÒAH/G  ôñ¤ ÓAÈH õ@ÔAI öqDÕAˆ/J ÷qCÖAKø¡
+ ×A L   ù  ØAÈ/Múa¢!ÙA0NûñEÚAO ü±ª ÛAP
+!ı!Æ!ÜAQ.şä!İAH0R; ÿÑ@ ŞAˆ0S ÂjßAˆ)T- ’ "àAÈU*Â "áAÈ0V ‚B"âA1W
+"¢C ãAH1X  ÒJäAˆ1Y ÒàåAZ+RdæA [!%‚cçA\  	£èAH] 
+‚`"éAÈ1^
+’@ êA2_2‚"ëAH2`$…ìA a9	âª"íAb$¢À"îAˆ2c;’€ïAÈ2dòªğAˆe !’@ñAf
+ë"òA3g #óAH2h
+Â"#ôAÈ
+i ’D#õAH3j:Òa#öAˆ3k;  r„#÷AÈ3l
+ò øA4m  â #ùA n!‚úAo
+ K ûAH4p02CüAˆ4q‰ıAÈ4r0ÂâşAˆs* ²i#ÿAt; !"Ë Bu"BÀ#B v<; #"å#BHw= $ƒ|AÈx+%2À"A5y&&2Ã"Bz'‚ $B {+(BB BH5|)ãBˆ5} ;*’ $BÈ~0+2« BÈ5>% ,‚H$	B6€-b¢
+BH6 .Bk$Bˆ*‚/â‚$Bˆ6ƒ02‚BÈ„1’¤$BH… '2âB BÈ6†3‚¨B#‡ 4’à BÈ
+ˆ5’È$B7‰? 6ã$B Š,7¢€BH7‹8r BÈ-Œ 9 %BH:‚B
+BH-;ò!%B @+ <ÒJ%B A=Rd%Bˆ ‘>R€%B ’0?ò"%Bˆ7“4@RK
+B ”Aâ§%BÈ
+•!B# R
+ BCÃ% RÊ7DÂâ!RÊ# Er"RJF’Ä"#R
+8 G2@$RŠ(Hr„%R
+I #&R
+C
+JÒ'RÊ+Kâç%(RJ8	0Lbë)RŠ8
+35M2à*RÊ$Nâ&+RÊ8 O‚B,R
+9P¢à%-RJ9'Qr+	.RÊ4 RÒ€/RŠ95S2â0R
+ *T²#&1RÊ9UÒB&2R
++Vòa&3R
+: W4R
+ 
+Xr5RJ:Yrä6RŠ:ZÒê7RÊ
+ <[2€&8RÊ8 \²ã9RJ6 ;]2‚:RÊ:^Â|Q
+;_‚èJQJ;,`2 &;R
+  aÃ&<RŠ;
+brã=RÊ; ;c²i>RŠ!* d2B ?R
+<"#e¢à&@R
+#*fr£ARJ'$gƒBR
+ %h¢ 'ÅQJ<& i‚('CRŠ<'j¢ãDR
+"(k@'ERÊ)l²ãFRŠ*m GRÊ<+ nrAHR
+=,o2eIRJ=- p’äJRÊ.&qââKR
+/%rbâLRŠ09sbãMRŠ=1&t²`'NR
+2 u2 ORÊ=31vòaPR
+:45 w‚kQRJ25& xÂâRRŠ6y2€'SR
+7z2 'TR
+>80{RbURJ9* |2àVRÊ:D7}2gWR
+; ~’Ë'XR
+<% ²ãYRJ2=5€2ã'ZR
+> )¢'[RJ>?*‚R(\RŠ>@3ƒB$(]RÊ>A#„à^RŠB3…rD(_R
+?C†Ò'	`RJ?D ‡’äaR
+E*ˆ‚ bRŠ?F3‰¢àcR
+G*Š¢ãdRÊ=H3‹²i(eRJ-I Œ’„(fRÊJB¢(gRÊ?K²Ë(hR
+@L Òê?RJ@M52€iRŠ@N	‘²‡jRÊ@O
+’2à(kRÊP!“ÂK lbA  ”")mbLE•ÂënbLA–C ob F—ÒK pbŒA˜â+)qb ™òÁ
+rbŒ  š²ã
+sb›@)tbŒ20 œÒa)ubÌA	 €)vbB
++’eå` Ÿ‚¢)wbLB  òKxbŒB¡Ò*ybÌ,¢Âá zb  £ÒÀ){bL2	¤âà)|b; 
+¥ÒÀ}b ;¦²~bÌB§ŒbÌ
+¨Ò€€bC ;©’Êb0ª*‚bLC «²"*HbŒ ¬B*ƒb  5­¢@„bŒC ®Â %…b ¯j*†bL  °B„*‡bÌC ±r¡*ˆb ,²òÇ*‰bL0 ³âÂŠbD ´âã*‹bŒB!µE ŒbLD"¶ +b #%·*+bŒD$ ! ¸’B+bÌD%¹c+b &º"‘b'
+- »‚’b(%¼¢€+“b ),½2§+”b *
+¾âb•b + ¿’D–b, À¢À+—bŒ- Á2ì+˜bE.Â2 ,™bÌ/ 0Ã%,šb 0 Ä¢À‹`1 )Å2À›b2 Æ’œbLE3 
+ÇBä
+bŒE4 ÈRD,bÌE5É‚ ŸbF6G Êi, bLF7'Ëò(+¡bŒF8  ÌBÌ¢bL9Í‚,£b:Î¢A ¤b ;ÏB„¥bÌF<Ğ²£,¦bG= Ñ2‚*§bLG>ÒÒê¨bŒ%?,Ó‚
+©bŒG@Ô"¨ªbÌGAÕRL «bHBÖRÁ,å` C  ×2à,¬bD Ø‚­bŒE	Ù2-„bLF
+Úbì``LHGH=ÛÒcb H ÜÒ*-®bŒHII8İrL-¯bJ % ŞÒd-°bLK ßbC“bÌHL *à¢±bIMáŒ-²b N âã³b O ã -´bPJä‚Ì-µbŒQ å²â-¶b R =æ‚ .·bÌS ç .|aŒ2Tè¢@.¸bLIUéRl.¹bŒIV!ê’L ºb WëÀ»bÌIX'ì²	 ¼bJY   íR.½bŒZ  î¢@ ¾b[ïââ
+¿bLJ\ ğ‚ëÀb]
+
+ ñÒÉÁbŒJ^òò¥.ÂbL_óÒdÃb>` ô¢ )ÄbaõâÅÅbb-öRÌ.ÆbÌJc
+÷Òã.Çbd øB/ÈbGe0ù€!ÉbKf ú2Êbg( û¢*ËbLKhü²ÌbŒKi+ ı2àÍbFj1ş¼`Œ2k	 ÿâàÎb l+ £ƒÏbÌKm  óaĞbn £‘bo( “EÑbp £ /ÒbLDq03B/!aLr£à Ób s ƒ¢ÔbLLtÃb/ÕbLKu	³Œ/ÖbLv 
+ƒ¨/×b wÃì.Øbx £ÙbŒLy2£Ç/Úbz SaÛb { 4 ó‹*ÜbLL|#³ã/İrÎL  sƒŞrNó0ßr  ãHàr ³  árM  ³#0âr>&ÓL0ãrÎ
+K>Ãâ%är'SÄårNMÃ ær!	 Óc0çrÎ
+
+   3âèr3 érM9ãŒ0êrÎM óërN óŒìrNN  `írN  !Ó‰îrÎN0"Ãgïr1 #“Äğr!$£àñrOE%%ãâòrC4&ó¡órN 'ƒ«0ôr (³)	õrNO% )íör /*S¤)÷rO+£Â0ørÎO0,-	qN-& -³ ùrP .#íúrN'/ƒèûrN' 0ÃâürNP 1³iır!
+# 2#‡şrN"3	3ÓBÿrP#4#ã0 sÎP$53ms %9 6ƒ1sQ&
+7Cí%sNQ'! 8##1sQ(!9cC1ƒ  E%:Ók1ƒ   ;#ƒ1ƒ <S­1ƒP =ÓC	ƒPB >@ 
+ƒĞE ?óË1ƒP@“@ƒ*,Asì1ƒ  BCB ƒ 	 'CcmƒP
+!D£À1ƒ=HEÓ2ƒ  FsmÆ‚PLGƒB ƒ M$HSh€ĞQIãD ƒ NJÓ,2ƒAKsA2ƒ  L£à
+ƒ  M£c2„‚RNãaƒ   Oƒ€2
+ƒĞE PÓ"ƒO+Q3¢2ƒĞ=RƒÍ2ƒ  Sãâ2ƒ TE ƒPR
+Uó3ƒ V“-3ƒRW³B3ƒĞ)X ƒĞR Yãe3^  Zƒ€3!ƒ4!P[ã"ƒS"\³C #ƒ#8]ÃË$ƒB$!^£3%ƒ % _C$,&ƒ & `£C 'ƒP'QaCÀ3(ƒ( 0 bƒà3)ƒ )OcSa*ƒ* dÓÃ
++ƒPS+8 e£À",ƒ, &fã4-ƒ/- gC.ƒS. hÓJ/ƒĞS/ i“à
+v€ 0 !jÃ¡ 0ƒT1 kÓ$41ƒ 2 l³B42ƒPT3  m£`43ƒPB4nª-4ƒT50oC	5ƒĞ-6p£*6ƒĞT7q³47ƒ8  r£28ƒU9 	sƒ 49ƒ: tÃí ƒ ; uÓà
+:ƒĞ< v³ç ;ƒPU= +wÃ<ƒ> *x3 =ƒU?yŒ‚ĞU@ ;z“À4Ë‚+A{Óã4>ƒBR |35?ƒ'C3}3"5@ƒ4D~£@5AƒVE³k5BƒPVF&€ó‡5CƒVG 
+Ó£5DƒPBH ‚3¢Eƒ IƒS$FƒĞVJ„ÓÂ5GƒĞEK(…cl5HƒĞL	†óé5IƒM‡Ã6Jƒ N
+ˆ³#6KƒP'O‰Óê
+Lƒ7PŠÓM6MƒAQ  ‹ãm6NƒR ŒCeOƒ Só­ |WT“ PƒP6UGãQƒPWV £€6Rƒ W‘3æ Sƒ)X ’TƒWY
+“ãiUƒĞWZ ”nVƒ [  •#NWƒ \–óbXƒU]& —SL 7‚P4^!˜Ã«-|_0™nYƒC`; šÓB Zƒ/a›“@'[ƒb %œ3§6\ƒXc s ]ƒ d³É6^ƒĞ1e Ÿ3â6]ƒ f ãEƒĞg35¡CÈ‚PXh¢Óc_ƒ(i £Ã7`ƒPjH ¤ƒ‚1aƒ(k*¥“*bƒXl¦£ 7cƒm §óD7dƒ n ' ¨Cd7eƒPo#©À"fƒĞXp 'ª3gƒ q  «CDhƒYr¬£à+iƒ s­„7jƒPt ®“ækƒĞEu$¯£lƒĞEv
+
+°C®7mƒĞQw±À7lƒĞEx'²cä7nƒPYy ³8oƒz´Sá>ƒĞE{S+ µ³"h€|%¶£@ pƒ}·C$8qƒ~¸óJ8rƒY ¹³C sƒ€º£ h‚ĞY»Óa8tƒZ‚ ¼SìuƒĞƒE/½£@ vƒ„¾àwƒĞ…T ¿ƒÂ"xƒ† À3CyƒPV‡;ÁÃ zƒ ˆ   Âó„8{ƒ ‰ 
+ Ã#¦8|ƒTŠ"Ä£B}ƒ‹Å£@ ~ƒPZŒ 	ÆƒÂ¹‚;Ç³Á8ƒP
++ Èóä	€ƒZ Éã8h€3Êó ƒ$‘ Ë9‚ƒĞZ’ Ì)9ƒƒ[“U#Í£A9„ƒ ” Îã"9…“ E9ÏÆ
+†“ L0 ĞCe‡“R, ) ÑÓ`9ˆ“R[!Òã‰“ÒÓ“„9Š“  )ÔS®‹“ =ÕCD Œ“  ;Ö`“’[" ×c¤9“Ò[	 Øób“ 
+% ÙƒH“ Úcn‘“  * Û£€’“ !Ü@ ““\#İs ”“Ò
+ Şƒ® •“ $ß“Î9‘ àƒ(›’ÒáCâ š’R\.â£n–“RI ã£ë—“  )äD˜“Òå³n.™“’\æC š“R
+ ç³B›“ èâ9œ“Ò\ &éã:£” 0ê³":£”'ësŒ*Ÿ£Ô ì3B: £]íÓ`:f¢ÔîÃ:¡£1 ïã¨¢£T]' ğA££ñ3æ¤£”] 1òÓ
+/¥£ 	ó .à¡Ô]
+ôsƒ*¦£T]õÓn§£4	 öÓB¨£^V÷¡©£TBøãnª£  ùCD«£Ô	úƒ ¬£”]1 ûónª£   üã­£”7 #ı³â}¡T^*şó¡:®£”^ ÿ³Ç:¯£Ô^ dã:°£ O¢_   4 ;±£T!ã²£T2W# ;	¢ƒ*³£T]/;´£"äG;µ£Ô	Ti;£”	”€;¶£*  "
+Tä·£Ô7!"£;¸£" 0Ôc¹£ # ÄÂ;º£T'$&”„*»£T_%Ã¼£”_&´*½£Ô_'0 ´â;¾£Ô($<¿£`)! 4¯À£T`*ä(<Á£+  äB<Â£Ô
+,39ôE
+Ã³   ÄE
+Ä³ ÔCÅ³ +
+´IÆ³ DOÇ³Ö.tC
+“±–`X„@
+È³ „`É³ Y´G
+Ê³Ö@Z4@
+Ë³Ö`	[ ¤`<Ì³ 
+ 
+!TBÍ³  	 "ôBà² 3& #T<Î³ !$d¢<Ï³ %äB
+Ğ³Ö.&Däã² '4À<Ñ³V4(„è<Ò³ )Ä=Ó³  *´#=Ô³  '+4J=Õ³ 5,”d=Ö³V' -Š=×³–\,.D¤=Ø³ /ÄÃ=z² 0ƒÙ³1à=Ú³Ö ,2¤`Û³*3ÔcÜ³  + 4d>İ³V5” >Ş³  ,6ÄÀ#ß³V  7ÄB>à³
+!8ÄC ?°–"9”d>á³Ö4#:¤€>â³V$ ;„ ã³a% <äÂ"ä³Ö&;=4 -å³Ö'>¤@
+æ³ (]5?ª>ç³V) ,@ÔÂ>è³V*Atï>é³Va+ B„?ê³ ,GC´êë³Ö- DÔ‰ì³ .E„"?í³V[/ FTI?î³0'G„o?ï³ 1HÆ
+ğ³
+20 IÄ?ñ³V+3 J4â
+ò³14 Kä­?ó³50 L´Ã?ô³–a6^!M´ã?õ³V.7 Nd"9ö³VB8_,OÔæ÷³ 9 P„ @ø³V-:`Q$#9ù³Öa;0Rd#@ú³ <StD@û³–=TÔc@ü³ >  Uä„ı³Ö? *VÄE ş³V@$W€@ÿ³ A
+X­@ ´(B YÂ@”°Ö
+C Z p³ÖD [„à@L±VE \´‚´–F ]¤€*´NG ^äC´bH+_”à ´VbI`à
+´ JaäA´ K
+
+b¤)A´Ö'Lctå	´VM dÔJA	´3N e”O 
+´ÖO,fô„*´–bP$ g”`A´ÖbQ!h”€A´ R iÔƒ ´ S jh3´NT k” A´ UEl4ÃA´ V mdi´VW näa´cXo¤@ ´ Y ptäA´ Zaq¤ B´Vc[r€?´Ö\ s„â ˆ³Ö"]'t”Ä"´–c^0u¤!B´ _'vÔCB´Öc`w¤@ ´'a xdg´Öb* yäcB´'c z$‚B´ db {”§B´V'e, |4â ´df}ä¢  ´ g~´B!´Vdh ã
+"´ i
+€¤#´ j
+. „ÂBn² kc‚´ïB$´Ö4ld ƒ$G%´ m „4à
+&´Ön…tC'´o †4 C(´V.p ‡Ä)´ÖqˆÄOC*´)re'‰+´ s
+ŠÔoC,´Öt;‹D… -´ u
++ Œ4€CÔ³–vfä"@Ô³ w .´VBxg€/´ y '´§"0´z  ‘´íA1´ {’ôæ 2´Ö=|.“„
+3´}
+.”4¦C4´ ~• 5´ –6´Ö€—´M7´  ,˜¤€8´Ö‚™ôÅC9´ ƒ šÔàC:´ „ ›$ˆ*;´G…(œE<´(† äÄ"=´Ö
+‡ äD>´ÖˆŸ4B ?´ ‰ $G@´–dŠ ¡ DA´Öd‹ ¢äODB´ Œ £ôoDC´Ö
+. ¤DD´e
+(¥„¨DE´Ve=¦¤à Ö³Ö §äÂDF´‘ ¨¤@G´–B’ ©”BH´VR“ ª£-I´V2”«4JJ´ •¬ÔæDvÀ  ­ÄâDKÄ 
+!®ä	ELÄ 
+ ¯¤àDMÄ˜e°êDNÄ   ±ÔéDOÄ˜h
+² EPÄØ   ³4EQÄ i ´”àDRÄ  µdESÄ	¶ÔàDTÄ
+j·ãDGÄØe¸ä)EUÄX'
+ ¹äGEVÄ º$ãDWÄ »ÄXÄ k!¼´âDYÄØ
+½ôaEZÄ˜ ¾ƒ[Ä 	¿ƒE\ÄX=À4# ]Ä˜ [%Á¤À1^Ä˜Â$§-_ÄØl#Ãä¤E`ÄX6'Ä”ÀEaÄX-ÅäÃ"bÄ˜ÆÔ¢cÄØ!ÇôâEdÄf' È	FšÂXf
+ÉÔ&FeÄ 
+Ê4€EfÄ˜f+ËTAFgÄX[  Ì4`FhÄØ  ÍÔÆEiÄ! ,Î$ã jÄ"
+Ï„ÂEkÄ#m"ĞälÄØf$ Ñ¤@mÄX% Òô…FnÄ&Ó4 FoÄX
+'ÔĞFpÃ9( ÕÄáFpÄg)* ÖÔGqÄØ**0× GrÄXg+	 ØTÉEsÄX, +Ù4ÆEtÄX- Ú”JGuÄX..
+ÛÀ"vÄ˜g/ ÜäÅEwÄ0 İ4@xÄ˜"1'Ş$pGyÄ 2, ß„ÈEzÄ3+!àÔF {ÄX'4 á4h|ÄØ5! âÀE}Ä6nãD„G~ÄXB70äÄ¢GÀØ8å” Ä9 æ4 €Ä˜:ç$ÄX_;'è4I ‚Ä<é´Ã"ƒÄXf=ê”ÏG„Ä˜>	ë4 …ÄX6?
+ ìH †Ä'@ít„‡ÄØ+A
+îdáGˆÄXB ïôÄ
+‰ÄC ğäHŠÄ4DñÔd‹ÄØE òô ŒÄ˜F ! óä%HÄØG-ôTBHÄX7H  õÄ¥ Ä I!ö4`HÄØ
+J÷4…H‘ÄX[K  ø”ÀE’ÄLù„ H“Ä˜M úT ÁØgNû„@”Ä O+ü4ÀH•ÄP ;ı„€–ÄX.Q şÔƒ—ÄhR ÿ”@ ˜Ä S" ¥ãH™Ä˜TT¥ IšÄXhU'µB ›Ä˜hVeGœÄØhW•ÀEÄiX
+5"IÄXRY ÕÀEŸÄXiZ •@I9ÀØ[0ÕbI Ä \	j¡Ä˜i]0 
+•@ ¢ÄØi^!uƒI£ÄXB_ eÇ9¤Ä˜` E°I¥Ä˜a, uÁI¦Ä boå§ÄjcUPH¨Ä1d  ÕêI©ÄØe!eëªÄØf4UJ«ÄXjg0 ÃEòÃ˜jh  •%J¬Ä i ¥@ ­Äj5À"®ÄØjk ¥B ¯Ä l0¥€°ÄkmEEJ±Ä1n  ²Ä'oU`J³ÄXkpp' õ'´Ä^q
+ eJµÄØrHeŠêÂ˜ks  åE ¶Ät "!uEJ·ÄØku "uÃ"¸Älv#%£J¹ÄXlw"$ÕêzÂ˜x %%G ºÄ y&•À"»ÄØ
+z'ÕGH¼ÄX.{ (Ã"½Ä˜B|+)åÌJ¾ÄØ4}" *uéJ¿ÄØ~ +uÀÄe
+,• KÁÄ˜l€ 	-Õ"KÂÄØ
+.à ÃÄØl‚/…PK^Ámƒ-0õnKÄÄ „ 1Õ -ÅÄ…q&2Õ@:Â˜(†3UKêÂXm‡$ 4• K±ÃXˆ5•D ÆÄ˜j‰6EÄ.ÇÄXŠ7å¨	ÈÄ‹ 8ÃEÉÄØYŒ 	9ÕÄKÊÄ :oôÂ˜mr ;õIÃ !<•ğKËÄ # =E…HÌÄX‘  >uLÍÄX’, ?Ã"ÎÄ“'@EBÏÄØ”+A•àDĞÄ•sBµâ
+ÑÔ   +C LÒÔ t D" ÓÔCE¥@ ÔÔÚm FåDLÕÔZOuGÅÃIÖÔn +H5 9ŞĞI%cL×Ô# JÅ%,ØÔÚE +K5 ÙÔZn	 L•„L%ĞÚ
+vMÕ¡LÚÔšn N…ÂLÛÔ OEäLÜÔ#PõDİÔn, Q5àAŞÔ REMßÔ3 S%#MàÔZITu@MáÔÚn U5bMâÔ V•¤&ãÔo2WeB äÔZ XE¥åÔZo  Ye‡MæÔÚw Zå¢MçÔ &[5àhĞšo\ÀMèÔ ]ÕâM7Ò# $^åNpÓZo_5©)éÔš `µ*NêÔÚoaÅëÔpbBNìÔ !cU/íÔš$!dµbNîÔÚo"eµ®)ïÔZp#f•!	ğÔZ+$ gÅƒFñÔÚo%!hÕ€NÖÓ &	iµ£NòÔ 'j•7óÔ(xk…ÀNôÔ)lëNõÔš *mEä'öÔZ+
+n¥ğ÷Ôš(,9o•€ÛÓ-p åĞ. ! q•OøÔšp/r O÷Ô 0så¤-ùäÜp tÅBOúäquE  ûä  v5`Oüä\qw…‚Oıäœ(xµEşäœC yÅ¢OpãÜ+zÉOÿä0{¥àO å y|¥ Påœq	 ,} PåÜp
+z ~õDPå µgPå #%€¥+9åÜq+…ˆPå ‚õ§På   ƒÅâåœ=„¥ÀPEã  &…5Â1	å &†¥O
+åÜ{‡µ‚O
+åÜ ˆµğP	âÜ‰¥ åÜ+Š¥`2ìàÜ<
+‹… Qår Œ5ç	å\r# Åkãœr Õ£åœ ' … åÜr Å0QåÜ*0 ‘ÕÀåÜ	  ’U) å
+“5 HåÜ C ”ÅÅ1åœ)!| •¥ åœ"O–eIQås# —Õ1å $ ˜Õ›ä\s%™•À1åÜj&š`Qåœs' ›5å\(œåĞå)# …„Qåœ* • Qåœ+ $ŸåâA›äÜ
+, 	 µÂQå-&¡Uå\c.¢Ed5 å/	£åçQ!åÜs0#¤… Rˆã11'¥õ0R"å2
+. ¦µJRãt3§µ#å\t40¨`R$åÜl5©•„R%å 6+ª£R&å\
+7«¥ÀR'å\8¬E„1áœ9 ­•åR(åœ$: ®µS)åœ; ¯u,S‰ä?<	 °•JSäœt=
+ ±…`ShàÜt>
+²µ
+hàu?³5€S*å\u@´å¢-+åÜA+µ¥ ,åœuB¶u£S-å3C&·ÅÅS¹äD}'¸5B.å[E ¹/åÜuFº…0åÜgG »•àS1å2H¼Õ„J2åvI  ½…T3å\vJ¾•$T4åœ*K¿CT5åœvLÀ5ÀB6åÜaM&Á¥ 7åN~ÂµbT8å\
+O ÃÅ9åÜvP!ÄÕB :åQ0Ååh;åwR* Æ â\wSÇ…à(<åœwT Èå=åÜwUÉÅ>åxV	Ê@ ?å\xW
+Ëu@åœxX
+Ì‘TAåÜxYÍ£TBå
+Z ÎUÄTCå\[Ï¥ Dåy\ 	ĞEå\y]'ÑïTFåœy^ ÒuU]âÜy_ #Óu UGå\` Ô5@HåzaÕ… Iå\zbÖ•¤
+Jåœzc1×%FUKåœd "Ø JåœzeÙuãLåf1Ú5 -MåÜ7g9ÛÕJNåÜzh ÜõÄ
+Oåiİ…cUPåÜj Şe‚UQåzk	ßÕíRåœBl!àe¤U2åm áµÂUSåzn â…àTå{o=ã5À1UåÜ<p!äãUVå\{q ,åuƒ1Wå\Ir æuiJXås
+ ç• VQåÜt€èDYåÜué%ã+ZåÜ4vê•$V[å\wë•JV\åœ{xì•Ê"Òáœjyí`V4ãÜzîµâ ]åÜ{{	ï¥‹V^å |0ğ¥€F_åœ }	ñ%`å|~ò%±Vaå\|  ó5¨bå\"€
+ ô¥ cåÜõÕCdåU‚ öå	eåœ|ƒ
+ ÷5ÑVfåÜ|„! øæVgå}…  ù-	hå\}† úÕJiåÜ‡ û…âjå ˆ üµWkå‰ =ı…-Wlåœ}Š  ş%G måÜ/‹ &ÿµ£"nåŒ  Ö@ oåÜ}6BWpå~6Qqå\~ ¶ãMrå¶bWsåœ‘ 'VWtåÜ’ ¶£Wäœ~“ ¦ÀWuå ” &ÆvåÜ~• +	¶Owõ  
+†€Oó &ƒOxõ Cö…Oyõ^' F„Ozõ  ãW{õ ¶­-{õ Ö X|õ +6&X}õ‚ vƒO~õ	6‰Oõ
+&vƒO€õ^.¦€Ojô^F‘OõŞ
+ #6€O‚õ##ƒõŞ6 O„õ%† …õ Ö†O†õ6@X‡õ ÖŠOˆõ ƒ1æG‰õ 6`XŠõŞ„ ƒO‹õ0!æ‡X7ñ-$"æ‚OŒõ€D4#Öêõ  <$6ƒOõ	%V„Oõ #&¦¢"õ+'¦‘õ^€ (æ"oóG)Ö£X’õ^ *ÖŠO“õ !9+ ”õ€" -,f©•õ#!-‚O–õŞ$ =.–€O—õ%*/ƒO˜õŞ€&#0ÀX™õ '01ãXšõ^( 	2VYbğŞ)%3æ$Y›õ* 4¶ã)œõ^+ 5f19õ,^6à õ^
+-+ 7æGYŸõŞ
+. 8À õ^/ 9Ö`Y/ğ0:€Y¡õN1 ;6¢YNô2	<¦à uõ3 &=öÅY¢õ4$>6 hğŞ5 %?£õ‚6  @æ‚¤õ^+7 AvQ'ùô^o8;BÆå(¥õ9 C–àY¦õ^‚:D¦ §õ‚;E¦ÀI¨õ^2<
+Fæ#9©õ^'= G–¢ ™ò^|> HZªõŞ?p
+I#Z«õ^B@+JvC¬õŞ
+A/&K†QZ­õŞB LÆ7®õ C	 M¦ƒ¯õED NC °õ^-E,Ov±õŞ‚F
+0P–`Z²õ^G,Q&£-³õƒH…%R6É"´õ^6I Sö…ZµõJ+T¦C ¶õ3K%UÆ·õL V&ã¸õM Wö„ ¹õŞN  XÆÂ"$õŞlO %Y6À1ºõ^ƒP Z¦à »õƒQ 
+[&¦Z¼õ R†\æl½õŞƒS  ]6¢ ¾õ„T
+^Fd27óU _6`C¿õ^„V #`fâÀõhWa6ÉZÁõ„Xb†€ÂõŞ„Yc¦ Ãõ ZdvkÄõ^[[% e¦À"Nô\+fv Åõ^6]
+ gf#9!ôŞ=^‡h¦ Æõ…_ˆi¶‚EÇõŞ5`	j¦Èõ^…a‰ kÖ"2Éõkb 	lVDJğŞc 	m¶éZÊõNd nVJËõe oöÄ
+Ìõ^f p–Íõ…g,qæ[ÎõŞ…h
+rƒÏõ3i %sÆ"ZĞõ^.jt–1[Ñõ†k " u†€/Òõ^†l  v–D[àñŞ/m 	w&èÓõ†nxÀ"Ôõo,yväYñŞ€p z¦QÕõ^q {6€ÖõŞ†r!|öa[×õ‡s }¦¢ Øõ^t~öÙõuVDÚõ^‡v €¦ãhô‡w*Æ[ÛõŞ‡x ‚–¡[Üõ y  ƒ^õˆz„¦À[İõ{…¶‚Şõ
+|†vãßõU}3;‡æ§"àõ~ ,ˆàYáõ ‰@âõŞ
+€Šæ%9ãõy‹väõŞ‚ !Œæå åõ^'ƒ+Vä[æõ*„
+6\çõ^ˆ…!¶1\èõˆ†	 ¶B\éõŞˆ‡j‘¦€êõeˆ0’–@'ëõŞ‰“ÆÀìõŠ ”6íõ‰‹
+•ƒîõ^‰Œ –v`[ïõ‰
+ —¶b\ğõŞ‰ ˜ÆñõŠj™–€\òõŞ'šÆB óõi‘+›†È"ôõ^6’3œ 8ò^Š“¦€õõ”,Ö±\öõ•Ÿ¦@
+÷!  0 ÖGø! 0¡öE
+ù!Š¢C
+H! +£À
+ú! 
+¤I
+û! ¥ÆÅ\üá|¦à\{áC§†Bı!Zy¨¦@
+™á	©¦@
+ş!
+ ª6@
+ÿáˆ«æC
+ a- !¬fA!;­6@
+a&®¦@á
+C,¯¶‡Ea‹°ÖÊ="!  ±¦€! ²vñ
+! ³ö¥Zá´†]Í¡Š,µ–7! Œ¶ ]!!·æQ 	!,¸C]
+¡B¹æg]\!=ºˆ]áŠ»!‹¼¶W!)½6€á
+¾6e>a‹ ¿–¤]! 
+À¦@a!!ÁæÆ]! "' Â€a[#Ãvè¡‹$ Ä¶ğ]á‹%+ÅæÅ!&ÆÖ^! 'C
+ ÇÖÂ"¾a-( 0ÈF! )0Éæ#^¡*ÊÆÏ1a2+‘ËF	¡},0Ì†¢ a
+-ÍÖM^¡. ÎöÆ°!/'Ï¦ !Œ0 Ğ†‚K!1 Ñ–À"! 2Ò¦q[êaŒ3’& ÓÖo^!4ÔÖ¦-a5'Õ&ã  á6Ö†H!!7 ×†""!W8ØÆ¯"#¡Œ9“Ù¦À1$áE: ,Ú– %! ;”Û6à&!<pÜ†‚'á=
+İÆO (áŒ>ŞÀ)áj?	ßöQ*á@"àæƒE+!NA á–e,¡kB 0 âÆ¯ ş¡Cã6‚^-! DäI G!Eå¦ @]! Fæ6å.¡FG•' çB /áH
+è†¢^0!Ié– 1!Jê–Ñ^2a'Kë¦!í!rL ì3aMí#]4aN
+îæã^5!3O+ïvD 6áP'ğÆÁ7aQ;ñv_8!9R ò–@ 9!Só–D :¡Tô¦ _;¡U,õæÏ"<! VöO_=! W  ÷vc_>áX*0ø–ÀI?¡Y–+ùÖ@áZúmAá
+[& û&!\*0üÖŠEBa]ı6…_Ca^ş– _D¡_ 'ÿ6É_E¡B` çâFáa£ ^!bR
+G¡c)—@Had— IaeCçÄJaƒf gâ
+Kag +2LaBh	— M¡i 	7 ZNá=j ,
+Çì_Oák §`P!l·ÂLQam §@ )án+G‰IRáo!‡"`S¡p§`CTaoq !×BU!r+—@`V! s +§``W! t—,×dX¡u  ÇYá0v ;× Za@w§€`[á„x ×
+\¡Šy7¤`]a#z
+ — 9^¡{§ ¹á|W„_aB}‡‡E`a?~—Â?n ¡-j	·Ia!9€!   bá !ç-c!‚ "'Ò`d¡-ƒ
+ #÷¥ eá„
+$WD f!‘…%ç„ga‘†
+&G%ha‡ '7¡‘ˆ,(Gi! ‰)j!Š*7Äká
+‹o +—E^l! Œ" ,—fmá‘
+ -§€9á+.÷pn¡/§à`o!’ !0çap!‘ 1W2aÁá’'2—€qaB“3×Šr!”
+-4wDa÷a•5‡fa«c’ 06§ -s£’07g’at#8Wìuc 9÷Kvã’  :w²aw£B';‡Òax#“H0<Ãy£’ =—2zc>§{c“	?‡òa|c
+@·b}# AÇ£“Bç¥-|cJC÷~ã“D7†#” EÇ€£VFW,bc!GNb‚£BH‡’ƒc”I×rb„ãJç2…ã€K÷ò†£”Lî‡ãC'M“bˆ£B NçÃ‰#' OÇ«-Š#EPW¬b^#/˜ QÓb‹ã” R'ó
+Œ£B Sw
+cG TW,hc	U7scR VGs#•!W‡ãbã " 9 XcuãJ#YW‘c•$Z÷+c’#% [WÌ1“c&\WÓ1”£A'™]§Ò1w#(^•£•)_gÓ1–cd* `7|cm+aGÄBã•,š!bwS È£=-0cw—#–. 'd7 Aac–/e‡˜ãH0 #f7F «ã|1 	g—ë™£–2h—3 |c3
+i‡3(š#/4 j…›£’5k7Bcœã–6
+l`c# 7m§“c#8› nWË1Ÿãn9 ,o·ó cD:p£cŒc4;'qÄ1¡#—<*rÇÓc¢ãz=s§àc£#>+t×d¤c—?uGI ‘£B@
+vG$ZE#/Aw·)d¥#B xÇ¦£—C yì§ã—Dz÷«£RE'{w ¨ãF& |w*Z|#;G0}ç“_©cH~§@ ª#˜Iœ7É«£CJ€·Ad¬c˜KGÄ­£˜L‚÷ËgcMƒ§`dacN„÷3T®ã˜O …‡‚d)#P†7 d¯#;Q ‡·Íd°£=RˆWL ±£’S ‰ÇR ²#™T Šç…³cU‹Ç+yã€V!Œ§ ${£’W G¤"Ec™X
+´"´£™Y§ µ£˜Z+çàd¶#;[‘eöã™\ ’§C ·£=]“‡R Œ#š^”¸cš_'•÷«Z¹cR`–×º£ša
+—Gãšb ˜÷Ë»cc™wl¼£d! š×¤½#›e›‡³¾#fœ‡¿c›g+WÌ1ã$häÀ#iŸÁ#Vj, ç€Âã$k¡G$eÃc\l0¢çCeÄ£Bm£ceİcnŸ9¤‡‚eÅ£o ¥'´eÈ£Bp¦Çq£›q §wìÆã›r ¨E Çã”s©§ÀeÈct$ªwêeÉ£’u«‡Ê#œv
+¬'ó Ë#;w'­×«AÌcœx*®‡‚/Àcy ¯Wë
+Íãz °7Fy#;{ ±÷ë Î£B|#'²çfÏ£œ} 0³—„ĞcR~
+'´å Ñãœ µ÷AÒã–€+¶7”Ó#·W+f|c‚¸÷CfÔ£ƒ  ¹÷+&Õc„$ºgÖã…»çã ×# † ¼‡jfØ#‡ '½‡‚fÙ£=ˆ¾'§fÚ#‰!¿×ËfcŠÀGÛc‹¡+ÁWôfÜcŒ+Â‡h#-Ã‡g|cÄ7@İ#Å74gŞã™ÆwjPß£‘
+(ÇgTg|ã’È7Ô1gc“ ÉgT
+à#Ÿ”CÊçâá&%   7Ëãâ&e6Ìgâ%p#eŸ!Í‡(ã&¥Ÿ¢Î§`gä&% ÏÇâå&e6 ĞwÔ"æ&%  	Ñ‡ô%ç&åŸ ÒgMè&%  0ÓW$é&e	Ôãê&% 
+;Õ—Jë&%	;Öç„gì&%  ×Ç¥gí&e Ø×@î&å3Ù7@#¥-*Ú·ãñ%% /Û‡Àgï&% Üàğ&¥ *İ7 ñ&å
+0Ş7çgò&%! ß  ó&å  àçâ%ô&å á7À1!¥j	âdõ&%¡9 ãg<ö&¥  äçh÷&¥å§ hø&%   æ×Ihù&%9$ç—Êú&%  è÷aû&% 3 é—tü&¥ 5 êâı&%  9ë—Á9ş&% ! ì‡èÿ&¥ "í·	 'e¡#  îà 'åg$ï '¥% ğ7 '¥&)ñ‡`h'% 'ò—…hZ$¥¡( ó§à%'å¡)
+ô·£h­ ¥*õ¥	'%+ ö§à'å3,÷·i'e6-4 øã	'e6.4ù7àå&e/ =ú7À
+'e#0 ûÃh'%¢1ü—àh'e¢2ıÇ,J!¥¡3.ş·i'¥¢4 ÿ‡Âv&%5 C'¥=6	˜4'¥=7	 ã%'å¢8+(çõ$å9 /èi'%£:
+ ˜ '% ;
+,/	'¥ < ˆ€U'%=Ø!i'eB> 	-	'å ? 
+XH'%@	˜D'åA8 	'åB¸Ii'e£C ø…'¥£D08`i'% E Øƒi'å£F 8 i'¥ G9ÈÂi'% HXài '¥ I
+ Èâ%!'%¤J ÈoC"'e¤K8"D%åL¸è#'¥ M ˆê2#¥N&øæ%ª"¥O¨j$'¥¤P HD%'e6Q
+	H%j&'å¤R ÈJ!åbS(¸i''¥ T= Øò('eU  Ø)'eŒV2 !Èáõ$% W%"à%*'%X #˜ä+'¥ Y9$øb,'å#Z %È¢h-'%¥[&øa.'¥ \& 'Èâ/'¥ ]%(ˆà0'%^ 4) &e6_ *˜ 	b å`
++ˆà%1'åa!,Øä%2'% b+ -¨àFõ$åc
+.ÈEj37'[ /hÂ47'i0èij57g¥, 1H‚*67§¥2x†j77g  3¸¢j87ç4 4¨À97' r5øhË4'[; 6Øä.:7ç¥' 78à37g	£78ˆÂj37' 
+-9ØB
+;G) 
+:xA
+<G)¦;˜@
+=G)#<B
+>G)=¸q?G) 5 >xsEi¦?¨@"@G)@¨ã%AGi2;AXáBG©‰ B˜D CG) 	C8GDG) 
+ * DX‰*œD©¦Exã
+¹D) 3FØ^ZDé¦ G¨@
+EGéE,HØêjÖCé= I˜„FGi- 'JèD
+GGé+K¨€pC© L8ƒHG)NMxî%F)  N¸‚IG);OX*ĞA)O P¸4JG)#¤Qxƒ*KGé*Rˆ@ LGiˆ;SÈkMG)§¥"TØÃNGi§! UxC"OG) 
+;VØaPG) 5 Wx%kQGé X¨KkRG©§Yèƒ*è@)  ZdkSG)![¨€kTG©‰"\¸‡ºD)#]ØL UGé3$^à%VGiB%_ãÒAi…&>`8£ksE)'aÈÔWGé§( %b¨ËkXG)¨)c8éYGé6*dˆ€ZG©+e¨bZ[Gé5,f‚F\G)#-
+g8àk]Gi	.hØ4	^Gi(/ i8‚_Gi¨0j8€*`G)1+kˆ lbD©¨2l¨@pC)33mH"laGé¨4n8BlbG)5oètcG) 61 phdldG)7! qX°eG)8 røoJfGé59 s(GgGi+:t˜ÄhG);
+u(*iG)©< v˜@"jGé4=w8‚kGi©>x¨ãlG)¡?&y8‚lmG©©@ z¸ªlnGé©A{ˆÀloGi-B|‰pG)ªC}¯qG)D, ~ãrGéE˜àsG))F€Ø r@iBG+¨€ÈB)'H!‚h©tG)
+I0 ƒX‚uG©J „8€vGéK…h!	wGi9L
+ †¸éxGiªM! ‡8€*[F©ªN ˆÈ yG)O0 ‰âlzGéªP+Šè£{Gi.Q ‹È|G)R2Œ8m}G)#S0èÂ(~GéT'x!mAG©1U+øHmA)«V hdmG©kW ‘¸ƒm€Gi«X’Øƒ*GéY “8£‚Gé!Z”øbƒG©«[% •˜Ä„Gé~\ '–øô…Gé€] 3—ˆk†G)s^& ˜Ø†*‡G) _™ãˆGé«`%šh¤m‰G)¬a
+ ›˜åŠGéb! œˆÂ"‹Gi¬c˜€*ŒGi_d8 /G©¬eŸxÄmêD©ªf XÄG©0g¡˜äGé¬h"¢ÈãmLA)­i+£ø†G© j¤X¡‘Gi_k ¥¨n’G)l¦<“G)m §¨€*”G)n¨˜„*•G)o©xÃ¹D) p ª¸‚‹@i.q«8@ –G) r0¬¸)	—Gi­s% ­Øê˜G)t%®Øê™G)_u9¯¨€šG©­v$°xA ›G©"w±ø¤	œGi­x$ ²x%nG©y ³8 G)z´¨€E©{µ(OnŸGé­| ¶Õ G©P}+ ·èâ¡G)®~ 1¸˜`n¢Géƒ¹8€1£Gé
+€+ºƒ*¤Gi»H+¥G©‚ ¼˜„n¦Gi®ƒ½µn§G) „ ¾Èg¨Gé'… ¿È¥©G©®†
+À(uªG) ‡35 Á˜Àn¡Fé®ˆ
+Â8«G)U‰ Ã¸b¬Gi-ŠÄHín­Gi2‹! Å˜È®Gi+Œ ÆÈ&¯Gé/ÇÈƒ°GéqÈ8•ĞCéÉ¸¢±G)'Ê˜o²G)‘,Ëèğ.³Gi’ Ì8a´G)¯“ÍR µGi¯”
+Î¨ =¶Géj•ÏØ$o·W+  G  ĞU
+¸W+  0ÑØ$¹W+  ÒØ@
+ºW«¯C,ÓØC»W+  Ô˜D
+vPë'  Õˆ@o¼Wë¯Ö(go½W+ ×h„o¾W+  Ø8 o¿W+ 	 ÙÃoÀW+ 
+¦Ú8@
+ÁW+ *Û(DÂW+ ÜÈåoÃW+ §8İHpÄW+ 
+ ŞK
+ÅWëßØ!pÆWk'  à8))P+¨!á˜@pÇW+«©"âèD
+ÈW+#ãøBÉWkf äèC
+ÊWëå`pËW+ æø…pêV+ 
+ç¨" £T«èXU
+ÌW+ f éëÍW«ê8¢ÎW+°ë8#,ÏWk°0ìˆ¢pĞW«°íx¡=ÑWë'îøÅpÒWëeï	ÓWën rğØB!ÔWë
+!
++ñøÇU+"$ò8ÀLÕWë4#'óàpÖWën$%ôˆq×W+ %ª'õ¨ qØW+'&ö8Â"ÙW+'÷¸ŠeÚWk( øhUqÛW+ )
+ ù¨€ÜWë°* ú`qİW+ +û¨àŞWë
+,=ü(¨ ßW«-!ıÈO àWë.şDHáWkx/ ÿ8 âWë0
+ 9€qBQk-1ùaãW+2 
+ ‰¢&äWë
+3 ™±åW+±4 yµqæW+ 5«Ù PnUk±6 ™ =çWk7‰ @èW+ 8ÙÉqéW«±9E	‰õ„R+:&
+9'êWk-;9 ‰àqëWë±<ù$%ìWk7= ™ríW+ >¬9bîWë?!©+rïW+@£yğWëŠA­ãñWkB9C òW+²C%DróWkD ©urôW+E crõW+F éÇöW+#G )C÷WkOH ¹•røWk(I ‰¨rùWk+J"©ÁrúW+0K©àûW+1L9B T+1MärüW+ N YsıW+O ™ -şW+ P i"sÿW+'Q!!©@sáS+#R_"Yas Xë;S #	€sXëT$É¢sXk'U  %0ÒQk²V&ÉÃs§Qk'W
+('9õsXëYX (ÙtXëY )™„XëZ
+*©@XkŸ[++™ tAWk'\ 
+,@tX+#];-íX+^7 .iB	X«_ $/ùåe
+X+«`"0É X+a  1éèX«²b 
+ 2©@X«c 03ù‚*X+ d  4¹HXë'e5YdtXë²f!6‰àX+ g179 -R+h&8Ùà ŒRëCi9Ùµ)X+j :‰àXëk 8;ytÒPël,<i¤tX«Pm=éÃX«n >‰ÀtúWëo?™„X+p @éG¹TëqA¹JX+r  BùátX+ s* CÙ‰X+tD©ãXë
+u =E™  Xk	vF)uX+w 4 GùXë
+x"H9"XkNy¨IY!uXë
+zª JY,, X«{KI„!X+| <L9 >"X+³} ,MÃB#X+~0N9é ÑPk³OéC$Xk¥€ P¤%X«³ Q9à&Xë³‚#R9@'X+´ƒ 0S9@u(Xk„E%Téuu)Xë=…
+ UI„u*X+ †V™BX+‡
+WÙ©u+X+ˆ!5XùU)Xë=‰ Yéâ,Xk´Š3ZyÆu-X+ ‹®; [™d.X+ Œ¯\Ée/X+ !]‰àušUk^™@0X«("_v1X+)3`É¢A2X«‘a	6v3Xk	’ bù`4Xkw“  c9B 5X+ ” d™Av6X+ • eÉb7h­* Hfcv8h-  	gù„
+ø`íƒhyƒv9h-  iéG :h­´
+j‰B;h- 
+k© <híp°li$%=h­± m™ v>hmnÙÂv°cí´	 0o9àv?h- 
+p©cPëf- 3)q™w@h- rÙ"wAh­²;sÙ$%Bh­- tÙDwChí uÉewDhmRv¹‘wEhm' wù¢wFh­C x Gh-µ yIÄwnd- z©€Hhmk {åIhmµ³|‰àwJhmf}éåwKhí~Yé
+Lh­ ™àAMh-  €I"Nhmy#ZOhíC0‚¹	xPh-  ƒ£"Qh­µ	„©€Rh­  0…	Sh-  †‰à Thíµ! ‡I$xUh-"3;ˆ©ë Vh- #‰ù%9Wh-$
+ŠéXh-¶% ‹©@xYh- &3=Œ‰bxZh-'!	€x[hí
+(´ ©À1\hm
+)©à ]h-*¹:^hm¶+‘© x_h-,’`h- -0“™À1ah-_. ”#oc-/•¹Éxbh-0µ –ychí
+1—¹oÛ`í2 ˜©àxdh­d3™yeh­¶4šY yfhí5
+ ›)çghíT6œ9
+hhml7ÉEyih­)8©à jh-9Ÿ9`ykhm?:  ¹ylh- ;  ¡éä
+mh-#<¶¢YPnhí¶=  £Ù`oh-·>!¤©¢yëfm?0¥©#ph-@ ¦y!'fmƒA§É#Cb-_B·¨Äyc­7C3 ©™Á
+qhm·Dy ªÙcrh-E «9ÀEg-#F¬©àysh-'G­™@tthíH ®éuh­·I¯zvh-J*°6%j`í4K ±9#zwhíL+²É!emM&³iCzCa-N0´©À1xhmJO¸µ9@¹`ítP¶9 yhí·Q·Éjzzhí[R+ ¸)V{h- S ¹‡|h­*Tº9–z}híU¹»Ùªz~h-¸V¼©@ hmIW ½é€7b-X 	¾Ãz€hm†Y ¿Éãzhí'ZÀ9d‚h­[  ÁùDƒhm¸\ Âé{„h- ]º#Ã‚…hm^Ä™ {†hm2_!ÅYì ‡hí$`
+ÆYè6b­¸a Ç© ˆhí¸bÈÉB{Q`­
+cÉÉed)bí
+d!ÊéäÃg-e!Ëùb{‰híf!* ÌÀ~d- gÍY)Z¹d-¹h3!Î¹‚bŠhí+i	Ï‰â‹híjĞ©@ Œhm¹k Ñ©€Ihm-lÒÉhí4m,Ó©€{hmn%Ôµ{ÚgíNo»Õ9À{h­¹p Öi'%‘h- q ×ùÂ’hí¹rH! Ø™‰9“hmsÙ9 ”h-ºtÚ™€•hmuÛ@–h­v'Üyã{—h- w İéã ˜hmbxŞi7™h-gy ßI–emb-Uz àé„(šhmº{ 	á9`Ì`­º| &â)|›h-}*ã™€œh-
+~!ä¹Chm'å¹)|h-€   æ	@|Ÿh- ¼  ç©`| hí‚ !èyæ¡hí/ƒ
+ é©C ¢híº„ êÙê£h- …ëùg[¤h-»† ìÙ@–bm»‡ íy£z¥hm_ˆ½0îY–|¦h­»‰ï™€I§hí»ŠJğ© |¨h- ‹ ñÃ©h-8Œ 0ò©ã?ªh­ ó‰Â|«h- f0ô¹ÂB¬h- õÙâ|Igm*ö‰à­hm#‘ ÷©®h-¼’ø© }¯h-Z“¾ù¹#}°h- ”  ú©C}7hí•û9h}±xo  üÙB ²x/# 	ı‰¨-¦s/# ş™@³x/ ÿI…}´xï',  êD µx/ 0:¤}¶x/ ¿ ºã·x/ +CTr/8:© vr/#	jÇ}¸xï
+
+0 Šâ?¹xï
+ Zá}ºx/#" Úc»xoO 	zC ûqo¼
+:@ ¼x¯¼š@ ½xï'Ê¢
+s‚± 'šD
+L‡±o0jB
+Iƒ±: ~¾ˆ±C¿ˆ1rj'~Àˆ1• ÚÁˆ1®zC~Âˆ1 
+U
+/‚q	ÚãÃˆñ¼	 
+#Äˆ±
+*':é
+Åˆ1 * ê$s„1#
+/~Æˆ1 ª =Çˆ±' +šèVÈˆ±ˆ zDUÉˆ1½ÀªàÊˆ1 3šd~œ„ñ!j–~Ëˆ±  ê§~Ìˆ1  !ê^ÍˆñÁ "êªÎˆ1 ;#ÚÉ~Ïˆ1 Â$Š¢=Ğˆ1 -%z€ öq½  &z6~Ñˆ±½ - 'Š^Òˆ1l  (Caô±M0)Š¶-Óˆ±*"Ôˆ1 +
+C Õˆ1 ++,:.'‚ñ  -ê„Öˆ1 !.šä~×ˆq"+/Šs„1#0JØˆ1 $Ã?1ª€7Ùˆq%'2ÊCa^1'&3ê"N^„qo'04ŠÚˆñ½(5š€Ûˆ±¶) 6Z`Üˆñ€* 7
+ İˆ±+ 8ÊEë…1¾,,9:`Şˆq'-X,:Zµ-ßˆ1 .;j0yàˆ1/ <*†áˆ10Ä=Ú"âˆñ1
+>Ú#ãˆ12ˆ
+ ?ºâäˆ±y33@š¶åˆq¾4 !Aêaæˆq5Búèçˆ1£6 CÆèˆqƒ7 Dªçéˆñ8Å0 EêG ˆƒ1 90Fº"êˆ1:GúÌëˆ1 ; H:àìˆ1< !I €íˆ±=
+Jš"îˆ1> KÚ#€ïˆ±¾? " Lê$ğˆ±½@MºB W‡1 A+Nšdñˆñ¾BOª@òˆ11C
+PêE€óˆ1#D$Qšà¦ƒq]EpR
+.ôˆq2F"Sêõˆ1 GTÚ‚7öˆ1¿HUª@÷ˆ±/I Vº­=øˆ±JWÃ?ùˆ±*Kj*X:`€úˆq
+LYZ€ûˆ± MZªà*üˆ±BN[#ıˆñO #\: şˆqP	]º£€ÿˆ1 QÆ5^šÀ€ ‰q¿RÇ_J ‰ñLS`Ú)¯‡ñ Tašá€‰1U  bª‰1VcÇ‰1#W *dúd‰1 X eÊ©‰±¿YÈ% fº\„ñ¿Zgº‰1À[h0‰q	\iºÅ	‰qÀ]C& jº#
+‰±À^k@‰ñ_!lšD:‰ñÀ`,mª@t‰1Ua!nš@t8„±b oj$‰ñc 0 pšd‰1Ád%qÚ‚ˆñ
+e0rZ ‰1 f  sŠˆ‰1g 0t:À5ƒqÁhuºö6‰1ivC‰±Áj wúæ‰ñÁkÉx#‰qlyê"‰1Âmz:àù„ñn!{Z§‰1 o |
+I ‰qÂp}ª@ ‡1 q~ŠB ‰1r
+ša‰±s0 €Šêy‰1t;ê	‰qau‚ºC‰ñzv5ƒŠ@‰±kw„Š‚‰1;x …ú¡ ‰ñ0y †ªB!‰1 z"‡š€[ƒñ{ 0ˆš!‚"‰ñ|Ê ‰ª #‰q} ŠZ$$‰q~‹ª s%‰q. ŒÊB‚&‰q.€ š‰'‰±Âzã(‰1#‚ ªB )‰qOƒúE |†±(„ +‘zC *‰ñÂ…’zä +‰qJ†'“š@,‰±‡y”Šh‚-‰1ˆ•€‚.‰q‰–j‚/‰1ÃŠ
+
+—C0‰qÃ‹'˜Ê¶‚1‰±Œ™j§2‰1  šÚ@Z‡ñ
+›ÚŠ3‰ñ œŠ 4‰±& :@ î‡ñ‘ šÂ‚5‰q’ ;Ÿzã"†1 “9 ZDU6‰1 ”	¡ÊB
+7‰qJ•
+"
